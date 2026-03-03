@@ -4,6 +4,8 @@
 
 Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrando para a área de Análise de Dados. Este repositório documenta minha jornada de aprendizado.
 
+- Início dos estudos: Fevereiro de 2026
+
 ## Habilidades em desenvolvimento
 - SQL (básico ao avançado) (Em andamento)
 - Python para análise de dados
@@ -26,6 +28,6 @@ Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrand
 - Iniciar estudos em Power BI
 
 ## Contato
-- e-mail: vinicius.h.zlc@gmail.com
-- Linkedin: https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/
-
+- Nome: Vinícius Henrique Souza
+- email: vinicius.h.zlc@gmail.com
+- linkedin: https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/
