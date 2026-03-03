@@ -14,13 +14,13 @@ Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrand
 
 ## Estrutura do Repositório
 
-### 01_SQL
-- '01_basico/': Fundamentos, SELECT, FROM, WHERE, GROUP BY, ORDER BY, LIMIT, OFFSET, operadores lógicos, funções de agregação, subconsultas.
-- '02_basico_intermediario'/: Estudos sobre JOINs, INNER JOIN, LEFT JOIN, Subconsultas correlacionadas com JOIN, tabelas derivadas.
-- '03_intermediario/': String functions, date functions, CASE WHEN e UNION/UNION ALL.
-- '04_avancado': CTEs, Windows Functions (em andamento).
+### [01_SQL](01_SQL)
+- ['01_basico/'](01_SQL/01_basico): Fundamentos, SELECT, FROM, WHERE, GROUP BY, ORDER BY, LIMIT, OFFSET, operadores lógicos, funções de agregação, subconsultas.
+- ['02_basico_intermediario'/](01_SQL/02_basico_intermediario): Estudos sobre JOINs, INNER JOIN, LEFT JOIN, Subconsultas correlacionadas com JOIN, tabelas derivadas.
+- ['03_intermediario/'](01_SQL/03_intermediario): String functions, date functions, CASE WHEN e UNION/UNION ALL.
+- ['04_avancado'](01_SQL/04_avancado): CTEs, Windows Functions (em andamento).
 
-### 02_Python (em breve)
+### [02_Python](02_Python) (em breve)
 
 ## Próximos Passos
 - Concluir estudos de SQL avançado
