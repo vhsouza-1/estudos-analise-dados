@@ -9,11 +9,11 @@ Aqui está uma síntese dos meus passos intermediários em SQL, desenvolvidos du
 
 ## Estrutura
 
-- 'tabelas_utilizadas.sql' - Criação e inserção dos dados da tabela 'estoque', 'cores', 'categorias' e 'vendas' utilizadas em todos os exercícios.
-- 'string_funcions.sql' - Exercícios focados em manipulação de textos.
-- 'date_functions.sql' - Análises temporais e séries históricas.
-- 'case_when.sql' - Lógica condicional e classificação.
-- 'union_and_union_all' - Combinação de resultados.
+- ['tabelas_utilizadas.sql'](01_SQL/03_intermediario/01_tabelas_utilizadas.sql) - Criação e inserção dos dados da tabela 'estoque', 'cores', 'categorias' e 'vendas' utilizadas em todos os exercícios.
+- ['string_funcions.sql'](01_SQL/03_intermediario/02_string_functions.sql) - Exercícios focados em manipulação de textos.
+- ['date_functions.sql'](01_SQL/03_intermediario/03_date_functions.sql) - Análises temporais e séries históricas.
+- ['case_when.sql'](01_SQL/03_intermediario/04_case_when.sql) - Lógica condicional e classificação.
+- ['union_and_union_all'](01_SQL/03_intermediario/05_union_and_union_all.sql) - Combinação de resultados.
 
 
 ## Tabela 'estoque'
