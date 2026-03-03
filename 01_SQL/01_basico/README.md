@@ -7,9 +7,9 @@ Aqui está uma síntese de meus primeiros passos em SQL, desenvolvidos durante e
 
 ## Estrutura
 
-- 'tabela_estoque.sql' - Criação e inserção dos dados da tabela 'estoque', utilizadas em todos os exercícios. 
-- 'exercicios_parte1.sql' - Consultas básicas, funções agregadas, 'GROUP BY', 'HAVING', 'LIMIT' e 'OFFSET'.
-- 'exercícios_parte2.sql' - Subconsultas escalares, subconsultas correlacionadas e alguns desafios intermediários.
+- ['tabela_estoque.sql'](01_SQL/01_basico/01_tabela_estoque.sql) - Criação e inserção dos dados da tabela 'estoque', utilizadas em todos os exercícios. 
+- ['exercicios_parte1.sql'](01_SQL/01_basico/02_exercicios_parte1.sql) - Consultas básicas, funções agregadas, 'GROUP BY', 'HAVING', 'LIMIT' e 'OFFSET'.
+- ['exercícios_parte2.sql'](01_SQL/01_basico/03_exercicios_parte2.sql) - Subconsultas escalares, subconsultas correlacionadas e alguns desafios intermediários.
 
 ## Tabela 'estoque'
 
