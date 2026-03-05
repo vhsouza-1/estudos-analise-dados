@@ -9,11 +9,11 @@ Obs2: o ambiente utilizado foi o MySQL.
 
 ## Estrutura
 
-- ['tabelas_utilizadas'](01_SQL/02_basico_intermediario/01_tabelas_utilizadas.sql) - Criação e inserção dos dados da tabela 'estoque', 'categorias' e 'cores', utilizadas em todos os exercícios
-- ['joins_introducao.sql'](01_SQL/02_basico_intermediario/02_joins_introducao.sql) - INNER JOIN, LEFT JOIN, filtros com WHERE
-- ['joins_agregacao.sql'](01_SQL/02_basico_intermediario/03_joins_agregacao.sql) - GROUP BY com JOIN, HAVING, estatísticas
-- ['joins_subconsultas.sql'](01_SQL/02_basico_intermediario/04_joins_subconsultas.sql) - Subconsultas correlacionadas com JOIN 
-- ['tabelas_derivadas.sql'](01_SQL/02_basico_intermediario/05_tabelas_derivadas.sql) - Subconsultas no FROM
+- ['tabelas_utilizadas'](01_tabelas_utilizadas.sql) - Criação e inserção dos dados da tabela 'estoque', 'categorias' e 'cores', utilizadas em todos os exercícios
+- ['joins_introducao.sql'](02_joins_introducao.sql) - INNER JOIN, LEFT JOIN, filtros com WHERE
+- ['joins_agregacao.sql'](03_joins_agregacao.sql) - GROUP BY com JOIN, HAVING, estatísticas
+- ['joins_subconsultas.sql'](04_joins_subconsultas.sql) - Subconsultas correlacionadas com JOIN 
+- ['tabelas_derivadas.sql'](05_tabelas_derivadas.sql) - Subconsultas no FROM
 
 
 ## Tabela 'estoque'
