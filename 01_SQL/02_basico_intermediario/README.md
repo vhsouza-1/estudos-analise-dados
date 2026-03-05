@@ -15,8 +15,8 @@ Obs2: o ambiente utilizado foi o MySQL.
 - ['joins_subconsultas.sql'](04_joins_subconsultas.sql) - Subconsultas correlacionadas com JOIN 
 - ['tabelas_derivadas.sql'](05_tabelas_derivadas.sql) - Subconsultas no FROM
 
-
-## Tabela 'estoque'
+## Tabelas
+### Tabela 'estoque'
 
 A tabela contém 15 produtos (carros e motos) com as seguintes colunas:
 
@@ -27,19 +27,49 @@ A tabela contém 15 produtos (carros e motos) com as seguintes colunas:
 - 'cor_id' - id da cor (referência a tabela cores)
 - 'fabrication' - ano de fabricação
 
-## Tabela 'cores'
+### Tabela 'cores'
 
 A tabela contém 6 cores, usadas para referenciar as cores do 'estoque'
 
 - 'id' - identificar único
 - 'nome_cor' - nome da cor
 
-## Tabela 'categorias'
+### Tabela 'categorias'
 
 A tabela contém 2 categorias (Carro/Moto), usadas para referenciar as categorias do 'estoque'
 
 - 'id' - identificar único
 - 'nome_categoria' - nome da categoria
+
+## Conceitos praticados
+
+### Parte 1 - Introdução aos JOINs
+- `INNER JOIN` simples e múltiplo (2+ tabelas)
+- `LEFT JOIN` para incluir registros sem correspondência
+- Simulação de `RIGHT JOIN` com `LEFT JOIN` invertido
+- Filtros com `WHERE` em consultas com JOIN
+- `COALESCE` para tratar valores nulos em JOINs
+
+### Parte 2 - Agregações com JOIN
+- Funções agregadas combinadas com JOIN (`COUNT`, `AVG`, `MIN`, `MAX`)
+- `GROUP BY` com JOIN para estatísticas por categoria/cor
+- `HAVING` para filtrar grupos após agregação
+- Subconsultas escalares no `SELECT` para comparações
+
+### Parte 3 - Subconsultas com JOIN
+- Subconsultas correlacionadas no `WHERE`
+- Comparações com média da categoria (`price > média da sua categoria`)
+- Comparações com média da cor (`price > média da sua cor`)
+- Subconsultas com múltiplas colunas (operador `IN`)
+- Subconsultas escalares no `SELECT` para calcular diferenças
+
+### Parte 4 - Tabelas Derivadas (Subconsultas no FROM)
+- Criação de tabelas derivadas para pré-processamento
+- `JOIN` com tabelas derivadas para enriquecer consultas
+- Múltiplos níveis de aninhamento de consultas
+- Cálculo de rankings e posições sem `WINDOW FUNCTIONS`
+- Pré-cálculo de estatísticas (médias, totais) antes do JOIN principal
+
 
 ---
 
