@@ -53,6 +53,32 @@ Contém 6 vendas, com as seguintes colunas:
 - preco_venda - preço da venda
 - cliente_nome - nome do cliente
 
+## Conceitos praticados
+
+### Funções de String
+- `LEFT()`, `RIGHT()`, `SUBSTRING()`, `SUBSTRING_INDEX()`
+- `CONCAT()`, `UPPER()`, `LOWER()`, `REPLACE()`
+- `CHAR_LENGTH()` para contagem de caracteres
+- Mascaramento de dados e geração de emails fictícios
+
+### Funções de Data
+- `DATEDIFF()`, `CURDATE()`, `DATE_FORMAT()`
+- `MONTHNAME()`, `DAYNAME()`, `DAYOFWEEK()`
+- `YEAR()`, `MONTH()` para extração de partes
+- Análises temporais e comparação mês a mês
+
+### CASE WHEN
+- Classificação simples e com múltiplas condições
+- `CASE` no `ORDER BY` para ordenação personalizada
+- Agregação condicional (Pivot Tables)
+- Rankings (TOP 3) sem `WINDOW FUNCTIONS`
+
+### UNION e UNION ALL
+- `UNION` vs `UNION ALL` (distintos vs duplicados)
+- Combinação de dados de múltiplas tabelas
+- Criação de calendários e timelines
+- Comparação de performance entre abordagens
+
 ---
 
 - Início dos estudos: Fevereiro de 2026
