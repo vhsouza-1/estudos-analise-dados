@@ -1,4 +1,9 @@
-# Em andamento :)
+# SQL Avançado - Estudos
+
+Aqui está meus passos no conteúdo avançado em SQL, desenvolvidos durante estudos autodidatas. Nessa parte encontram-se estudos sobre CTEs, Windows Functions e...
+
+- Obs1: diferentemente das outras pastas, aqui encontram todos os exercícios realizados.
+- Obs2: o ambiente utilizado foi o MySQL.
 
 ## Estrutura 
 
@@ -45,3 +50,10 @@ Contém 6 vendas, com as seguintes colunas:
 - data_venda - data da venda
 - preco_venda - preço da venda
 - cliente_nome - nome do cliente
+
+---
+
+- Início dos estudos: Fevereiro de 2026
+- Autor: Vinícius Henrique Souza
+- email: vinicius.h.zlc@gmail.com
+- linkedin: https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/
