@@ -15,8 +15,9 @@ Aqui está uma síntese dos meus passos intermediários em SQL, desenvolvidos du
 - ['case_when.sql'](04_case_when.sql) - Lógica condicional e classificação.
 - ['union_and_union_all'](05_union_and_union_all.sql) - Combinação de resultados.
 
+## Tabelas
 
-## Tabela 'estoque'
+### Tabela 'estoque'
 
 A tabela contém 15 produtos (carros e motos) com as seguintes colunas:
 
@@ -28,21 +29,21 @@ A tabela contém 15 produtos (carros e motos) com as seguintes colunas:
 - 'fabrication' - ano de fabricação
 - NOVO 'data_entrada' - data de entrada no estoque
 
-## Tabela 'cores'
+### Tabela 'cores'
 
 A tabela contém 6 cores, usadas para referenciar as cores do 'estoque'
 
 - 'id' - identificar único
 - 'nome_cor' - nome da cor
 
-## Tabela 'categorias'
+### Tabela 'categorias'
 
 A tabela contém 2 categorias (Carro/Moto), usadas para referenciar as categorias do 'estoque'
 
 - 'id' - identificar único
 - 'nome_categoria' - nome da categoria
 
-## NOVO Tabela 'vendas'
+### NOVO Tabela 'vendas'
 
 Contém 6 vendas, com as seguintes colunas:
 
