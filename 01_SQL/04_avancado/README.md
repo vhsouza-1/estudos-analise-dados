@@ -51,6 +51,35 @@ Contém 6 vendas, com as seguintes colunas:
 - preco_venda - preço da venda
 - cliente_nome - nome do cliente
 
+## Conceitos praticados
+
+### CTEs Fundamentais
+- CTEs básicas com `WHERE`, `AVG`, `SUM`
+- `CROSS JOIN` com CTEs para comparações
+- Múltiplas CTEs no mesmo `WITH`
+- CTEs com `LEFT JOIN` e `GROUP BY`
+- CTEs com `CASE WHEN` para classificação
+- CTEs aninhadas (uma CTE usando outra)
+- Criação de calendários com `UNION ALL`
+
+### CTEs em Aplicações Práticas
+- CTEs com filtros específicos
+- CTEs independentes com `CROSS JOIN`
+- Cálculo de percentuais com CTEs
+- Agregações temporais (mês a mês)
+- Múltiplas abordagens: CTE vs subconsulta no `FROM` vs subconsulta no `WHERE`
+- Rankings com `SELF JOIN` (sem `WINDOW FUNCTIONS`)
+- Análise mês a mês com comparação ao mês anterior
+
+### Desafios com CTEs
+- Diferença em relação à média da categoria
+- Relatórios com 3+ CTEs encadeadas
+- Percentuais de contribuição mensal
+- TOP 3 por categoria (ranking com `HAVING`)
+- Classificação temporal (`CASE WHEN`)
+- Cálculo combinado: média + ranking + diferença
+- `SELF JOIN` para posicionamento
+
 ---
 
 - Início dos estudos: Fevereiro de 2026
