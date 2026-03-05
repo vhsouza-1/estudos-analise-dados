@@ -7,8 +7,8 @@ Aqui está uma síntese de meus primeiros passos em SQL, desenvolvidos durante e
 
 ## Estrutura
 
-- ['tabela_estoque.sql'](01_tabela_estoque.sql) - Criação e inserção dos dados da tabela 'estoque', utilizadas em todos os exercícios. 
-- ['02_fundamentos_sql.sql'](02_fundamentos_sql.sql) - Consultas básicas, funções agregadas, 'GROUP BY', 'HAVING', 'LIMIT' e 'OFFSET'.
+- ['tabela_estoque.sql'](01_tabela_estoque.sql) - Criação e inserção dos dados da tabela `estoque`, utilizadas em todos os exercícios. 
+- ['02_fundamentos_sql.sql'](02_fundamentos_sql.sql) - Consultas básicas, funções agregadas, `GROUP BY`, `HAVING`, `LIMIT` e `OFFSET`.
 - ['03_subconsultas.sql'](03_subconsultas.sql) - Subconsultas escalares, subconsultas correlacionadas e alguns desafios intermediários.
 
 ## Tabela 'estoque'
@@ -27,18 +27,18 @@ A tabela contém 15 produtos (carros e motos) com as seguintes colunas:
 
 ### Parte 1 - Fundamentos
 
-- 'SELECT', 'WHERE', 'ORDER BY'
-- Operadores lógicos ('AND', 'OR', '<>')
-- Funções agregadas: 'COUNT', 'AVG', 'SUM', 'MIN', 'MAX'
-- 'GROUP BY' e 'HAVING'
-- 'LIMIT' e 'OFFSET'
+- `SELECT`, `WHERE`, `ORDER BY`
+- Operadores lógicos (`AND`, `OR`, `<>`)
+- Funções agregadas: `COUNT`, `AVG`, `SUM`, `MIN`, `MAX`
+- `GROUP BY` e `HAVING`
+- `LIMIT` e `OFFSET`
 
 ### Parte 2 - Subconsultas
 
-- Subconsultas escalares no 'WHERE'
-- Subconsultas escalares no 'SELECT'
-- Subconsultas no 'HAVING'
-- Subconsultas correlacionadas (com aliases 'e1', 'e2')
+- Subconsultas escalares no `WHERE`
+- Subconsultas escalares no `SELECT`
+- Subconsultas no `HAVING`
+- Subconsultas correlacionadas (com aliases `e1`, `e2`)
 - Problemas combinando agregação, filtros e subconsultas
 
 ---
