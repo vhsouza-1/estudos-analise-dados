@@ -12,6 +12,12 @@ Aqui está meus passos no conteúdo avançado em SQL, desenvolvidos durante estu
 - ['02_ctes_algumas_aplicacoes.sql'](02_ctes_algumas_aplicacoes.sql) - CTEs com filtros e joins simples, classificações, percentuais, agregações por mês, múltiplas abordagens, rankings (self-join), comparação mês a mês
 
 - ['03_ctes_alguns_desafios.sql'](03_ctes_alguns_desafios.sql) - Médias por categoria e relatórios com múltiplas CTEs, rankings sem Window Functions, classificações complexas
+  
+- ['04_wf_funcoes_ranking_1.sql'](04_wf_funcoes_ranking_1.sql) - ROW_NUMBER, RANK, DENSE_RANK, NTILE, TOP N por categoria
+  
+- ['05_wf_funcoes_ranking_2.sql'](05_wf_funcoes_ranking_2.sql) - Rankings com desempate, TOP N por cor/mês, gaps
+  
+- ['06_wf_funcoes_agregacao_1.sql'](06_wf_funcoes_agregacao_1.sql) - SUM, AVG, COUNT e MAX com Window Functions, médias móveis, frames, RANGE
 
 ## Tabelas
 
@@ -80,6 +86,26 @@ Contém 6 vendas, com as seguintes colunas:
 - Cálculo combinado: média + ranking + diferença
 - `SELF JOIN` para posicionamento
 
+### Funções de Ranking (Window Functions)
+- `ROW_NUMBER()` para numeração sequencial
+- `RANK()` e `DENSE_RANK()` para rankings com empates
+- Comparação entre as 3 funções de ranking
+- `PARTITION BY` para rankings dentro de categorias/grupos
+- Critérios de desempate no `ORDER BY` da Window Function
+- `NTILE()` para quartis, percentis e distribuição em faixas
+- Filtro de TOP N por categoria (com CTE + WHERE)
+- Identificação de gaps no ranking
+- TOP N por cor, por mês, por data de entrada
+
+### Funções de Agregação com Window Functions
+- `SUM()` como janela acumulada (total acumulado)
+- `AVG()` para médias por categoria e médias móveis
+- `COUNT()` para contagem progressiva
+- `MAX()` para identificação de recordes
+- Frames: `ROWS UNBOUNDED PRECEDING`, `ROWS BETWEEN`
+- Média móvel com `ROWS BETWEEN n PRECEDING AND CURRENT ROW`
+- `RANGE BETWEEN INTERVAL` para análises temporais
+- Comparação com médias (diferença e percentual)
 ---
 
 - Início dos estudos: Fevereiro de 2026
