@@ -18,6 +18,9 @@ Aqui está meus passos no conteúdo avançado em SQL, desenvolvidos durante estu
 - ['05_wf_funcoes_ranking_2.sql'](05_wf_funcoes_ranking_2.sql) - Rankings com desempate, TOP N por cor/mês, gaps
   
 - ['06_wf_funcoes_agregacao_1.sql'](06_wf_funcoes_agregacao_1.sql) - SUM, AVG, COUNT e MAX com Window Functions, médias móveis, frames, RANGE
+- ['07_wf_funcoes_agregacao_2.sql'](07_wf_funcoes_agregacao_2.sql) - Múltiplas métricas por categoria, recordes consecutivos, análise de Pareto, Z-score, relatório completo de vendas
+- ['08_wf_funcoes_deslocamento_1.sql'](08_wf_funcoes_deslocamento_1.sql) - LAG, LEAD, FIRST_VALUE, LAST_VALUE, comparações temporais, detecção de tendências
+- ['09_wf_funcoes_deslocamento_2.sql'](09_wf_funcoes_deslocamento_2.sql) - Análises avançadas com deslocamento, padrões sazonais, customer journey, dashboard executivo com storytelling
 
 ## Tabelas
 
@@ -59,34 +62,20 @@ Contém 6 vendas, com as seguintes colunas:
 
 ## Conceitos praticados
 
-### CTEs Fundamentais
-- CTEs básicas com `WHERE`, `AVG`, `SUM`
-- `CROSS JOIN` com CTEs para comparações
+### Parte 1 - CTEs (Common Table Expressions)
+- CTEs básicas com filtros e funções agregadas
 - Múltiplas CTEs no mesmo `WITH`
-- CTEs com `LEFT JOIN` e `GROUP BY`
-- CTEs com `CASE WHEN` para classificação
-- CTEs aninhadas (uma CTE usando outra)
-- Criação de calendários com `UNION ALL`
-
-### CTEs em Aplicações Práticas
-- CTEs com filtros específicos
-- CTEs independentes com `CROSS JOIN`
-- Cálculo de percentuais com CTEs
-- Agregações temporais (mês a mês)
-- Múltiplas abordagens: CTE vs subconsulta no `FROM` vs subconsulta no `WHERE`
-- Rankings com `SELF JOIN` (sem `WINDOW FUNCTIONS`)
+- CTEs aninhadas (uma CTE que referencia outra)
+- `CROSS JOIN` com CTEs para comparações com médias globais
+- Criação de calendários com `UNION ALL` dentro de CTEs
+- CTEs com `CASE WHEN` para classificação de dados
+- Rankings com `SELF JOIN` dentro de CTEs (sem Window Functions)
 - Análise mês a mês com comparação ao mês anterior
+- Múltiplas abordagens para o mesmo problema (CTE vs subconsulta)
+- Relatórios com 3 ou mais CTEs encadeadas
+- TOP 3 por categoria com `HAVING`
 
-### Desafios com CTEs
-- Diferença em relação à média da categoria
-- Relatórios com 3+ CTEs encadeadas
-- Percentuais de contribuição mensal
-- TOP 3 por categoria (ranking com `HAVING`)
-- Classificação temporal (`CASE WHEN`)
-- Cálculo combinado: média + ranking + diferença
-- `SELF JOIN` para posicionamento
-
-### Funções de Ranking (Window Functions)
+### Parte 2 - Funções de Ranking (Window Functions)
 - `ROW_NUMBER()` para numeração sequencial
 - `RANK()` e `DENSE_RANK()` para rankings com empates
 - Comparação entre as 3 funções de ranking
@@ -97,15 +86,43 @@ Contém 6 vendas, com as seguintes colunas:
 - Identificação de gaps no ranking
 - TOP N por cor, por mês, por data de entrada
 
-### Funções de Agregação com Window Functions
+### Parte 3 - Funções de Agregação como Window Functions
 - `SUM()` como janela acumulada (total acumulado)
 - `AVG()` para médias por categoria e médias móveis
 - `COUNT()` para contagem progressiva
-- `MAX()` para identificação de recordes
+- `MIN()` e `MAX()` para valores acumulados e amplitude
 - Frames: `ROWS UNBOUNDED PRECEDING`, `ROWS BETWEEN`
-- Média móvel com `ROWS BETWEEN n PRECEDING AND CURRENT ROW`
-- `RANGE BETWEEN INTERVAL` para análises temporais
-- Comparação com médias (diferença e percentual)
+- Médias móveis com diferentes janelas (3, 5, 7 períodos)
+- `RANGE BETWEEN INTERVAL` para análises temporais complexas
+- Recordes consecutivos com `MAX()` e `CASE`
+- Análise de Pareto (80/20) com percentuais acumulados
+- Z-score com `STDDEV()` e classificação estatística
+
+### Parte 4 - Funções de Deslocamento (Window Functions)
+- `LAG()` para acessar valores anteriores
+- `LEAD()` para acessar valores posteriores
+- `FIRST_VALUE()` para primeiro valor da janela
+- `LAST_VALUE()` com frame correto (`ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING`)
+- LAG com offset maior (2, 3, 12 posições)
+- Comparação com primeiro/último da categoria
+- Detecção de tendências (subidas, quedas, picos)
+- Comparação ano a ano para padrões sazonais
+- Dias desde a última venda (customer journey)
+- Projeções e simulações de tendências
+
+### Parte 5 - Desafios Analíticos Avançados
+- Dashboard gerencial com múltiplas métricas (Exercício 10 - 06_wf_funcoes_agregacao_1)
+- Relatório completo de vendas (Exercício 20 - 07_wf_funcoes_agregacao_2)
+- Análise de performance completa por produto (Exercício 18 - 09_wf_funcoes_deslocamento_2)
+- **Dashboard executivo com storytelling** (Exercício 20 - 09_wf_funcoes_deslocamento_2):
+  - Métricas gerais (quantidade, média, total)
+  - Evolução temporal (primeiro/último produto, variação percentual)
+  - Destaques (mais caro, mais barato, maiores variações)
+  - Análise de ranking (acima/abaixo da média, posição mediana)
+- Comparação entre abordagens: SELF JOIN (manual) vs Window Functions
+- Múltiplas CTEs para organizar consultas complexas
+- Otimização e legibilidade de código
+- Tratamento de valores nulos com `COALESCE()`
 ---
 
 - Início dos estudos: Fevereiro de 2026
