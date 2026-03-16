@@ -7,9 +7,8 @@ Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrand
 - Início dos estudos: Fevereiro de 2026
 
 ## Habilidades em desenvolvimento
-- SQL (básico ao avançado) (Em andamento)
-- Python para análise de dados
-- Pandas
+- SQL (concluído!)
+- Python para análise de dados (em andamento)
 - Power BI
 
 ## Estrutura do Repositório
@@ -23,8 +22,8 @@ Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrand
 ### [02_Python](02_Python) (em breve)
 
 ## Próximos Passos
-- Concluir estudos de SQL avançado
-- Iniciar estudos em Python e Pandas
+- Concluir estudos de SQL [X]
+- Concluir estudos em Python para Dados [  ]
 - Iniciar estudos em Power BI
 
 ## Contato
