@@ -2,14 +2,16 @@
 
 ## Sobre mim
 
-Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrando para a área de Análise de Dados. Este repositório documenta minha jornada de aprendizado organizado por níveis de complexidade..
+Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrando para a área de Análise de Dados. Este repositório documenta minha jornada de aprendizado organizado por níveis de complexidade.
 
 - Início dos estudos: Fevereiro de 2026
 
-## Habilidades em desenvolvimento
-- SQL (concluído!)
-- Python para análise de dados (em andamento)
-- Power BI
+## Habilidades em desenvolvimento e Próximos Passos!
+
+- [X] SQL (básico ao avançado)
+- [ ] Python para Análise de Dados
+- [ ] Projetos integrados (SQL + Python)
+- [ ] Power BI
 
 ## Estrutura do Repositório
 
@@ -17,16 +19,11 @@ Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrand
 - ['01_basico/'](01_SQL/01_basico): Fundamentos, `SELECT`, `FROM`, `WHERE`, `GROUP BY`, `ORDER BY`, `LIMIT`, `OFFSET`, operadores lógicos, funções de agregação, subconsultas.
 - ['02_basico_intermediario'/](01_SQL/02_basico_intermediario): Estudos sobre `JOINs`, `INNER JOIN`, `LEFT JOIN`, Subconsultas correlacionadas com `JOIN`, tabelas derivadas.
 - ['03_intermediario/'](01_SQL/03_intermediario): String functions, date functions, `CASE WHEN` e `UNION/UNION ALL`.
-- ['04_avancado'](01_SQL/04_avancado): `CTEs`, `Windows Functions` (em andamento).
+- ['04_avancado'](01_SQL/04_avancado): `CTEs`, `Windows Functions`.
 
-### [02_Python](02_Python) (em breve)
-
-## Próximos Passos
-- Concluir estudos de SQL [X]
-- Concluir estudos em Python para Dados [  ]
-- Iniciar estudos em Power BI
+### [02_Python](02_Python) (em andamento)
 
 ## Contato
 - Nome: Vinícius Henrique Souza
 - email: vinicius.h.zlc@gmail.com
-- linkedin: https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/
+- linkedin: [https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/](https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/)
