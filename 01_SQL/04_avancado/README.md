@@ -1,4 +1,4 @@
-# SQL Avançado - Estudos (em andamento)
+# SQL Avançado - Estudos
 
 Aqui está meus passos no conteúdo avançado em SQL, desenvolvidos durante estudos autodidatas. Nessa parte encontram-se estudos sobre CTEs, Windows Functions e...
 
