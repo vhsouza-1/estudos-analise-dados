@@ -8,25 +8,17 @@ Esta pasta documenta minha jornada de aprendizado em Python, estruturada em mód
 
 ## Estrutura dos Estudos
 
-A jornada está organizada em **11 módulos**, cada um com foco em conceitos específicos:
-
 | Módulo | Tema |
 |--------|------|
-| [01_primeiros_passos](./01_primeiros_passos) | Primeiros passos, print, comentários, variáveis |
-| [02_tipos_basicos](./02_tipos_basicos) | int, float, str, bool, type(), conversão |
+| [01_fundamentos](./01_fundamentos) | Primeiros passos, print, comentários, variáveis |
+| [02_tipos_dados](./02_tipos_dados) | int, float, str, bool, type(), conversão |
 | [03_entrada_saida](./03_entrada_saida) | input(), print(), f-strings, mini-projetos |
-| [04_condicionais](./04_condicionais) | if, elif, else, operadores, aninhamento |
-| [05_loops](./05_loops) | while, for, break, continue, loops aninhados |
-| [06_listas_tuplas](./06_listas_tuplas) | Listas, métodos, iteração, tuplas |
-| [07_dicionarios_conjuntos](./07_dicionarios_conjuntos) | Dicionários, sets, métodos, iteração |
-| [08_funcoes](./08_funcoes) | def, escopo, parâmetros, docstrings |
-| [09_strings_avancado](./09_strings_avancado) | Métodos de string, split/join, regex básico |
-| [10_arquivos](./10_arquivos) | Leitura/escrita, with, CSV manual |
-| [11_introducao_pandas](./11_introducao_pandas) | Series, DataFrames, read_csv, filtros, groupby |
+
 
 ---
 
 ## Detalhamento dos Módulos
+A jornada está organizada em **11 módulos**, cada um com foco em conceitos específicos:
 
 ### MÓDULO 1 - Primeiros Passos (A Base da Base)
 **Objetivo:** Entrar no universo Python sem sustos
