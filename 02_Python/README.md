@@ -13,7 +13,9 @@ Esta pasta documenta minha jornada de aprendizado em Python, estruturada em mód
 | [01_fundamentos](./01_fundamentos) | Primeiros passos, print, comentários, variáveis |
 | [02_tipos_dados](./02_tipos_dados) | int, float, str, bool, type(), conversão |
 | [03_entrada_saida](./03_entrada_saida) | input(), print(), f-strings, mini-projetos |
-
+| [04_condicionais](./04_condicionais) | if-elif-else, comparadores e operadores, desafios |
+| [05_loops](./05_loops) | for-range, while, break, continue, desafios |
+| [06_listas](./06_listas) | manipulação, zip(), list comprehension |
 
 ---
 
