@@ -4,7 +4,6 @@ Aula 6.4: List Comprehension
 Data: 26/03/2026
 Objetivo: Aprender a criar listas de forma concisa e elegante
 """
-from selectors import SelectSelector
 
 # ==========================================
 # 1. O PROBLEMA QUE LIST COMPREHENSION RESOLVE
