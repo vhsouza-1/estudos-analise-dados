@@ -9,7 +9,8 @@ Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrand
 ## Habilidades em desenvolvimento e Próximos Passos!
 
 - [X] SQL (básico ao avançado)
-- [ ] Python para Análise de Dados
+- [X] Python (geral)
+- [ ] Python (bibliotecas para Dados)
 - [ ] Projetos integrados (SQL + Python)
 - [ ] Power BI
 
@@ -22,6 +23,16 @@ Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrand
 - ['04_avancado'](01_SQL/04_avancado): `CTEs`, `Windows Functions`.
 
 ### [02_Python](02_Python) (em andamento)
+- ['01_fundamentos/'](02_Python/01_fundamentos): print(), comentarários, erros, variáveis
+- ['02_tipos_dados/'](02_Python/02_tipos_dados): int, float, str, bool, casting
+- ['03_entrada_saida/'](02_Python/03_entrada_saida): input(), .strip(), f-strings
+- ['04_condicionais/'](02_Python/04_condicionais): if-elif-else, comparadores, operadores lógicos
+- ['05_loops/'](02_Python/05_loops): while, for, range, break e continue
+- ['06_listas/'](02_Python/06_listas): listas, ordenação e contagem, zip(), list comprehension, listas aninhadas, copias
+- ['07_dicionarios/'](02_Python/07_dicionarios): dicionarios, dict comprehension, lista de dicionarios, defaultdict(), Counter()
+- ['08_funcoes/'](02_Python/08_funcoes): funcoes, parametros e escopo
+- ['09_arquivos/'](02_Python/09_arquivos): leitura, escrita, arquivos csv, DictReader(). DictWriter()
+- ['10_logica_sequencias/'](02_Python/10_logica_sequencias): all(), any(), sum() sobre operacoes logicas
 
 ## Contato
 - Nome: Vinícius Henrique Souza
