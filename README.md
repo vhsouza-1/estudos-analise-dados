@@ -22,7 +22,7 @@ Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrand
 - ['03_intermediario/'](01_SQL/03_intermediario): String functions, date functions, `CASE WHEN` e `UNION/UNION ALL`.
 - ['04_avancado'](01_SQL/04_avancado): `CTEs`, `Windows Functions`.
 
-### [02_Python](02_Python) (em andamento)
+### [02_Python](02_Python)
 - ['01_fundamentos/'](02_Python/01_fundamentos): print(), comentarários, erros, variáveis
 - ['02_tipos_dados/'](02_Python/02_tipos_dados): int, float, str, bool, casting
 - ['03_entrada_saida/'](02_Python/03_entrada_saida): input(), .strip(), f-strings
