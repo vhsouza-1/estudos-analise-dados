@@ -3,8 +3,8 @@
 Esta pasta documenta minha jornada de aprendizado em Python, estruturada em módulos progressivos que vão desde os fundamentos até a introdução ao Pandas para análise de dados.
 
 - Ambiente: Anaconda, PyCharm
-- Período: Março 2026 - (em andamento)
-- Status: Em andamento
+- Período: Março 2026 - Abril 2026
+- Status: Concluído
 
 ## Estrutura dos Estudos
 
@@ -16,11 +16,14 @@ Esta pasta documenta minha jornada de aprendizado em Python, estruturada em mód
 | [04_condicionais](./04_condicionais) | if-elif-else, comparadores e operadores, desafios |
 | [05_loops](./05_loops) | for-range, while, break, continue, desafios |
 | [06_listas](./06_listas) | manipulação, zip(), list comprehension |
-
+| [07_dicionarios](./07_dicionarios) | manipulação, dict comprehension, Counter, defaultdict |
+| [08_funcoes](./08_funcoes) | definindo funções, parametro e escopo, funções lambda |
+| [09_arquivos](./09_arquivos) | leitura, escrita, csv, DictHeader, DictWriter, Path |
+| [10_logica_sequencias](./10_logica_sequencias) | all(), any(), sum() sobre listas|
 ---
 
 ## Detalhamento dos Módulos
-A jornada está organizada em **11 módulos**, cada um com foco em conceitos específicos:
+A jornada está organizada em **10 módulos**, cada um com foco em conceitos específicos:
 
 ### MÓDULO 1 - Primeiros Passos (A Base da Base)
 **Objetivo:** Entrar no universo Python sem sustos
@@ -88,15 +91,7 @@ A jornada está organizada em **11 módulos**, cada um com foco em conceitos esp
 - Documentação com docstrings (padrão profissional)
 - **Exercícios:** Modularizando códigos anteriores
 
-### MÓDULO 9 - Manipulação de Strings (Avançado)
-**Objetivo:** Trabalhar com textos profissionalmente
-- Métodos de string (`upper()`, `lower()`, `strip()`, `replace()`)
-- Busca em strings (`find()`, `count()`, `in`)
-- `split()` e `join()` - dividir e unir strings
-- Formatação avançada (alinhamento, preenchimento)
-- Expressões regulares (básico para o futuro)
-
-### MÓDULO 10 - Arquivos
+### MÓDULO 9 - Arquivos
 **Objetivo:** Ler e escrever arquivos (preparação para dados reais)
 - Abrindo arquivos com `open()` e modos de abertura
 - Lendo arquivos (`read()`, `readlines()`, `readline()`)
@@ -104,17 +99,13 @@ A jornada está organizada em **11 módulos**, cada um com foco em conceitos esp
 - Gerenciadores de contexto (`with` - o jeito correto)
 - Arquivos CSV (manual, sem pandas ainda)
 
-### MÓDULO 11 - Introdução ao Pandas (A Ponte)
-**Objetivo:** Conectar tudo que aprendemos com análise de dados
-- Instalando pandas com `pip`
-- Series - o "quase lista" do pandas
-- DataFrames - o "quase tabela" do pandas
-- Carregando dados reais com `read_csv()`
-- Exploração inicial (`head()`, `info()`, `describe()`)
-- Selecionando dados (colchetes, `loc`, `iloc`)
-- Filtros - o `WHERE` do pandas
-- Agrupamentos - o `GROUP BY` do pandas
-
+### MÓDULO 10 - Funções de lógica para Sequências (complemento)
+**Objetivo:** Complemento de lógica para sequências
+- all(), any() e sum() em sequências
+- all(item is None for item in lista)  # todos são None?
+- any(item is None for item in lista)  # algum é None?
+- sum(item is None for item in lista)  # quantos são None?
+- all(chave is not None for chave in dict.keys())  # dicionário tem cabeçalho?
 ---
 
 ## Contato
