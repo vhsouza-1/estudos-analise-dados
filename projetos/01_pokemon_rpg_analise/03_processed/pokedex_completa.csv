@@ -1,0 +1,1216 @@
+gen,id,nome,forma,estagio,tipo_1,tipo_2,hp,atk,sp_atk,def,sp_def,vel,pml,bst,best_atk,best_atk_vel,atk_tot,def_tot
+1,1,bulbasaur,-,-,grama,venenoso,25,3,4,3,4,5,-,44,4,9,7,7
+1,2,ivysaur,-,-,grama,venenoso,30,4,4,4,4,6,-,52,4,10,8,8
+1,3,venusaur,-,-,grama,venenoso,40,5,5,5,5,8,-,68,5,13,10,10
+6,3,venusaur,mega venusaur,-,grama,venenoso,40,5,7,7,6,8,-,73,7,15,12,13
+1,4,charmander,-,-,fogo,-,20,3,3,3,3,7,-,39,3,10,6,6
+1,5,charmeleon,-,-,fogo,-,30,4,4,3,4,8,-,53,4,12,8,7
+1,6,charizard,-,-,fogo,voador,40,5,6,4,5,10,-,70,6,16,11,9
+6,6,charizard,mega charizard x,-,fogo,dragao,40,7,7,6,5,10,-,75,7,17,14,11
+6,6,charizard,mega charizard y,-,fogo,voador,40,6,8,4,6,10,-,74,8,18,14,10
+1,7,squirtle,-,-,agua,-,25,3,3,4,4,5,-,44,3,8,6,8
+1,8,wartortle,-,-,agua,-,30,4,4,4,4,6,-,52,4,10,8,8
+1,9,blastoise,-,-,agua,-,40,5,5,5,6,8,-,69,5,13,10,11
+6,9,blastoise,mega blastoise,-,agua,-,40,6,7,6,6,8,-,73,7,15,13,12
+1,10,caterpie,-,-,inseto,-,25,2,1,2,1,5,-,36,2,7,3,3
+1,11,metapod,-,-,inseto,-,25,1,2,3,2,3,-,36,2,5,3,5
+1,12,butterfree,-,-,inseto,voador,30,3,5,3,4,7,-,52,5,12,8,7
+1,13,weedle,-,-,inseto,venenoso,20,2,1,2,1,5,-,31,2,7,3,3
+1,14,kakuna,-,-,inseto,venenoso,25,2,2,3,2,4,-,38,2,6,4,5
+1,15,beedrill,-,-,inseto,venenoso,35,5,3,2,4,8,-,57,5,13,8,6
+6,15,beedrill,mega beedrill,-,inseto,venenoso,35,8,1,2,4,15,-,65,8,23,9,6
+1,16,pidgey,-,-,normal,voador,20,3,2,2,2,6,-,35,3,9,5,4
+1,17,pidgeotto,-,-,normal,voador,35,3,3,3,3,8,-,55,3,11,6,6
+1,18,pidgeot,-,-,normal,voador,45,4,4,4,4,11,-,72,4,15,8,8
+6,18,pidgeot,mega pidgeot,-,normal,voador,45,4,7,4,4,13,-,77,7,20,11,8
+1,19,rattata,-,-,normal,-,15,3,2,2,2,8,-,32,3,11,5,4
+7,19,rattata,alolan rattata,-,sombrio,normal,15,3,2,2,2,8,-,32,3,11,5,4
+1,20,raticate,-,-,normal,-,30,5,3,3,4,10,-,55,5,15,8,7
+7,20,raticate,alolan raticate,-,sombrio,normal,40,4,2,4,4,8,-,62,4,12,6,8
+1,21,spearow,-,-,normal,voador,20,3,2,2,2,7,-,36,3,10,5,4
+1,22,fearow,-,-,normal,voador,35,5,4,4,4,10,-,62,5,15,9,8
+1,23,ekans,-,-,venenoso,-,20,3,2,3,3,6,-,37,3,9,5,6
+1,24,arbok,-,-,venenoso,-,30,5,4,4,4,8,-,55,5,13,9,8
+1,25,pikachu,-,-,eletrico,-,20,3,3,2,3,9,-,40,3,12,6,5
+7,25,pikachu,partner pikachu,-,eletrico,-,25,4,4,3,3,12,-,51,4,16,8,6
+1,26,raichu,-,-,eletrico,-,30,5,5,3,4,11,-,58,5,16,10,7
+7,26,raichu,alolan raichu,-,eletrico,psiquico,30,5,5,3,5,11,-,59,5,16,10,8
+1,27,sandshrew,-,-,terra,-,25,4,1,5,2,4,-,41,4,8,5,7
+7,27,sandshrew,alolan sandshrew,-,gelo,aco,25,4,1,5,2,4,-,41,4,8,5,7
+1,28,sandslash,-,-,terra,-,40,5,3,6,3,7,-,64,5,12,8,9
+7,28,sandslash,alolan sandslash,-,gelo,aco,40,5,2,6,4,7,-,64,5,12,7,10
+1,29,nidoran,female,-,venenoso,-,30,3,2,3,2,5,-,45,3,8,5,5
+1,30,nidorina,-,-,venenoso,-,35,4,3,4,3,6,-,55,4,10,7,7
+1,31,nidoqueen,-,-,venenoso,terra,45,5,4,5,5,8,-,72,5,13,9,10
+1,32,nidoran,male,-,venenoso,-,25,3,2,2,2,5,-,39,3,8,5,4
+1,33,nidorino,-,-,venenoso,-,35,4,3,3,3,7,-,55,4,11,7,6
+1,34,nidoking,-,-,venenoso,terra,45,6,5,4,4,9,-,73,6,15,11,8
+1,35,clefairy,-,-,fada,-,35,3,3,3,4,4,-,52,3,7,6,7
+1,36,clefable,-,-,fada,-,50,4,5,4,5,6,-,74,5,11,9,9
+1,37,vulpix,-,-,fogo,-,20,3,3,2,4,7,-,39,3,10,6,6
+7,37,vulpix,alolan vulpix,-,gelo,-,20,3,3,2,4,7,-,39,3,10,6,6
+1,38,ninetales,-,-,fogo,-,40,4,5,4,5,10,-,68,5,15,9,9
+7,38,ninetales,alolan ninetales,-,gelo,fada,40,4,5,4,5,11,-,69,5,16,9,9
+1,39,jigglypuff,-,-,normal,fada,60,3,3,1,2,2,-,71,3,5,6,3
+1,40,wigglytuff,-,-,normal,fada,70,4,5,3,3,5,-,90,5,10,9,6
+1,41,zubat,-,-,venenoso,voador,20,3,2,2,2,6,-,35,3,9,5,4
+1,42,golbat,-,-,venenoso,voador,40,4,4,4,4,9,-,65,4,13,8,8
+1,43,oddish,-,-,grama,venenoso,25,3,4,3,4,3,-,42,4,7,7,7
+1,44,gloom,-,-,grama,venenoso,30,4,5,4,4,4,-,51,5,9,9,8
+1,45,vileplume,-,-,grama,venenoso,40,4,6,5,5,5,-,65,6,11,10,10
+1,46,paras,-,-,inseto,grama,20,4,3,3,3,3,-,36,4,7,7,6
+1,47,parasect,-,-,inseto,grama,30,5,3,4,4,3,-,49,5,8,8,8
+1,48,venonat,-,-,inseto,venenoso,30,3,2,3,3,5,-,46,3,8,5,6
+1,49,venomoth,-,-,inseto,venenoso,35,4,5,3,4,9,-,60,5,14,9,7
+1,50,diglett,-,-,terra,-,5,3,2,2,3,10,-,25,3,13,5,5
+7,50,diglett,alolan diglett,-,terra,aco,5,3,2,2,3,9,-,24,3,12,5,5
+1,51,dugtrio,-,-,terra,-,20,5,3,3,4,12,-,47,5,17,8,7
+7,51,dugtrio,alolan dugtrio,-,terra,aco,20,5,3,3,4,11,-,46,5,16,8,7
+1,52,meowth,-,-,normal,-,20,3,2,2,2,9,-,38,3,12,5,4
+7,52,meowth,alolan meowth,-,sombrio,-,20,2,3,2,2,9,-,38,3,12,5,4
+8,52,meowth,galarian meowth,-,aco,-,25,4,2,3,2,4,-,40,4,8,6,5
+1,53,persian,-,-,normal,-,35,4,4,3,4,12,-,62,4,16,8,7
+7,53,persian,alolan persian,-,sombrio,-,35,3,4,3,4,12,-,61,4,16,7,7
+1,54,psyduck,-,-,agua,-,25,3,4,3,3,6,-,44,4,10,7,6
+1,55,golduck,-,-,agua,-,40,5,5,4,4,9,-,67,5,14,10,8
+1,56,mankey,-,-,lutador,-,20,4,2,2,3,7,-,38,4,11,6,5
+1,57,primeape,-,-,lutador,-,35,6,3,3,4,10,-,61,6,16,9,7
+1,58,growlithe,-,-,fogo,-,30,4,4,3,3,6,-,50,4,10,8,6
+8,58,growlithe,hisuian growlithe,-,fogo,pedra,30,4,4,3,3,6,-,50,4,10,8,6
+1,59,arcanine,-,-,fogo,-,45,6,5,4,4,10,-,74,6,16,11,8
+8,59,arcanine,hisuian arcanine,-,fogo,pedra,50,6,5,4,4,9,-,78,6,15,11,8
+1,60,poliwag,-,-,agua,-,20,3,2,2,2,9,-,38,3,12,5,4
+1,61,poliwhirl,-,-,agua,-,35,4,3,4,3,9,-,58,4,13,7,7
+1,62,poliwrath,-,-,agua,lutador,45,5,4,5,5,7,-,71,5,12,9,10
+1,63,abra,-,-,psiquico,-,15,1,6,1,3,9,-,35,6,15,7,4
+1,64,kadabra,-,-,psiquico,-,20,2,6,2,4,11,-,45,6,17,8,6
+1,65,alakazam,-,-,psiquico,-,30,3,7,3,5,12,-,60,7,19,10,8
+6,65,alakazam,mega alakazam,-,psiquico,-,30,3,9,4,6,15,-,67,9,24,12,10
+1,66,machop,-,-,lutador,-,35,4,2,3,2,4,-,50,4,8,6,5
+1,67,machoke,-,-,lutador,-,40,5,3,4,3,5,-,60,5,10,8,7
+1,68,machamp,-,-,lutador,-,45,7,4,4,5,6,-,71,7,13,11,9
+1,69,bellsprout,-,-,grama,venenoso,25,4,4,2,2,4,-,41,4,8,8,4
+1,70,weepinbell,-,-,grama,venenoso,35,5,5,3,3,6,-,57,5,11,10,6
+1,71,victreebel,-,-,grama,venenoso,40,6,5,4,4,7,-,66,6,13,11,8
+1,72,tentacool,-,-,agua,venenoso,20,2,3,2,5,7,-,39,3,10,5,7
+1,73,tentacruel,-,-,agua,venenoso,40,4,4,4,6,10,-,68,4,14,8,10
+1,74,geodude,-,-,pedra,terra,20,4,2,5,2,2,-,35,4,6,6,7
+7,74,geodude,alolan geodude,-,pedra,eletrico,20,4,2,5,2,2,-,35,4,6,6,7
+1,75,graveler,-,-,pedra,terra,30,5,3,6,3,4,-,51,5,9,8,9
+7,75,graveler,alolan graveler,-,pedra,eletrico,30,5,3,6,3,4,-,51,5,9,8,9
+1,76,golem,-,-,pedra,terra,40,6,3,7,4,5,-,65,6,11,9,11
+7,76,golem,alolan golem,-,pedra,eletrico,40,6,3,7,4,5,-,65,6,11,9,11
+1,77,ponyta,-,-,fogo,-,25,5,4,3,4,9,-,50,5,14,9,7
+8,77,ponyta,galarian ponyta,-,psiquico,-,25,5,4,3,4,9,-,50,5,14,9,7
+1,78,rapidash,-,-,fogo,-,35,5,4,4,4,11,-,63,5,16,9,8
+8,78,rapidash,galarian rapidash,-,psiquico,fada,35,5,4,4,4,11,-,63,5,16,9,8
+1,79,slowpoke,-,-,agua,psiquico,45,4,2,4,2,2,-,59,4,6,6,6
+8,79,slowpoke,galarian slowpoke,-,psiquico,-,45,4,2,4,2,2,-,59,4,6,6,6
+1,80,slowbro,-,-,agua,psiquico,50,4,5,6,4,3,-,72,5,8,9,10
+6,80,slowbro,mega slowbro,-,agua,psiquico,50,4,7,9,4,3,-,77,7,10,11,13
+8,80,slowbro,galarian slowbro,-,venenoso,psiquico,50,5,5,5,4,3,-,72,5,8,10,9
+1,81,magnemite,-,-,eletrico,aco,15,2,5,4,3,5,-,34,5,10,7,7
+1,82,magneton,-,-,eletrico,aco,25,3,6,5,4,7,-,50,6,13,9,9
+1,83,farfetch'd,-,-,normal,voador,30,5,3,3,4,6,-,51,5,11,8,7
+8,83,farfetch'd,galarian farfetch'd,-,lutador,-,30,5,3,3,4,6,-,51,5,11,8,7
+1,84,doduo,-,-,normal,voador,20,5,2,3,2,8,-,40,5,13,7,5
+1,85,dodrio,-,-,normal,voador,30,6,3,4,3,11,-,57,6,17,9,7
+1,86,seel,-,-,agua,-,35,3,3,3,4,5,-,53,3,8,6,7
+1,87,dewgong,-,-,agua,gelo,45,4,4,4,5,7,-,69,4,11,8,9
+1,88,grimer,-,-,venenoso,-,40,4,2,3,3,3,-,55,4,7,6,6
+7,88,grimer,alolan grimer,-,venenoso,sombrio,40,4,2,3,3,3,-,55,4,7,6,6
+1,89,muk,-,-,venenoso,-,55,6,4,4,5,5,-,79,6,11,10,9
+7,89,muk,alolan muk,-,venenoso,sombrio,55,6,4,4,5,5,-,79,6,11,10,9
+1,90,shellder,-,-,agua,-,15,4,3,5,2,4,-,33,4,8,7,7
+1,91,cloyster,-,-,agua,gelo,25,5,5,9,3,7,-,54,5,12,10,12
+1,92,gastly,-,-,fantasma,venenoso,15,2,5,2,2,8,-,34,5,13,7,4
+1,93,haunter,-,-,fantasma,venenoso,25,3,6,3,3,10,-,50,6,16,9,6
+1,94,gengar,-,-,fantasma,venenoso,30,4,7,3,4,11,-,59,7,18,11,7
+6,94,gengar,mega gengar,-,fantasma,venenoso,30,4,9,4,5,13,-,65,9,22,13,9
+1,95,onix,-,-,pedra,terra,20,3,2,8,3,7,-,43,3,10,5,11
+1,96,drowzee,-,-,psiquico,-,30,3,3,3,5,5,-,49,3,8,6,8
+1,97,hypno,-,-,psiquico,-,45,4,4,4,6,7,-,70,4,11,8,10
+1,98,krabby,-,-,agua,-,15,6,2,5,2,5,-,35,6,11,8,7
+1,99,kingler,-,-,agua,-,30,7,3,6,3,8,-,57,7,15,10,9
+1,100,voltorb,-,-,eletrico,-,20,2,3,3,3,10,-,41,3,13,5,6
+8,100,voltorb,hisuian voltorb,-,eletrico,grama,20,2,3,3,3,10,-,41,3,13,5,6
+1,101,electrode,-,-,eletrico,-,30,3,4,4,4,15,-,60,4,19,7,8
+8,101,electrode,hisuian electrode,-,eletrico,grama,30,3,4,4,4,15,-,60,4,19,7,8
+1,102,exeggcute,-,-,grama,psiquico,30,2,3,4,3,4,-,46,3,7,5,7
+1,103,exeggutor,-,-,grama,psiquico,50,5,7,5,4,6,-,77,7,13,12,9
+7,103,exeggutor,alolan exeggutor,-,grama,dragao,50,6,7,5,4,5,-,77,7,12,13,9
+1,104,cubone,-,-,terra,-,25,3,2,5,3,4,-,42,3,7,5,8
+1,105,marowak,-,-,terra,-,30,4,3,6,4,5,-,52,4,9,7,10
+7,105,marowak,alolan marowak,-,fogo,fantasma,30,4,3,6,4,5,-,52,4,9,7,10
+1,106,hitmonlee,-,-,lutador,-,25,6,2,3,6,9,-,51,6,15,8,9
+1,107,hitmonchan,-,-,lutador,-,25,6,2,4,6,8,-,51,6,14,8,10
+1,108,lickitung,-,-,normal,-,45,3,3,4,4,3,-,62,3,6,6,8
+1,109,koffing,-,-,venenoso,-,20,4,3,5,3,4,-,39,4,8,7,8
+1,110,weezing,-,-,venenoso,-,35,5,5,6,4,6,-,61,5,11,10,10
+8,110,weezing,galarian weezing,-,venenoso,fada,35,5,5,6,4,6,-,61,5,11,10,10
+1,111,rhyhorn,-,-,terra,pedra,40,5,2,5,2,3,-,57,5,8,7,7
+1,112,rhydon,-,-,terra,pedra,55,7,3,6,3,4,-,78,7,11,10,9
+1,113,chansey,-,-,normal,-,125,1,2,1,6,5,-,140,2,7,3,7
+1,114,tangela,-,-,grama,-,35,3,5,6,2,6,-,57,5,11,8,8
+1,115,kangaskhan,-,-,normal,-,55,5,2,4,4,9,-,79,5,14,7,8
+6,115,kangaskhan,mega kangaskhan,-,normal,-,55,7,3,5,5,10,-,85,7,17,10,10
+1,116,horsea,-,-,agua,-,15,2,4,4,2,6,-,33,4,10,6,6
+1,117,seadra,-,-,agua,-,30,4,5,5,3,9,-,56,5,14,9,8
+1,118,goldeen,-,-,agua,-,25,4,2,3,3,7,-,44,4,11,6,6
+1,119,seaking,-,-,agua,-,40,5,4,4,4,7,-,64,5,12,9,8
+1,120,staryu,-,-,agua,-,15,3,4,3,3,9,-,37,4,13,7,6
+1,121,starmie,-,-,agua,psiquico,30,4,5,5,5,12,-,61,5,17,9,10
+1,122,mr. mime,-,-,psiquico,fada,20,3,5,4,6,9,-,47,5,14,8,10
+8,122,mr. mime,galarian mr. mime,-,gelo,psiquico,25,4,5,4,5,10,-,53,5,15,9,9
+1,123,scyther,-,-,inseto,voador,35,6,3,4,4,11,-,63,6,17,9,8
+1,124,jynx,-,-,gelo,psiquico,35,3,6,2,5,10,-,61,6,16,9,7
+1,125,electabuzz,-,-,eletrico,-,35,5,5,3,5,11,-,64,5,16,10,8
+1,126,magmar,-,-,fogo,-,35,5,5,3,5,10,-,63,5,15,10,8
+1,127,pinsir,-,-,inseto,-,35,7,3,5,4,9,-,63,7,16,10,9
+6,127,pinsir,mega pinsir,-,inseto,voador,35,8,4,6,5,11,-,69,8,19,12,11
+1,128,tauros,-,-,normal,-,40,5,2,5,4,11,-,67,5,16,7,9
+9,128,tauros,combat breed,-,lutador,-,40,6,2,6,4,10,-,68,6,16,8,10
+9,128,tauros,blaze breed,-,lutador,fogo,40,6,2,6,4,10,-,68,6,16,8,10
+9,128,tauros,aqua breed,-,lutador,agua,40,6,2,6,4,10,-,68,6,16,8,10
+1,129,magikarp,-,-,agua,-,10,1,1,3,1,8,-,24,1,9,2,4
+1,130,gyarados,-,-,agua,voador,50,7,3,4,5,9,-,78,7,16,10,9
+6,130,gyarados,mega gyarados,-,agua,sombrio,50,8,4,6,7,9,-,84,8,17,12,13
+1,131,lapras,-,-,agua,gelo,65,5,5,4,5,6,-,90,5,11,10,9
+1,132,ditto,-,-,normal,-,25,3,3,3,3,5,-,42,3,8,6,6
+1,133,eevee,-,-,normal,-,30,3,3,3,4,6,-,49,3,9,6,7
+7,133,eevee,partner eevee,-,normal,-,35,4,4,4,5,8,-,60,4,12,8,9
+1,134,vaporeon,-,-,agua,-,65,4,6,3,5,7,-,90,6,13,10,8
+1,135,jolteon,-,-,eletrico,-,35,4,6,3,5,13,-,66,6,19,10,8
+1,136,flareon,-,-,fogo,-,35,7,5,3,6,7,-,63,7,14,12,9
+1,137,porygon,-,-,normal,-,35,3,5,4,4,4,-,55,5,9,8,8
+1,138,omanyte,-,-,pedra,agua,20,2,5,5,3,4,-,39,5,9,7,8
+1,139,omastar,-,-,pedra,agua,35,3,6,7,4,6,-,61,6,12,9,11
+1,140,kabuto,-,-,pedra,agua,15,4,3,5,3,6,-,36,4,10,7,8
+1,141,kabutops,-,-,pedra,agua,30,6,4,6,4,8,-,58,6,14,10,10
+1,142,aerodactyl,-,-,pedra,voador,40,6,3,4,4,13,-,70,6,19,9,8
+6,142,aerodactyl,mega aerodactyl,-,pedra,voador,40,7,4,5,5,15,-,76,7,22,11,10
+1,143,snorlax,-,-,normal,-,80,6,4,4,6,3,-,103,6,9,10,10
+1,144,articuno,-,-,gelo,voador,45,5,5,5,7,9,lend,76,5,14,10,12
+8,144,articuno,galarian articuno,-,psiquico,voador,45,5,7,5,5,10,lend,77,7,17,12,10
+1,145,zapdos,-,-,eletrico,voador,45,5,7,5,5,10,lend,77,7,17,12,10
+8,145,zapdos,galarian zapdos,-,lutador,voador,45,7,5,5,5,10,lend,77,7,17,12,10
+1,146,moltres,-,-,fogo,voador,45,5,7,5,5,9,lend,76,7,16,12,10
+8,146,moltres,galarian moltres,-,sombrio,voador,45,5,5,5,7,9,lend,76,5,14,10,12
+1,147,dratini,-,-,dragao,-,25,4,3,3,3,5,pseudo,43,4,9,7,6
+1,148,dragonair,-,-,dragao,-,35,5,4,4,4,7,pseudo,59,5,12,9,8
+1,149,dragonite,-,-,dragao,voador,50,7,5,5,5,8,pseudo,80,7,15,12,10
+1,150,mewtwo,-,-,psiquico,-,55,6,8,5,5,13,lend,92,8,21,14,10
+6,150,mewtwo,mega mewtwo x,-,psiquico,lutador,55,10,8,5,5,13,lend,96,10,23,18,10
+6,150,mewtwo,mega mewtwo y,-,psiquico,-,55,8,10,4,6,14,lend,97,10,24,18,10
+1,151,mew,-,-,psiquico,-,50,5,5,5,5,10,mit,80,5,15,10,10
+2,152,chikorita,-,-,grama,-,25,3,3,4,4,5,-,44,3,8,6,8
+2,153,bayleef,-,-,grama,-,30,4,4,4,4,6,-,52,4,10,8,8
+2,154,meganium,-,-,grama,-,40,5,5,5,5,8,-,68,5,13,10,10
+2,155,cyndaquil,-,-,fogo,-,20,3,3,3,3,7,-,39,3,10,6,6
+2,156,quilava,-,-,fogo,-,30,4,4,3,4,8,-,53,4,12,8,7
+2,157,typhlosion,-,-,fogo,-,40,5,6,4,5,10,-,70,6,16,11,9
+8,157,typhlosion,hisuian typhlosion,-,fogo,fantasma,40,5,6,4,5,10,-,70,6,16,11,9
+2,158,totodile,-,-,agua,-,25,4,3,4,3,5,-,44,4,9,7,7
+2,159,croconaw,-,-,agua,-,35,4,3,4,4,6,-,56,4,10,7,8
+2,160,feraligatr,-,-,agua,-,45,6,4,5,5,8,-,73,6,14,10,10
+2,161,sentret,-,-,normal,-,20,3,2,2,3,2,-,32,3,5,5,5
+2,162,furret,-,-,normal,-,45,4,3,4,3,9,-,68,4,13,7,7
+2,163,hoothoot,-,-,normal,voador,30,2,2,2,3,5,-,44,2,7,4,5
+2,164,noctowl,-,-,normal,voador,50,3,5,3,5,7,-,73,5,12,8,8
+2,165,ledyba,-,-,inseto,voador,20,1,2,2,4,6,-,35,2,8,3,6
+2,166,ledian,-,-,inseto,voador,30,2,3,3,6,9,-,53,3,12,5,9
+2,167,spinarak,-,-,inseto,venenoso,20,3,2,2,2,3,-,32,3,6,5,4
+2,168,ariados,-,-,inseto,venenoso,35,5,3,4,4,4,-,55,5,9,8,8
+2,169,crobat,-,-,venenoso,voador,45,5,4,4,4,13,-,75,5,18,9,8
+2,170,chinchou,-,-,agua,eletrico,40,2,3,2,3,7,-,57,3,10,5,5
+2,171,lanturn,-,-,agua,eletrico,65,3,4,3,4,7,-,86,4,11,7,7
+2,172,pichu,-,-,eletrico,-,10,2,2,1,2,6,-,23,2,8,4,3
+2,173,cleffa,-,-,fada,-,25,2,3,2,3,2,-,37,3,5,5,5
+2,174,igglybuff,-,-,normal,fada,45,2,2,1,1,2,-,53,2,4,4,2
+2,175,togepi,-,-,fada,-,20,1,2,4,4,2,-,33,2,4,3,8
+2,176,togetic,-,-,fada,voador,30,2,4,5,6,4,-,51,4,8,6,11
+2,177,natu,-,-,psiquico,voador,20,3,4,3,3,7,-,40,4,11,7,6
+2,178,xatu,-,-,psiquico,voador,35,4,5,4,4,10,-,62,5,15,9,8
+2,179,mareep,-,-,eletrico,-,30,2,4,2,3,4,-,45,4,8,6,5
+2,180,flaaffy,-,-,eletrico,-,35,3,4,3,3,5,-,53,4,9,7,6
+2,181,ampharos,-,-,eletrico,-,45,4,6,5,5,6,-,71,6,12,10,10
+6,181,ampharos,mega ampharos,-,eletrico,dragao,45,5,9,6,6,5,-,76,9,14,14,12
+2,182,bellossom,-,-,grama,-,40,4,5,5,5,5,-,64,5,10,9,10
+2,183,marill,-,-,agua,fada,35,1,1,3,3,4,-,47,1,5,2,6
+2,184,azumarill,-,-,agua,fada,50,3,3,4,4,5,-,69,3,8,6,8
+2,185,sudowoodo,-,-,pedra,-,35,5,2,6,4,3,-,55,5,8,7,10
+2,186,politoed,-,-,agua,-,45,4,5,4,5,7,-,70,5,12,9,9
+2,187,hoppip,-,-,grama,voador,20,2,2,2,3,5,-,34,2,7,4,5
+2,188,skiploom,-,-,grama,voador,30,3,3,3,4,8,-,51,3,11,6,7
+2,189,jumpluff,-,-,grama,voador,40,3,3,4,5,11,-,66,3,14,6,9
+2,190,aipom,-,-,normal,-,30,4,2,3,3,9,-,51,4,13,6,6
+2,191,sunkern,-,-,grama,-,15,2,2,2,2,3,-,26,2,5,4,4
+2,192,sunflora,-,-,grama,-,40,4,6,3,5,3,-,61,6,9,10,8
+2,193,yanma,-,-,inseto,voador,35,4,4,3,3,10,-,59,4,14,8,6
+2,194,wooper,-,-,agua,terra,30,3,2,3,2,2,-,42,3,5,5,5
+9,194,wooper,paldean wooper,-,venenoso,terra,30,3,2,3,2,2,-,42,3,5,5,5
+2,195,quagsire,-,-,agua,terra,50,5,4,5,4,4,-,72,5,9,9,9
+2,196,espeon,-,-,psiquico,-,35,4,7,3,5,11,-,65,7,18,11,8
+2,197,umbreon,-,-,sombrio,-,50,4,3,6,7,7,-,77,4,11,7,13
+2,198,murkrow,-,-,sombrio,voador,30,5,5,3,3,10,-,56,5,15,10,6
+2,199,slowking,-,-,agua,psiquico,50,4,5,4,6,3,-,72,5,8,9,10
+8,199,slowking,galarian slowking,-,venenoso,psiquico,50,4,6,4,6,3,-,73,6,9,10,10
+2,200,misdreavus,-,-,fantasma,-,30,3,5,3,5,9,-,55,5,14,8,8
+2,201,unown,-,-,psiquico,-,25,4,4,3,3,5,-,44,4,9,8,6
+2,202,wobbuffet,-,-,psiquico,-,95,2,2,3,3,4,-,109,2,6,4,6
+2,203,girafarig,-,-,normal,psiquico,35,4,5,4,4,9,-,61,5,14,9,8
+2,204,pineco,-,-,inseto,-,25,4,2,5,2,2,-,40,4,6,6,7
+2,205,forretress,-,-,inseto,aco,40,5,3,7,3,4,-,62,5,9,8,10
+2,206,dunsparce,-,-,normal,-,50,4,4,4,4,5,-,71,4,9,8,8
+2,207,gligar,-,-,terra,voador,35,4,2,6,4,9,-,60,4,13,6,10
+2,208,steelix,-,-,aco,terra,40,5,3,10,4,3,-,65,5,8,8,14
+6,208,steelix,mega steelix,-,aco,terra,40,7,3,12,5,3,-,70,7,10,10,17
+2,209,snubbull,-,-,fada,-,30,4,2,3,2,3,-,44,4,7,6,5
+2,210,granbull,-,-,fada,-,45,6,3,4,3,5,-,66,6,11,9,7
+2,211,qwilfish,-,-,agua,venenoso,35,5,3,5,3,9,-,60,5,14,8,8
+8,211,qwilfish,hisuian qwilfish,-,sombrio,venenoso,35,5,3,5,3,9,-,60,5,14,8,8
+2,212,scizor,-,-,inseto,aco,35,7,3,5,4,7,-,61,7,14,10,9
+6,212,scizor,mega scizor,-,inseto,aco,35,8,4,7,5,8,-,67,8,16,12,12
+2,213,shuckle,-,-,inseto,pedra,10,1,1,12,12,1,-,37,1,2,2,24
+2,214,heracross,-,-,inseto,lutador,40,7,2,4,5,9,-,67,7,16,9,9
+6,214,heracross,mega heracross,-,inseto,lutador,40,10,2,6,6,8,-,72,10,18,12,12
+2,215,sneasel,-,-,sombrio,gelo,30,5,2,3,4,12,-,56,5,17,7,7
+8,215,sneasel,hisuian sneasel,-,lutador,venenoso,30,5,2,3,4,12,-,56,5,17,7,7
+2,216,teddiursa,-,-,normal,-,30,4,3,3,3,4,-,47,4,8,7,6
+2,217,ursaring,-,-,normal,-,45,7,4,4,4,6,-,70,7,13,11,8
+2,218,slugma,-,-,fogo,-,20,2,4,2,2,2,-,32,4,6,6,4
+2,219,magcargo,-,-,fogo,pedra,30,3,5,6,4,3,-,51,5,8,8,10
+2,220,swinub,-,-,gelo,terra,25,3,2,2,2,5,-,39,3,8,5,4
+2,221,piloswine,-,-,gelo,terra,50,5,3,4,3,5,-,70,5,10,8,7
+2,222,corsola,-,-,agua,pedra,35,3,4,5,5,4,-,56,4,8,7,10
+8,222,corsola,galarian corsola,-,fantasma,-,30,3,4,5,5,3,-,50,4,7,7,10
+2,223,remoraid,-,-,agua,-,20,4,4,2,2,7,-,39,4,11,8,4
+2,224,octillery,-,-,agua,-,40,6,6,4,4,5,-,65,6,11,12,8
+2,225,delibird,-,-,gelo,voador,25,3,4,3,3,8,-,46,4,12,7,6
+2,226,mantine,-,-,agua,voador,45,2,4,4,7,7,-,69,4,11,6,11
+2,227,skarmory,-,-,aco,voador,35,4,2,7,4,7,-,59,4,11,6,11
+2,228,houndour,-,-,sombrio,fogo,25,3,4,2,3,7,-,44,4,11,7,5
+2,229,houndoom,-,-,sombrio,fogo,40,5,6,3,4,10,-,68,6,16,11,7
+6,229,houndoom,mega houndoom,-,sombrio,fogo,40,5,7,5,5,12,-,74,7,19,12,10
+2,230,kingdra,-,-,agua,dragao,40,5,5,5,5,9,-,69,5,14,10,10
+2,231,phanpy,-,-,terra,-,45,3,2,3,2,4,-,59,3,7,5,5
+2,232,donphan,-,-,terra,-,45,6,3,6,3,5,-,68,6,11,9,9
+2,233,porygon2,-,-,normal,-,45,4,6,5,5,6,-,71,6,12,10,10
+2,234,stantler,-,-,normal,-,40,5,5,4,4,9,-,67,5,14,10,8
+2,235,smeargle,-,-,normal,-,30,1,1,2,3,8,-,45,1,9,2,5
+2,236,tyrogue,-,-,lutador,-,20,2,2,2,2,4,-,32,2,6,4,4
+2,237,hitmontop,-,-,lutador,-,25,5,2,5,6,7,-,50,5,12,7,11
+2,238,smoochum,-,-,gelo,psiquico,25,2,5,1,4,7,-,44,5,12,7,5
+2,239,elekid,-,-,eletrico,-,25,4,4,2,3,10,-,48,4,14,8,5
+2,240,magby,-,-,fogo,-,25,4,4,2,3,9,-,47,4,13,8,5
+2,241,miltank,-,-,normal,-,50,4,2,6,4,10,-,76,4,14,6,10
+2,242,blissey,-,-,normal,-,130,1,4,1,7,6,-,149,4,10,5,8
+2,243,raikou,-,-,eletrico,-,45,5,6,4,5,12,lend,77,6,18,11,9
+2,244,entei,-,-,fogo,-,60,6,5,5,4,10,lend,90,6,16,11,9
+2,245,suicune,-,-,agua,-,50,4,5,6,6,9,lend,80,5,14,9,12
+2,246,larvitar,-,-,pedra,terra,25,4,3,3,3,5,pseudo,43,4,9,7,6
+2,247,pupitar,-,-,pedra,terra,35,5,4,4,4,6,pseudo,58,5,11,9,8
+2,248,tyranitar,-,-,pedra,sombrio,50,7,5,6,5,7,pseudo,80,7,14,12,11
+6,248,tyranitar,mega tyranitar,-,pedra,sombrio,50,9,5,8,6,8,pseudo,86,9,17,14,14
+2,249,lugia,-,-,psiquico,voador,55,5,5,7,8,11,lend,91,5,16,10,15
+2,250,ho-oh,-,-,fogo,voador,55,7,6,5,8,9,lend,90,7,16,13,13
+2,251,celebi,-,-,psiquico,grama,50,5,5,5,5,10,mit,80,5,15,10,10
+3,252,treecko,-,-,grama,-,20,3,4,2,3,7,-,39,4,11,7,5
+3,253,grovyle,-,-,grama,-,25,4,5,3,4,10,-,51,5,15,9,7
+3,254,sceptile,-,-,grama,-,35,5,6,4,5,12,-,67,6,18,11,9
+6,254,sceptile,mega sceptile,-,grama,dragao,35,6,8,4,5,15,-,73,8,23,14,9
+3,255,torchic,-,-,fogo,-,25,3,4,2,3,5,-,42,4,9,7,5
+3,256,combusken,-,-,fogo,lutador,30,5,5,3,3,6,-,52,5,11,10,6
+3,257,blaziken,-,-,fogo,lutador,40,6,6,4,4,8,-,68,6,14,12,8
+6,257,blaziken,mega blaziken,-,fogo,lutador,40,8,7,4,4,10,-,73,8,18,15,8
+3,258,mudkip,-,-,agua,-,25,4,3,3,3,4,-,42,4,8,7,6
+3,259,marshtomp,-,-,agua,terra,35,5,3,4,4,5,-,56,5,10,8,8
+3,260,swampert,-,-,agua,terra,50,6,5,5,5,6,-,77,6,12,11,10
+6,260,swampert,mega swampert,-,agua,terra,50,8,5,6,6,7,-,82,8,15,13,12
+3,261,poochyena,-,-,sombrio,-,20,3,2,2,2,4,-,33,3,7,5,4
+3,262,mightyena,-,-,sombrio,-,35,5,3,4,3,7,-,57,5,12,8,7
+3,263,zigzagoon,-,-,normal,-,20,2,2,3,3,6,-,36,2,8,4,6
+8,263,zigzagoon,galarian zigzagoon,-,sombrio,normal,20,2,2,3,3,6,-,36,2,8,4,6
+3,264,linoone,-,-,normal,-,40,4,3,4,4,10,-,65,4,14,7,8
+8,264,linoone,galarian linoone,-,sombrio,normal,40,4,3,4,4,10,-,65,4,14,7,8
+3,265,wurmple,-,-,inseto,-,25,3,1,2,2,2,-,35,3,5,4,4
+3,266,silcoon,-,-,inseto,-,25,2,2,3,2,2,-,36,2,4,4,5
+3,267,beautifly,-,-,inseto,voador,30,4,5,3,3,7,-,52,5,12,9,6
+3,268,cascoon,-,-,inseto,-,25,2,2,3,2,2,-,36,2,4,4,5
+3,269,dustox,-,-,inseto,venenoso,30,3,3,4,5,7,-,52,3,10,6,9
+3,270,lotad,-,-,agua,grama,20,2,2,2,3,3,-,32,2,5,4,5
+3,271,lombre,-,-,agua,grama,30,3,3,3,4,5,-,48,3,8,6,7
+3,272,ludicolo,-,-,agua,grama,40,4,5,4,5,7,-,65,5,12,9,9
+3,273,seedot,-,-,grama,-,20,2,2,3,2,3,-,32,2,5,4,5
+3,274,nuzleaf,-,-,grama,sombrio,35,4,3,2,2,6,-,52,4,10,7,4
+3,275,shiftry,-,-,grama,sombrio,45,5,5,3,3,8,-,69,5,13,10,6
+3,276,taillow,-,-,normal,voador,20,3,2,2,2,9,-,38,3,12,5,4
+3,277,swellow,-,-,normal,voador,30,5,4,3,3,13,-,58,5,18,9,6
+3,278,wingull,-,-,agua,voador,20,2,3,2,2,9,-,38,3,12,5,4
+3,279,pelipper,-,-,agua,voador,30,3,5,5,4,7,-,54,5,12,8,9
+3,280,ralts,-,-,psiquico,fada,15,2,3,2,2,4,-,28,3,7,5,4
+3,281,kirlia,-,-,psiquico,fada,20,2,4,2,3,5,-,36,4,9,6,5
+3,282,gardevoir,-,-,psiquico,fada,35,4,7,4,6,8,-,64,7,15,11,10
+6,282,gardevoir,mega gardevoir,-,psiquico,fada,35,5,9,4,7,10,-,70,9,19,14,11
+3,283,surskit,-,-,inseto,agua,20,2,3,2,3,7,-,37,3,10,5,5
+3,284,masquerain,-,-,inseto,voador,35,3,5,4,5,8,-,60,5,13,8,9
+3,285,shroomish,-,-,grama,-,30,2,2,3,3,4,-,44,2,6,4,6
+3,286,breloom,-,-,grama,lutador,30,7,3,4,3,7,-,54,7,14,10,7
+3,287,slakoth,-,-,normal,-,30,3,2,3,2,3,-,43,3,6,5,5
+3,288,vigoroth,-,-,normal,-,40,4,3,4,3,9,-,63,4,13,7,7
+3,289,slaking,-,-,normal,-,75,8,5,5,4,10,-,107,8,18,13,9
+3,290,nincada,-,-,inseto,terra,20,3,2,5,2,4,-,36,3,7,5,7
+3,291,ninjask,-,-,inseto,voador,35,5,3,3,3,16,-,65,5,21,8,6
+3,292,shedinja,-,-,inseto,fantasma,5,5,2,3,2,4,-,21,5,9,7,5
+3,293,whismur,-,-,normal,-,35,3,3,2,2,3,-,48,3,6,6,4
+3,294,loudred,-,-,normal,-,45,4,4,3,3,5,-,64,4,9,8,6
+3,295,exploud,-,-,normal,-,55,5,5,4,4,7,-,80,5,12,10,8
+3,296,makuhita,-,-,lutador,-,40,3,1,2,2,3,-,51,3,6,4,4
+3,297,hariyama,-,-,lutador,-,75,6,2,3,3,5,-,94,6,11,8,6
+3,298,azurill,-,-,normal,fada,25,1,1,2,2,2,-,33,1,3,2,4
+3,299,nosepass,-,-,pedra,-,15,3,3,7,5,3,-,36,3,6,6,12
+3,300,skitty,-,-,normal,-,25,3,2,3,2,5,-,40,3,8,5,5
+3,301,delcatty,-,-,normal,-,35,4,3,4,3,9,-,58,4,13,7,7
+3,302,sableye,-,-,sombrio,fantasma,25,4,4,4,4,5,-,46,4,9,8,8
+6,302,sableye,mega sableye,-,sombrio,fantasma,25,5,5,7,6,2,-,50,5,7,10,13
+3,303,mawile,-,-,aco,fada,25,5,3,5,3,5,-,46,5,10,8,8
+6,303,mawile,mega mawile,-,aco,fada,25,6,3,7,5,5,-,51,6,11,9,12
+3,304,aron,-,-,aco,pedra,25,4,2,5,2,3,-,41,4,7,6,7
+3,305,lairon,-,-,aco,pedra,30,5,3,7,3,4,-,52,5,9,8,10
+3,306,aggron,-,-,aco,pedra,35,6,3,9,3,5,-,61,6,11,9,12
+6,306,aggron,mega aggron,-,aco,-,35,7,3,12,4,5,-,66,7,12,10,16
+3,307,meditite,-,-,lutador,psiquico,15,2,2,3,3,6,-,31,2,8,4,6
+3,308,medicham,-,-,lutador,psiquico,30,3,3,4,4,8,-,52,3,11,6,8
+6,308,medicham,mega medicham,-,lutador,psiquico,30,5,4,5,5,10,-,59,5,15,9,10
+3,309,electrike,-,-,eletrico,-,20,3,4,2,2,7,-,38,4,11,7,4
+3,310,manectric,-,-,eletrico,-,35,4,6,3,3,11,-,62,6,17,10,6
+6,310,manectric,mega manectric,-,eletrico,-,35,4,7,4,4,14,-,68,7,21,11,8
+3,311,plusle,-,-,eletrico,-,30,3,5,2,4,10,-,54,5,15,8,6
+3,312,minun,-,-,eletrico,-,30,2,4,3,5,10,-,54,4,14,6,8
+3,313,volbeat,-,-,inseto,-,35,4,3,4,5,9,-,60,4,13,7,9
+3,314,illumise,-,-,inseto,-,35,3,4,4,5,9,-,60,4,13,7,9
+3,315,roselia,-,-,grama,venenoso,25,3,5,3,4,7,-,47,5,12,8,7
+3,316,gulpin,-,-,venenoso,-,35,3,3,3,3,4,-,51,3,7,6,6
+3,317,swalot,-,-,venenoso,-,50,4,4,5,5,6,-,74,4,10,8,10
+3,318,carvanha,-,-,agua,sombrio,25,5,4,1,1,7,-,43,5,12,9,2
+3,319,sharpedo,-,-,agua,sombrio,35,6,5,2,2,10,-,60,6,16,11,4
+6,319,sharpedo,mega sharpedo,-,agua,sombrio,35,7,6,4,4,11,-,67,7,18,13,8
+3,320,wailmer,-,-,agua,-,65,4,4,2,2,6,-,83,4,10,8,4
+3,321,wailord,-,-,agua,-,85,5,5,3,3,6,-,107,5,11,10,6
+3,322,numel,-,-,fogo,terra,30,3,4,2,3,4,-,46,4,8,7,5
+3,323,camerupt,-,-,fogo,terra,35,5,6,4,4,4,-,58,6,10,11,8
+6,323,camerupt,mega camerupt,-,fogo,terra,35,6,8,5,6,2,-,62,8,10,14,11
+3,324,torkoal,-,-,fogo,-,35,5,5,7,4,2,-,58,5,7,10,11
+3,325,spoink,-,-,psiquico,-,30,2,4,2,4,6,-,48,4,10,6,6
+3,326,grumpig,-,-,psiquico,-,40,3,5,4,6,8,-,66,5,13,8,10
+3,327,spinda,-,-,normal,-,30,3,3,3,3,6,-,48,3,9,6,6
+3,328,trapinch,-,-,terra,-,25,5,3,3,3,1,-,40,5,6,8,6
+3,329,vibrava,-,-,terra,dragao,25,4,3,3,3,7,-,45,4,11,7,6
+3,330,flygon,-,-,terra,dragao,40,5,4,4,4,10,-,67,5,15,9,8
+3,331,cacnea,-,-,grama,-,25,5,5,2,2,4,-,43,5,9,10,4
+3,332,cacturne,-,-,grama,sombrio,35,6,6,3,3,6,-,59,6,12,12,6
+3,333,swablu,-,-,normal,voador,25,2,2,3,4,5,-,41,2,7,4,7
+3,334,altaria,-,-,dragao,voador,40,4,4,5,6,8,-,67,4,12,8,11
+6,334,altaria,mega altaria,-,dragao,fada,40,6,6,6,6,8,-,72,6,14,12,12
+3,335,zangoose,-,-,normal,-,40,6,3,3,3,9,-,64,6,15,9,6
+3,336,seviper,-,-,venenoso,-,40,5,5,3,3,7,-,63,5,12,10,6
+3,337,lunatone,-,-,pedra,psiquico,45,3,5,4,5,7,-,69,5,12,8,9
+3,338,solrock,-,-,pedra,psiquico,45,5,3,5,4,7,-,69,5,12,8,9
+3,339,barboach,-,-,agua,terra,25,3,3,3,3,6,-,43,3,9,6,6
+3,340,whiscash,-,-,agua,terra,55,4,4,4,4,6,-,77,4,10,8,8
+3,341,corphish,-,-,agua,-,25,4,3,4,2,4,-,42,4,8,7,6
+3,342,crawdaunt,-,-,agua,sombrio,35,6,5,5,3,6,-,60,6,12,11,8
+3,343,baltoy,-,-,terra,psiquico,20,2,2,3,4,6,-,37,2,8,4,7
+3,344,claydol,-,-,terra,psiquico,30,4,4,6,6,8,-,58,4,12,8,12
+3,345,lileep,-,-,pedra,grama,35,3,4,4,5,3,-,54,4,7,7,9
+3,346,cradily,-,-,pedra,grama,45,5,5,5,6,5,-,71,5,10,10,11
+3,347,anorith,-,-,pedra,inseto,25,5,2,3,3,8,-,46,5,13,7,6
+3,348,armaldo,-,-,pedra,inseto,40,7,4,5,4,5,-,65,7,12,11,9
+3,349,feebas,-,-,agua,-,10,1,1,1,3,8,-,24,1,9,2,4
+3,350,milotic,-,-,agua,-,50,3,5,4,7,9,-,78,5,14,8,11
+3,351,castform,-,-,normal,-,35,4,4,4,4,7,-,58,4,11,8,8
+3,351,castform,sunny form,-,fogo,-,35,4,4,4,4,7,-,58,4,11,8,8
+3,351,castform,rainy form,-,agua,-,35,4,4,4,4,7,-,58,4,11,8,8
+3,351,castform,snowy form,-,gelo,-,35,4,4,4,4,7,-,58,4,11,8,8
+3,352,kecleon,-,-,normal,-,30,5,3,4,6,4,-,52,5,9,8,10
+3,353,shuppet,-,-,fantasma,-,25,4,4,2,2,5,-,42,4,9,8,4
+3,354,banette,-,-,fantasma,-,35,6,5,4,4,7,-,61,6,13,11,8
+6,354,banette,mega banette,-,fantasma,-,35,9,5,4,5,8,-,66,9,17,14,9
+3,355,duskull,-,-,fantasma,-,10,2,2,5,5,3,-,27,2,5,4,10
+3,356,dusclops,-,-,fantasma,-,20,4,3,7,7,3,-,44,4,7,7,14
+3,357,tropius,-,-,grama,voador,50,4,4,5,5,6,-,74,4,10,8,10
+3,358,chimecho,-,-,psiquico,-,40,3,5,4,5,7,-,64,5,12,8,9
+3,359,absol,-,-,sombrio,-,35,7,4,3,3,8,-,60,7,15,11,6
+6,359,absol,mega absol,-,sombrio,-,35,8,6,3,3,12,-,67,8,20,14,6
+3,360,wynaut,-,-,psiquico,-,50,2,2,3,3,3,-,63,2,5,4,6
+3,361,snorunt,-,-,gelo,-,25,3,3,3,3,5,-,42,3,8,6,6
+3,362,glalie,-,-,gelo,-,40,4,4,4,4,8,-,64,4,12,8,8
+6,362,glalie,mega glalie,-,gelo,-,40,6,6,4,4,10,-,70,6,16,12,8
+3,363,spheal,-,-,gelo,agua,35,2,3,3,3,3,-,49,3,6,5,6
+3,364,sealeo,-,-,gelo,agua,45,3,4,4,4,5,-,65,4,9,7,8
+3,365,walrein,-,-,gelo,agua,55,4,5,5,5,7,-,81,5,12,9,10
+3,366,clamperl,-,-,agua,-,20,4,4,5,3,4,-,40,4,8,8,8
+3,367,huntail,-,-,agua,-,30,6,5,6,4,6,-,57,6,12,11,10
+3,368,gorebyss,-,-,agua,-,30,5,6,6,4,6,-,57,6,12,11,10
+3,369,relicanth,-,-,agua,pedra,50,5,3,7,4,6,-,75,5,11,8,11
+3,370,luvdisc,-,-,agua,-,25,2,2,3,4,10,-,46,2,12,4,7
+3,371,bagon,-,-,dragao,-,25,4,2,3,2,5,pseudo,41,4,9,6,5
+3,372,shelgon,-,-,dragao,-,35,5,3,5,3,5,pseudo,56,5,10,8,8
+3,373,salamence,-,-,dragao,voador,50,7,6,4,4,10,pseudo,81,7,17,13,8
+6,373,salamence,mega salamence,-,dragao,voador,50,8,6,7,5,12,pseudo,88,8,20,14,12
+3,374,beldum,-,-,aco,psiquico,20,3,2,4,3,3,pseudo,35,3,6,5,7
+3,375,metang,-,-,aco,psiquico,30,4,3,5,4,5,pseudo,51,4,9,7,9
+3,376,metagross,-,-,aco,psiquico,40,7,5,7,5,7,pseudo,71,7,14,12,12
+6,376,metagross,mega metagross,-,aco,psiquico,40,8,6,8,6,11,pseudo,79,8,19,14,14
+3,377,regipedra,-,-,pedra,-,40,5,3,10,5,5,lend,68,5,10,8,15
+3,378,reggelo,-,-,gelo,-,40,3,5,5,10,5,lend,68,5,10,8,15
+3,379,regiaço,-,-,aco,-,40,4,4,8,8,5,lend,69,4,9,8,16
+3,380,latias,-,-,dragao,psiquico,40,4,6,5,7,11,lend,73,6,17,10,12
+6,380,latias,mega latias,-,dragao,psiquico,40,5,7,6,8,11,lend,77,7,18,12,14
+3,381,latios,-,-,dragao,psiquico,40,5,7,4,6,11,lend,73,7,18,12,10
+6,381,latios,mega latios,-,dragao,psiquico,40,7,8,5,6,11,lend,77,8,19,15,11
+3,382,kyogre,-,-,agua,-,50,5,8,5,7,9,lend,84,8,17,13,12
+6,382,kyogre,primal kyogre,-,agua,-,50,8,9,5,8,9,lend,89,9,18,17,13
+3,383,groudon,-,-,terra,-,50,8,5,7,5,9,lend,84,8,17,13,12
+6,383,groudon,primal groudon,-,terra,fogo,50,9,8,8,5,9,lend,89,9,18,17,13
+3,384,rayquaza,-,-,dragao,voador,55,8,8,5,5,10,lend,91,8,18,16,10
+6,384,rayquaza,mega rayquaza,-,dragao,voador,55,9,9,5,5,12,lend,95,9,21,18,10
+3,385,jirachi,-,-,aco,psiquico,50,5,5,5,5,10,mit,80,5,15,10,10
+3,386,deoxys,normal forme,-,psiquico,-,25,8,8,3,3,15,lend,62,8,23,16,6
+3,386,deoxys,attack forme,-,psiquico,-,25,9,9,1,1,15,lend,60,9,24,18,2
+3,386,deoxys,defense forme,-,psiquico,-,25,4,4,8,8,9,lend,58,4,13,8,16
+3,386,deoxys,speed forme,-,psiquico,-,25,5,5,5,5,18,lend,63,5,23,10,10
+4,387,turtwig,-,-,grama,-,30,4,3,4,3,4,-,48,4,8,7,7
+4,388,grotle,-,-,grama,-,40,5,3,5,4,4,-,61,5,9,8,9
+4,389,torterra,-,-,grama,terra,50,6,4,6,5,6,-,77,6,12,10,11
+4,390,chimchar,-,-,fogo,-,25,3,3,3,3,7,-,44,3,10,6,6
+4,391,monferno,-,-,fogo,lutador,35,4,4,3,3,9,-,58,4,13,8,6
+4,392,infernape,-,-,fogo,lutador,40,6,6,4,4,11,-,71,6,17,12,8
+4,393,piplup,-,-,agua,-,30,3,4,3,3,4,-,47,4,8,7,6
+4,394,prinplup,-,-,agua,-,35,4,5,4,4,5,-,57,5,10,9,8
+4,395,empoleon,-,-,agua,aco,45,5,6,5,6,6,-,73,6,12,11,11
+4,396,starly,-,-,normal,voador,20,3,2,2,2,6,-,35,3,9,5,4
+4,397,staravia,-,-,normal,voador,30,4,2,3,2,8,-,49,4,12,6,5
+4,398,staraptor,-,-,normal,voador,45,6,3,4,3,10,-,71,6,16,9,7
+4,399,bidoof,-,-,normal,-,30,3,2,2,2,4,-,43,3,7,5,4
+4,400,bibarel,-,-,normal,agua,40,5,3,3,3,8,-,62,5,13,8,6
+4,401,kricketot,-,-,inseto,-,20,2,2,3,3,3,-,33,2,5,4,6
+4,402,kricketune,-,-,inseto,-,40,5,3,3,3,7,-,61,5,12,8,6
+4,403,shinx,-,-,eletrico,-,25,4,2,2,2,5,-,40,4,9,6,4
+4,404,luxio,-,-,eletrico,-,30,5,3,3,3,6,-,50,5,11,8,6
+4,405,luxray,-,-,eletrico,-,40,6,5,4,4,7,-,66,6,13,11,8
+4,406,budew,-,-,grama,venenoso,20,2,3,2,4,6,-,37,3,9,5,6
+4,407,roserade,-,-,grama,venenoso,30,4,7,4,6,9,-,60,7,16,11,10
+4,408,cranidos,-,-,pedra,-,35,7,2,2,2,6,-,54,7,13,9,4
+4,409,rampardos,-,-,pedra,-,50,9,4,3,3,6,-,75,9,15,13,6
+4,410,shieldon,-,-,pedra,aco,15,3,3,6,5,3,-,35,3,6,6,11
+4,411,bastiodon,-,-,pedra,aco,30,3,3,9,7,3,-,55,3,6,6,16
+4,412,burmy,plant cloak,-,inseto,-,20,2,2,3,3,4,-,34,2,6,4,6
+4,412,burmy,sandy cloak,-,inseto,-,20,2,2,3,3,4,-,34,2,6,4,6
+4,412,burmy,trash cloak,-,inseto,-,20,2,2,3,3,4,-,34,2,6,4,6
+4,413,wormadam,plant cloak,-,inseto,grama,30,3,4,5,6,4,-,52,4,8,7,11
+4,413,wormadam,sandy cloak,-,inseto,terra,30,4,3,6,5,4,-,52,4,8,7,11
+4,413,wormadam,trash cloak,-,inseto,aco,30,4,4,5,5,4,-,52,4,8,8,10
+4,414,mothim,-,-,inseto,voador,35,5,5,3,3,7,-,58,5,12,10,6
+4,415,combee,-,-,inseto,voador,15,2,2,3,3,7,-,32,2,9,4,6
+4,416,vespiquen,-,-,inseto,voador,35,4,4,6,6,4,-,59,4,8,8,12
+4,417,pachirisu,-,-,eletrico,-,30,3,3,4,5,10,-,55,3,13,6,9
+4,418,buizel,-,-,agua,-,30,4,3,2,2,9,-,50,4,13,7,4
+4,419,floatzel,-,-,agua,-,45,6,5,3,3,12,-,74,6,18,11,6
+4,420,cherubi,-,-,grama,-,25,2,4,3,3,4,-,41,4,8,6,6
+4,421,cherrim,-,-,grama,-,35,3,5,4,4,9,-,60,5,14,8,8
+4,422,shellos,-,-,agua,-,40,3,3,3,4,4,-,57,3,7,6,7
+4,423,gastrodon,-,-,agua,terra,60,5,5,4,5,4,-,83,5,9,10,9
+4,424,ambipom,-,-,normal,-,40,5,3,4,4,12,-,68,5,17,8,8
+4,425,drifloon,-,-,fantasma,voador,45,3,3,2,3,7,-,63,3,10,6,5
+4,426,drifblim,-,-,fantasma,voador,75,4,5,3,3,8,-,98,5,13,9,6
+4,427,buneary,-,-,normal,-,30,4,3,3,3,9,-,52,4,13,7,6
+4,428,lopunny,-,-,normal,-,35,4,3,5,5,11,-,63,4,15,7,10
+6,428,lopunny,mega lopunny,-,normal,lutador,35,7,3,5,5,14,-,69,7,21,10,10
+4,429,mismagius,-,-,fantasma,-,30,3,6,3,6,11,-,59,6,17,9,9
+4,430,honchkrow,-,-,sombrio,voador,50,7,6,3,3,8,-,77,7,15,13,6
+4,431,glameow,-,-,normal,-,25,3,3,3,2,9,-,45,3,12,6,5
+4,432,purugly,-,-,normal,-,40,5,4,4,3,12,-,68,5,17,9,7
+4,433,chingling,-,-,psiquico,-,25,2,4,3,3,5,-,42,4,9,6,6
+4,434,stunky,-,-,venenoso,sombrio,35,4,3,3,3,8,-,56,4,12,7,6
+4,435,skuntank,-,-,venenoso,sombrio,55,5,4,4,4,9,-,81,5,14,9,8
+4,436,bronzor,-,-,aco,psiquico,30,2,2,5,5,3,-,47,2,5,4,10
+4,437,bronzong,-,-,aco,psiquico,35,5,4,6,6,4,-,60,5,9,9,12
+4,438,bonsly,-,-,pedra,-,25,4,1,5,3,1,-,39,4,5,5,8
+4,439,mime jr.,-,-,psiquico,fada,10,2,4,3,5,6,-,30,4,10,6,8
+4,440,happiny,-,-,normal,-,50,1,1,1,4,3,-,60,1,4,2,5
+4,441,chatot,-,-,normal,voador,40,4,5,3,3,10,-,65,5,15,9,6
+4,442,spiritomb,-,-,fantasma,sombrio,25,5,5,6,6,4,-,51,5,9,10,12
+4,443,gible,-,-,dragao,terra,30,4,2,3,3,5,pseudo,47,4,9,6,6
+4,444,gabite,-,-,dragao,terra,35,5,3,4,3,9,pseudo,59,5,14,8,7
+4,445,garchomp,-,-,dragao,terra,55,7,4,5,5,11,pseudo,87,7,18,11,10
+6,445,garchomp,mega garchomp,-,dragao,terra,55,9,6,6,5,10,pseudo,91,9,19,15,11
+4,446,munchlax,-,-,normal,-,70,5,2,2,5,1,-,85,5,6,7,7
+4,447,riolu,-,-,lutador,-,20,4,2,2,2,6,-,36,4,10,6,4
+4,448,lucario,-,-,lutador,aco,35,6,6,4,4,9,-,64,6,15,12,8
+6,448,lucario,mega lucario,-,lutador,aco,35,8,7,5,4,12,-,71,8,20,15,9
+4,449,hippopotas,-,-,terra,-,35,4,2,4,3,4,-,52,4,8,6,7
+4,450,hippowdon,-,-,terra,-,55,6,4,6,4,5,-,80,6,11,10,10
+4,451,skorupi,-,-,venenoso,inseto,20,3,2,5,3,7,-,40,3,10,5,8
+4,452,drapion,-,-,venenoso,sombrio,35,5,3,6,4,10,-,63,5,15,8,10
+4,453,croagunk,-,-,venenoso,lutador,25,4,4,2,2,5,-,42,4,9,8,4
+4,454,toxicroak,-,-,venenoso,lutador,45,6,5,4,4,9,-,73,6,15,11,8
+4,455,carnivine,-,-,grama,-,40,5,5,4,4,5,-,63,5,10,10,8
+4,456,finneon,-,-,agua,-,25,3,3,3,4,7,-,45,3,10,6,7
+4,457,lumineon,-,-,agua,-,35,4,4,4,5,10,-,62,4,14,8,9
+4,458,mantyke,-,-,agua,voador,25,1,3,3,6,5,-,43,3,8,4,9
+4,459,snover,-,-,grama,gelo,30,4,4,3,3,4,-,48,4,8,8,6
+4,460,abomasnow,-,-,grama,gelo,45,5,5,4,5,6,-,70,5,11,10,9
+6,460,abomasnow,mega abomasnow,-,grama,gelo,45,7,7,6,6,3,-,74,7,10,14,12
+4,461,weavile,-,-,sombrio,gelo,35,6,3,4,5,13,-,66,6,19,9,9
+4,462,magnezone,-,-,eletrico,aco,35,4,7,6,5,6,-,63,7,13,11,11
+4,463,lickilicky,-,-,normal,-,55,5,4,5,5,5,-,79,5,10,9,10
+4,464,rhyperior,-,-,terra,pedra,60,7,3,7,3,4,-,84,7,11,10,10
+4,465,tangrowth,-,-,grama,-,50,5,6,7,3,5,-,76,6,11,11,10
+4,466,electivire,-,-,eletrico,-,40,7,5,4,5,10,-,71,7,17,12,9
+4,467,magmortar,-,-,fogo,-,40,5,7,4,5,9,-,70,7,16,12,9
+4,468,togekiss,-,-,fada,voador,45,3,6,5,6,8,-,73,6,14,9,11
+4,469,yanmega,-,-,inseto,voador,45,4,6,5,3,10,-,73,6,16,10,8
+4,470,leafeon,-,-,grama,-,35,6,3,7,4,10,-,65,6,16,9,11
+4,471,glaceon,-,-,gelo,-,35,3,7,6,5,7,-,63,7,14,10,11
+4,472,gliscor,-,-,terra,voador,40,5,3,7,4,10,-,69,5,15,8,11
+4,473,mamoswine,-,-,gelo,terra,55,7,4,4,3,8,-,81,7,15,11,7
+4,474,porygon-z,-,-,normal,-,45,4,7,4,4,9,-,73,7,16,11,8
+4,475,gallade,-,-,psiquico,lutador,35,7,4,4,6,8,-,64,7,15,11,10
+6,475,gallade,mega gallade,-,psiquico,lutador,35,9,4,5,6,11,-,70,9,20,13,11
+4,476,probopass,-,-,pedra,aco,30,3,4,8,8,4,-,57,4,8,7,16
+4,477,dusknoir,-,-,fantasma,-,25,5,4,7,7,5,-,53,5,10,9,14
+4,478,froslass,-,-,gelo,fantasma,35,4,4,4,4,11,-,62,4,15,8,8
+4,479,rotom,-,-,eletrico,fantasma,25,3,5,4,4,10,-,51,5,15,8,8
+4,479,rotom,heat rotom,-,eletrico,fogo,25,4,6,6,6,9,-,56,6,15,10,12
+4,479,rotom,wash rotom,-,eletrico,agua,25,4,6,6,6,9,-,56,6,15,10,12
+4,479,rotom,frost rotom,-,eletrico,gelo,25,4,6,6,6,9,-,56,6,15,10,12
+4,479,rotom,fan rotom,-,eletrico,voador,25,4,6,6,6,9,-,56,6,15,10,12
+4,479,rotom,mow rotom,-,eletrico,grama,25,4,6,6,6,9,-,56,6,15,10,12
+4,480,uxie,-,-,psiquico,-,40,4,4,7,7,10,lend,72,4,14,8,14
+4,481,mesprit,-,-,psiquico,-,40,6,6,6,6,8,lend,72,6,14,12,12
+4,482,azelf,-,-,psiquico,-,40,7,7,4,4,12,lend,74,7,19,14,8
+4,483,dialga,-,-,aco,dragao,50,6,8,6,5,9,lend,84,8,17,14,11
+8,483,dialga,origin form,-,aco,dragao,50,5,8,6,6,9,lend,84,8,17,13,12
+4,484,palkia,-,-,agua,dragao,45,6,8,5,6,10,lend,80,8,18,14,11
+8,484,palkia,origin form,-,agua,dragao,45,5,8,5,6,12,lend,81,8,20,13,11
+4,485,heatran,-,-,fogo,aco,50,5,7,6,6,8,lend,82,7,15,12,12
+4,486,regigigas,-,-,normal,-,55,8,4,6,6,10,lend,89,8,18,12,12
+4,487,giratina,altered forme,-,fantasma,dragao,75,5,5,6,6,9,lend,106,5,14,10,12
+4,487,giratina,origin form,-,fantasma,dragao,75,6,6,5,5,9,lend,106,6,15,12,10
+4,488,cresselia,-,-,psiquico,-,60,4,4,6,6,9,lend,89,4,13,8,12
+4,489,phione,-,-,agua,-,40,4,4,4,4,8,mit,64,4,12,8,8
+4,490,manaphy,-,-,agua,-,50,5,5,5,5,10,mit,80,5,15,10,10
+4,491,darkrai,-,-,sombrio,-,35,5,7,5,5,13,mit,70,7,20,12,10
+4,492,shaymin,land form,-,grama,-,50,5,5,5,5,10,mit,80,5,15,10,10
+4,492,shaymin,sky form,-,grama,voador,50,6,6,4,4,13,mit,83,6,19,12,8
+4,493,arceus,-,-,normal,-,60,6,6,6,6,12,mit,96,6,18,12,12
+5,494,victini,-,-,psiquico,fogo,50,5,5,5,5,10,mit,80,5,15,10,10
+5,495,snivy,-,-,grama,-,25,3,3,3,3,7,-,44,3,10,6,6
+5,496,servine,-,-,grama,-,30,3,3,4,4,9,-,53,3,12,6,8
+5,497,serperior,-,-,grama,-,40,4,4,5,5,12,-,70,4,16,8,10
+5,498,tepig,-,-,fogo,-,35,4,3,3,3,5,-,53,4,9,7,6
+5,499,pignite,-,-,fogo,lutador,45,5,4,3,3,6,-,66,5,11,9,6
+5,500,emboar,-,-,fogo,lutador,55,7,5,4,4,7,-,82,7,14,12,8
+5,501,oshawott,-,-,agua,-,30,3,4,3,3,5,-,48,4,9,7,6
+5,502,dewott,-,-,agua,-,40,4,5,3,3,6,-,61,5,11,9,6
+5,503,samurott,-,-,agua,-,50,5,6,5,4,7,-,77,6,13,11,9
+8,503,samurott,hisuian samurott,-,agua,sombrio,45,6,5,4,4,9,-,73,6,15,11,8
+5,504,patrat,-,-,normal,-,25,3,2,2,2,5,-,39,3,8,5,4
+5,505,watchog,-,-,normal,-,30,5,3,4,4,8,-,54,5,13,8,8
+5,506,lillipup,-,-,normal,-,25,3,2,3,3,6,-,42,3,9,5,6
+5,507,herdier,-,-,normal,-,35,4,2,4,4,6,-,55,4,10,6,8
+5,508,stoutland,-,-,normal,-,45,6,3,5,5,8,-,72,6,14,9,10
+5,509,purrloin,-,-,sombrio,-,25,3,3,2,2,7,-,42,3,10,6,4
+5,510,liepard,-,-,sombrio,-,35,5,5,3,3,11,-,62,5,16,10,6
+5,511,pansage,-,-,grama,-,25,3,3,3,3,7,-,44,3,10,6,6
+5,512,simisage,-,-,grama,-,40,5,5,4,4,11,-,69,5,16,10,8
+5,513,pansear,-,-,fogo,-,25,3,3,3,3,7,-,44,3,10,6,6
+5,514,simisear,-,-,fogo,-,40,5,5,4,4,11,-,69,5,16,10,8
+5,515,panpour,-,-,agua,-,25,3,3,3,3,7,-,44,3,10,6,6
+5,516,simipour,-,-,agua,-,40,5,5,4,4,11,-,69,5,16,10,8
+5,517,munna,-,-,psiquico,-,40,2,4,3,3,3,-,55,4,7,6,6
+5,518,musharna,-,-,psiquico,-,60,3,6,5,5,3,-,82,6,9,9,10
+5,519,pidove,-,-,normal,voador,25,3,2,3,2,5,-,40,3,8,5,5
+5,520,tranquill,-,-,normal,voador,35,4,3,4,3,7,-,56,4,11,7,7
+5,521,unfezant,-,-,normal,voador,40,6,4,4,3,10,-,67,6,16,10,7
+5,522,blitzle,-,-,eletrico,-,25,3,3,2,2,8,-,43,3,11,6,4
+5,523,zebstrika,-,-,eletrico,-,40,5,4,4,4,12,-,69,5,17,9,8
+5,524,roggenrola,-,-,pedra,-,30,4,2,5,2,2,-,45,4,6,6,7
+5,525,boldore,-,-,pedra,-,35,6,3,6,2,2,-,54,6,8,9,8
+5,526,gigalith,-,-,pedra,-,45,7,3,7,4,3,-,69,7,10,10,11
+5,527,woobat,-,-,psiquico,voador,35,3,3,3,3,8,-,55,3,11,6,6
+5,528,swoobat,-,-,psiquico,voador,35,3,4,3,3,12,-,60,4,16,7,6
+5,529,drilbur,-,-,terra,-,30,5,2,2,3,7,-,49,5,12,7,5
+5,530,excadrill,-,-,terra,aco,55,7,3,3,4,9,-,81,7,16,10,7
+5,531,audino,-,-,normal,-,55,3,3,5,5,5,-,76,3,8,6,10
+6,531,audino,mega audino,-,normal,fada,55,3,4,7,7,5,-,81,4,9,7,14
+5,532,timburr,-,-,lutador,-,40,4,2,3,2,4,-,55,4,8,6,5
+5,533,gurdurr,-,-,lutador,-,45,6,2,5,3,4,-,65,6,10,8,8
+5,534,conkeldurr,-,-,lutador,-,55,7,3,5,4,5,-,79,7,12,10,9
+5,535,tympole,-,-,agua,-,25,3,3,2,2,7,-,42,3,10,6,4
+5,536,palpitoad,-,-,agua,terra,40,4,4,3,3,7,-,61,4,11,8,6
+5,537,seismitoad,-,-,agua,terra,55,5,5,4,4,8,-,81,5,13,10,8
+5,538,throh,-,-,lutador,-,60,5,2,5,5,5,-,82,5,10,7,10
+5,539,sawk,-,-,lutador,-,40,7,2,4,4,9,-,66,7,16,9,8
+5,540,sewaddle,-,-,inseto,grama,25,3,2,4,3,5,-,42,3,8,5,7
+5,541,swadloon,-,-,inseto,grama,30,4,3,5,4,5,-,51,4,9,7,9
+5,542,leavanny,-,-,inseto,grama,40,6,4,4,4,10,-,68,6,16,10,8
+5,543,venipede,-,-,inseto,venenoso,15,3,2,3,2,6,-,31,3,9,5,5
+5,544,whirlipede,-,-,inseto,venenoso,20,3,2,5,4,5,-,39,3,8,5,9
+5,545,scolipede,-,-,inseto,venenoso,30,5,3,5,4,12,-,59,5,17,8,9
+5,546,cottonee,-,-,grama,fada,20,2,2,3,3,7,-,37,2,9,4,6
+5,547,whimsicott,-,-,grama,fada,30,4,4,5,4,12,-,59,4,16,8,9
+5,548,petilil,-,-,grama,-,25,2,4,3,3,3,-,40,4,7,6,6
+5,549,lilligant,-,-,grama,-,35,3,6,4,4,9,-,61,6,15,9,8
+8,549,lilligant,hisuian lilligant,-,grama,lutador,35,6,3,4,4,11,-,63,6,17,9,8
+5,550,basculin,red-striped form,-,agua,-,35,5,4,4,3,10,-,61,5,15,9,7
+5,550,basculin,blue-striped form,-,agua,-,35,5,4,4,3,10,-,61,5,15,9,7
+8,550,basculin,white-striped form,-,agua,-,35,5,4,4,3,10,-,61,5,15,9,7
+5,551,sandile,-,-,terra,sombrio,25,4,2,2,2,7,-,42,4,11,6,4
+5,552,krokorok,-,-,terra,sombrio,30,5,3,3,3,8,-,52,5,13,8,6
+5,553,krookodile,-,-,terra,sombrio,50,6,4,4,4,10,-,78,6,16,10,8
+5,554,darumaka,-,-,fogo,-,35,5,1,3,3,5,-,52,5,10,6,6
+8,554,darumaka,galarian darumaka,-,gelo,-,35,5,1,3,3,5,-,52,5,10,6,6
+5,555,darmanitan,standard mode,-,fogo,-,55,7,2,3,3,10,-,80,7,17,9,6
+5,555,darmanitan,zen mode,-,fogo,psiquico,55,2,7,6,6,6,-,82,7,13,9,12
+8,555,darmanitan,galarian standard mode,-,gelo,-,55,7,2,3,3,10,-,80,7,17,9,6
+8,555,darmanitan,galarian zen mode,-,gelo,fogo,55,8,2,3,3,14,-,85,8,22,10,6
+5,556,maractus,-,-,grama,-,40,5,6,4,4,6,-,65,6,12,11,8
+5,557,dwebble,-,-,inseto,pedra,25,4,2,5,2,6,-,44,4,10,6,7
+5,558,crustle,-,-,inseto,pedra,35,6,4,7,4,5,-,61,6,11,10,11
+5,559,scraggy,-,-,sombrio,lutador,25,4,2,4,4,5,-,44,4,9,6,8
+5,560,scrafty,-,-,sombrio,lutador,35,5,3,6,6,6,-,61,5,11,8,12
+5,561,sigilyph,-,-,psiquico,voador,40,3,6,4,4,10,-,67,6,16,9,8
+5,562,yamask,-,-,fantasma,-,20,2,3,5,4,3,-,37,3,6,5,9
+8,562,yamask,galarian yamask,-,terra,fantasma,20,3,2,5,4,3,-,37,3,6,5,9
+5,563,cofagrigus,-,-,fantasma,-,30,3,5,8,6,3,-,55,5,8,8,14
+5,564,tirtouga,-,-,agua,pedra,30,4,3,6,3,3,-,49,4,7,7,9
+5,565,carracosta,-,-,agua,pedra,40,6,5,7,4,4,-,66,6,10,11,11
+5,566,archen,-,-,pedra,voador,30,6,4,3,3,7,-,53,6,13,10,6
+5,567,archeops,-,-,pedra,voador,40,7,6,4,4,11,-,72,7,18,13,8
+5,568,trubbish,-,-,venenoso,-,25,3,2,4,4,7,-,45,3,10,5,8
+5,569,garbodor,-,-,venenoso,-,40,5,3,5,5,8,-,66,5,13,8,10
+5,570,zorua,-,-,sombrio,-,20,4,4,2,2,7,-,39,4,11,8,4
+8,570,zorua,hisuian zorua,-,normal,fantasma,20,3,5,2,2,7,-,39,5,12,8,4
+5,571,zoroark,-,-,sombrio,-,30,6,6,3,3,11,-,59,6,17,12,6
+8,571,zoroark,hisuian zoroark,-,normal,fantasma,30,5,7,3,3,11,-,59,7,18,12,6
+5,572,minccino,-,-,normal,-,30,3,2,2,2,8,-,47,3,11,5,4
+5,573,cinccino,-,-,normal,-,40,5,4,3,3,12,-,67,5,17,9,6
+5,574,gothita,-,-,psiquico,-,25,2,3,3,4,5,-,42,3,8,5,7
+5,575,gothorita,-,-,psiquico,-,30,3,4,4,5,6,-,52,4,10,7,9
+5,576,gothitelle,-,-,psiquico,-,35,3,5,5,6,7,-,61,5,12,8,11
+5,577,solosis,-,-,psiquico,-,25,2,6,2,3,2,-,40,6,8,8,5
+5,578,duosion,-,-,psiquico,-,35,2,7,3,3,3,-,53,7,10,9,6
+5,579,reuniclus,-,-,psiquico,-,55,4,7,4,5,3,-,78,7,10,11,9
+5,580,ducklett,-,-,agua,voador,35,3,3,3,3,6,-,53,3,9,6,6
+5,581,swanna,-,-,agua,voador,40,5,5,4,4,10,-,68,5,15,10,8
+5,582,vanillite,-,-,gelo,-,20,3,4,3,3,5,-,38,4,9,7,6
+5,583,vanillish,-,-,gelo,-,30,4,4,4,4,6,-,52,4,10,8,8
+5,584,vanilluxe,-,-,gelo,-,40,5,6,5,5,8,-,69,6,14,11,10
+5,585,deerling,-,-,normal,grama,30,3,2,3,3,8,-,49,3,11,5,6
+5,586,sawsbuck,-,-,normal,grama,40,5,3,4,4,10,-,66,5,15,8,8
+5,587,emolga,-,-,eletrico,voador,30,4,4,3,3,11,-,55,4,15,8,6
+5,588,karrablast,-,-,inseto,-,25,4,2,3,3,6,-,43,4,10,6,6
+5,589,escavalier,-,-,inseto,aco,35,7,3,6,6,2,-,59,7,9,10,12
+5,590,foongus,-,-,grama,venenoso,35,3,3,3,3,2,-,49,3,5,6,6
+5,591,amoonguss,-,-,grama,venenoso,60,5,5,4,4,3,-,81,5,8,10,8
+5,592,frillish,-,-,agua,fantasma,30,2,4,3,5,4,-,48,4,8,6,8
+5,593,jellicent,-,-,agua,fantasma,50,3,5,4,6,6,-,74,5,11,8,10
+5,594,alomomola,-,-,agua,-,85,4,2,4,3,7,-,105,4,11,6,7
+5,595,joltik,-,-,inseto,eletrico,25,3,3,3,3,7,-,44,3,10,6,6
+5,596,galvantula,-,-,inseto,eletrico,35,4,5,3,3,11,-,61,5,16,9,6
+5,597,ferroseed,-,-,grama,aco,25,3,2,5,5,1,-,41,3,4,5,10
+5,598,ferrothorn,-,-,grama,aco,40,5,3,7,6,2,-,63,5,7,8,13
+5,599,klink,-,-,aco,-,20,3,3,4,3,3,-,36,3,6,6,7
+5,600,klang,-,-,aco,-,30,4,4,5,5,5,-,53,4,9,8,10
+5,601,klinklang,-,-,aco,-,30,5,4,6,5,9,-,59,5,14,9,11
+5,602,tynamo,-,-,eletrico,-,20,3,3,2,2,6,-,36,3,9,6,4
+5,603,eelektrik,-,-,eletrico,-,35,5,4,4,4,4,-,56,5,9,9,8
+5,604,eelektross,-,-,eletrico,-,45,6,6,4,4,5,-,70,6,11,12,8
+5,605,elgyem,-,-,psiquico,-,30,3,5,3,3,3,-,47,5,8,8,6
+5,606,beheeyem,-,-,psiquico,-,40,4,7,4,5,4,-,64,7,11,11,9
+5,607,litwick,-,-,fantasma,fogo,25,2,4,3,3,2,-,39,4,6,6,6
+5,608,lampent,-,-,fantasma,fogo,30,2,5,3,3,6,-,49,5,11,7,6
+5,609,chandelure,-,-,fantasma,fogo,30,3,8,5,5,8,-,59,8,16,11,10
+5,610,axew,-,-,dragao,-,25,5,2,3,2,6,-,43,5,11,7,5
+5,611,fraxure,-,-,dragao,-,35,6,2,4,3,7,-,57,6,13,8,7
+5,612,haxorus,-,-,dragao,-,40,8,3,5,4,10,-,70,8,18,11,9
+5,613,cubchoo,-,-,gelo,-,30,4,3,2,2,4,-,45,4,8,7,4
+5,614,beartic,-,-,gelo,-,50,7,4,4,4,5,-,74,7,12,11,8
+5,615,cryogonal,-,-,gelo,-,40,3,5,3,7,11,-,69,5,16,8,10
+5,616,shelmet,-,-,inseto,-,25,2,2,5,4,3,-,41,2,5,4,9
+5,617,accelgor,-,-,inseto,-,40,4,5,2,3,15,-,69,5,20,9,5
+5,618,stunfisk,-,-,terra,eletrico,55,4,5,5,5,4,-,78,5,9,9,10
+8,618,stunfisk,galarian stunfisk,-,terra,aco,55,5,4,5,5,4,-,78,5,9,9,10
+5,619,mienfoo,-,-,lutador,-,25,5,3,3,3,7,-,46,5,12,8,6
+5,620,mienshao,-,-,lutador,-,35,7,5,3,3,11,-,64,7,18,12,6
+5,621,druddigon,-,-,dragao,-,40,6,3,5,5,5,-,64,6,11,9,10
+5,622,golett,-,-,terra,fantasma,30,4,2,3,3,4,-,46,4,8,6,6
+5,623,golurk,-,-,terra,fantasma,45,7,3,4,4,6,-,69,7,13,10,8
+5,624,pawniard,-,-,sombrio,aco,25,5,2,4,2,6,-,44,5,11,7,6
+5,625,bisharp,-,-,sombrio,aco,35,7,3,5,4,7,-,61,7,14,10,9
+5,626,bouffalant,-,-,normal,-,50,6,2,5,5,6,-,74,6,12,8,10
+5,627,rufflet,-,-,normal,voador,35,5,2,3,3,6,-,54,5,11,7,6
+5,628,braviary,-,-,normal,voador,50,7,3,4,4,8,-,76,7,15,10,8
+8,628,braviary,hisuian braviary,-,psiquico,voador,55,5,6,4,4,7,-,81,6,13,11,8
+5,629,vullaby,-,-,sombrio,voador,35,3,3,4,4,6,-,55,3,9,6,8
+5,630,mandibuzz,-,-,sombrio,voador,55,4,3,6,5,8,-,81,4,12,7,11
+5,631,heatmor,-,-,fogo,-,45,5,6,4,4,7,-,71,6,13,11,8
+5,632,durant,-,-,inseto,aco,30,6,3,6,3,11,-,59,6,17,9,9
+5,633,deino,-,-,sombrio,dragao,30,4,3,3,3,4,pseudo,47,4,8,7,6
+5,634,zweilous,-,-,sombrio,dragao,40,5,4,4,4,6,pseudo,63,5,11,9,8
+5,635,hydreigon,-,-,sombrio,dragao,50,6,7,5,5,10,pseudo,83,7,17,13,10
+5,636,larvesta,-,-,inseto,fogo,30,5,3,3,3,6,-,50,5,11,8,6
+5,637,volcarona,-,-,inseto,fogo,45,3,7,4,6,10,-,75,7,17,10,10
+5,638,cobalion,-,-,aco,lutador,50,5,5,7,4,11,lend,82,5,16,10,11
+5,639,terrakion,-,-,pedra,lutador,50,7,4,5,5,11,lend,82,7,18,11,10
+5,640,virizion,-,-,grama,lutador,50,5,5,4,7,11,lend,82,5,16,10,11
+5,641,tornadus,incarnate forme,-,voador,-,40,6,7,4,4,12,lend,73,7,19,13,8
+5,641,tornadus,therian forme,-,voador,-,40,5,6,4,5,13,lend,73,6,19,11,9
+5,642,thundurus,incarnate forme,-,eletrico,voador,40,6,7,4,4,12,lend,73,7,19,13,8
+5,642,thundurus,therian forme,-,eletrico,voador,40,6,8,4,4,11,lend,73,8,19,14,8
+5,643,reshiram,-,-,dragao,fogo,50,6,8,5,6,9,lend,84,8,17,14,11
+5,644,zekrom,-,-,dragao,eletrico,50,8,6,6,5,9,lend,84,8,17,14,11
+5,645,landorus,incarnate forme,-,terra,voador,45,7,6,5,4,11,lend,78,7,18,13,9
+5,645,landorus,therian forme,-,terra,voador,45,8,6,5,4,10,lend,78,8,18,14,9
+5,646,kyurem,-,-,dragao,gelo,65,7,7,5,5,10,lend,99,7,17,14,10
+5,646,kyurem,white kyurem,-,dragao,gelo,65,6,9,5,5,10,lend,100,9,19,15,10
+5,646,kyurem,black kyurem,-,dragao,gelo,65,9,6,5,5,10,lend,100,9,19,15,10
+5,647,keldeo,ordinary form,-,agua,lutador,50,4,7,5,5,11,mit,82,7,18,11,10
+5,647,keldeo,resolute form,-,agua,lutador,50,4,7,5,5,11,mit,82,7,18,11,10
+5,648,meloetta,aria forme,-,normal,psiquico,50,4,7,4,7,9,mit,81,7,16,11,11
+5,648,meloetta,pirouette forme,-,normal,lutador,50,7,4,5,4,13,mit,83,7,20,11,9
+5,649,genesect,-,-,inseto,aco,40,6,6,5,5,10,mit,72,6,16,12,10
+6,650,chespin,-,-,grama,-,30,4,3,4,3,4,-,48,4,8,7,7
+6,651,quilladin,-,-,grama,-,35,4,3,5,3,6,-,56,4,10,7,8
+6,652,chesnaught,-,-,grama,lutador,45,6,4,7,4,7,-,73,6,13,10,11
+6,653,fennekin,-,-,fogo,-,20,3,4,2,3,6,-,38,4,10,7,5
+6,654,braixen,-,-,fogo,-,30,3,5,3,4,8,-,53,5,13,8,7
+6,655,delphox,-,-,fogo,psiquico,40,4,6,4,5,11,-,70,6,17,10,9
+6,656,froakie,-,-,agua,-,25,3,4,2,3,8,-,45,4,12,7,5
+6,657,frogadier,-,-,agua,-,30,4,5,3,3,10,-,55,5,15,9,6
+6,658,greninja,-,-,agua,sombrio,40,5,6,4,4,13,-,72,6,19,11,8
+7,658,greninja,ash-greninja,-,agua,sombrio,40,8,8,4,4,14,-,78,8,22,16,8
+6,659,bunnelby,-,-,normal,-,20,2,2,2,2,6,-,34,2,8,4,4
+6,660,diggersby,-,-,normal,terra,45,3,3,4,4,8,-,67,3,11,6,8
+6,661,fletchling,-,-,normal,voador,25,3,2,3,2,7,-,42,3,10,5,5
+6,662,fletchinder,-,-,fogo,voador,35,4,3,3,3,9,-,57,4,13,7,6
+6,663,talonflame,-,-,fogo,voador,40,5,4,4,4,13,-,70,5,18,9,8
+6,664,scatterbug,-,-,inseto,-,20,2,2,2,2,4,-,32,2,6,4,4
+6,665,spewpa,-,-,inseto,-,25,2,2,3,2,3,-,37,2,5,4,5
+6,666,vivillon,-,-,inseto,voador,40,3,5,3,3,9,-,63,5,14,8,6
+6,667,litleo,-,-,fogo,normal,35,3,4,3,3,8,-,56,4,12,7,6
+6,668,pyroar,-,-,fogo,normal,45,4,6,4,4,11,-,74,6,17,10,8
+6,669,flabã©bã©,-,-,fada,-,25,2,4,2,4,5,-,42,4,9,6,6
+6,670,floette,-,-,fada,-,30,3,4,3,5,6,-,51,4,10,7,8
+6,671,florges,-,-,fada,-,40,4,6,4,8,8,-,70,6,14,10,12
+6,672,skiddo,-,-,grama,-,35,4,4,3,3,6,-,55,4,10,8,6
+6,673,gogoat,-,-,grama,-,65,5,5,4,5,7,-,91,5,12,10,9
+6,674,pancham,-,-,lutador,-,35,5,3,4,3,5,-,55,5,10,8,7
+6,675,pangoro,-,-,lutador,sombrio,50,7,4,4,4,6,-,75,7,13,11,8
+6,676,furfrou,-,-,normal,-,40,4,4,3,5,11,-,67,4,15,8,8
+6,677,espurr,-,-,psiquico,-,35,3,4,3,3,7,-,55,4,11,7,6
+6,678,meowstic,male,-,psiquico,-,40,3,5,4,5,11,-,68,5,16,8,9
+6,678,meowstic,female,-,psiquico,-,40,3,5,4,5,11,-,68,5,16,8,9
+6,679,honedge,-,-,aco,fantasma,25,4,2,5,2,3,-,41,4,7,6,7
+6,680,doublade,-,-,aco,fantasma,30,6,3,8,3,4,-,54,6,10,9,11
+6,681,aegislash,shield forme,-,aco,fantasma,30,3,3,7,7,6,-,56,3,9,6,14
+6,681,aegislash,blade forme,-,aco,fantasma,30,7,7,3,3,6,-,56,7,13,14,6
+6,682,spritzee,-,-,fada,-,40,3,4,3,4,3,-,57,4,7,7,7
+6,683,aromatisse,-,-,fada,-,55,4,5,4,5,3,-,76,5,8,9,9
+6,684,swirlix,-,-,fada,-,35,3,3,4,3,5,-,53,3,8,6,7
+6,685,slurpuff,-,-,fada,-,45,4,5,5,4,8,-,71,5,13,9,9
+6,686,inkay,-,-,sombrio,psiquico,30,3,2,3,3,5,-,46,3,8,5,6
+6,687,malamar,-,-,sombrio,psiquico,45,5,4,5,4,8,-,71,5,13,9,9
+6,688,binacle,-,-,pedra,agua,25,3,2,4,3,5,-,42,3,8,5,7
+6,689,barbaracle,-,-,pedra,agua,40,6,3,6,5,7,-,67,6,13,9,11
+6,690,skrelp,-,-,venenoso,agua,25,3,3,3,3,3,-,40,3,6,6,6
+6,691,dragalge,-,-,venenoso,dragao,35,4,5,5,7,5,-,61,5,10,9,12
+6,692,clauncher,-,-,agua,-,25,3,3,4,4,5,-,44,3,8,6,8
+6,693,clawitzer,-,-,agua,-,40,4,6,5,5,6,-,66,6,12,10,10
+6,694,helioptile,-,-,eletrico,normal,25,2,4,2,3,7,-,43,4,11,6,5
+6,695,heliolisk,-,-,eletrico,normal,35,3,6,3,5,11,-,63,6,17,9,8
+6,696,tyrunt,-,-,pedra,dragao,30,5,3,4,3,5,-,50,5,10,8,7
+6,697,tyrantrum,-,-,pedra,dragao,45,7,4,6,3,8,-,73,7,15,11,9
+6,698,amaura,-,-,pedra,gelo,40,3,4,3,4,5,-,59,4,9,7,7
+6,699,aurorus,-,-,pedra,gelo,65,4,5,4,5,6,-,89,5,11,9,9
+6,700,sylveon,-,-,fada,-,50,4,6,4,7,6,-,77,6,12,10,11
+6,701,hawlucha,-,-,lutador,voador,40,5,4,4,4,12,-,69,5,17,9,8
+6,702,dedenne,-,-,eletrico,fada,35,3,5,3,4,11,-,61,5,16,8,7
+6,703,carbink,-,-,pedra,fada,25,3,3,8,8,5,-,52,3,8,6,16
+6,704,goomy,-,-,dragao,-,25,3,3,2,4,4,pseudo,41,3,7,6,6
+6,705,sliggoo,-,-,dragao,-,35,4,5,3,6,6,pseudo,59,5,11,9,9
+8,705,sliggoo,hisuian sliggoo,-,aco,dragao,30,4,5,5,6,4,pseudo,54,5,9,9,11
+6,706,goodra,-,-,dragao,-,45,5,6,4,8,8,pseudo,76,6,14,11,12
+8,706,goodra,hisuian goodra,-,aco,dragao,40,5,6,5,8,6,pseudo,70,6,12,11,13
+6,707,klefki,-,-,aco,fada,30,4,4,5,5,8,-,56,4,12,8,10
+6,708,phantump,-,-,fantasma,grama,25,4,3,3,3,4,-,42,4,8,7,6
+6,709,trevenant,-,-,fantasma,grama,45,6,4,4,5,6,-,70,6,12,10,9
+6,710,pumpkaboo,average size,-,fantasma,grama,25,4,3,4,3,6,-,45,4,10,7,7
+6,710,pumpkaboo,small size,-,fantasma,grama,25,4,3,4,3,6,-,45,4,10,7,7
+6,710,pumpkaboo,large size,-,fantasma,grama,30,4,3,4,3,5,-,49,4,9,7,7
+6,710,pumpkaboo,super size,-,fantasma,grama,30,4,3,4,3,5,-,49,4,9,7,7
+6,711,gourgeist,average size,-,fantasma,grama,35,5,3,7,4,9,-,63,5,14,8,11
+6,711,gourgeist,small size,-,fantasma,grama,30,5,3,7,4,10,-,59,5,15,8,11
+6,711,gourgeist,large size,-,fantasma,grama,40,5,3,7,4,7,-,66,5,12,8,11
+6,711,gourgeist,super size,-,fantasma,grama,45,5,3,7,4,6,-,70,5,11,8,11
+6,712,bergmite,-,-,gelo,-,30,4,2,5,2,3,-,46,4,7,6,7
+6,713,avalugg,-,-,gelo,-,50,6,3,10,3,3,-,75,6,9,9,13
+8,713,avalugg,hisuian avalugg,-,gelo,pedra,50,7,2,10,2,4,-,75,7,11,9,12
+6,714,noibat,-,-,voador,dragao,20,2,3,2,2,6,-,35,3,9,5,4
+6,715,noivern,-,-,voador,dragao,45,4,5,4,4,13,-,75,5,18,9,8
+6,716,xerneas,-,-,fada,-,65,7,7,5,5,10,lend,99,7,17,14,10
+6,717,yveltal,-,-,sombrio,voador,65,7,7,5,5,10,lend,99,7,17,14,10
+6,718,zygarde50% forme,-,-,dragao,terra,55,5,5,7,5,10,lend,87,5,15,10,12
+7,718,zygarde10% forme,-,-,dragao,terra,30,5,4,4,5,12,lend,60,5,17,9,9
+7,718,zygarde,complete forme,-,dragao,terra,110,5,5,7,5,9,lend,141,5,14,10,12
+6,719,diancie,-,-,pedra,fada,25,5,5,8,8,5,mit,56,5,10,10,16
+6,719,diancie,mega diancie,-,pedra,fada,25,8,8,6,6,11,mit,64,8,19,16,12
+6,720,hoopa,hoopa confined,-,psiquico,fantasma,40,6,8,3,7,7,mit,71,8,15,14,10
+6,720,hoopa,hoopa unbound,-,psiquico,sombrio,40,8,9,3,7,8,mit,75,9,17,17,10
+6,721,volcanion,-,-,fogo,agua,40,6,7,6,5,7,mit,71,7,14,13,11
+7,722,rowlet,-,-,grama,voador,35,3,3,3,3,5,-,52,3,8,6,6
+7,723,dartrix,-,-,grama,voador,40,4,4,4,4,6,-,62,4,10,8,8
+7,724,decidueye,-,-,grama,fantasma,40,6,5,4,5,7,-,67,6,13,11,9
+8,724,decidueye,hisuian decidueye,-,grama,lutador,45,6,5,4,5,6,-,71,6,12,11,9
+7,725,litten,-,-,fogo,-,25,4,3,2,2,7,-,43,4,11,7,4
+7,726,torracat,-,-,fogo,-,35,5,4,3,3,9,-,59,5,14,9,6
+7,727,incineroar,-,-,fogo,sombrio,50,6,4,5,5,6,-,76,6,12,10,10
+7,728,popplio,-,-,agua,-,25,3,4,3,3,4,-,42,4,8,7,6
+7,729,brionne,-,-,agua,-,30,4,5,4,5,5,-,53,5,10,9,9
+7,730,primarina,-,-,agua,fada,40,4,7,4,6,6,-,67,7,13,11,10
+7,731,pikipek,-,-,normal,voador,20,4,2,2,2,7,-,37,4,11,6,4
+7,732,trumbeak,-,-,normal,voador,30,5,2,3,3,8,-,51,5,13,7,6
+7,733,toucannon,-,-,normal,voador,40,6,4,4,4,6,-,64,6,12,10,8
+7,734,yungoos,-,-,normal,-,25,4,2,2,2,5,-,40,4,9,6,4
+7,735,gumshoos,-,-,normal,-,45,6,3,3,3,5,-,65,6,11,9,6
+7,736,grubbin,-,-,inseto,-,25,4,3,3,3,5,-,43,4,9,7,6
+7,737,charjabug,-,-,inseto,eletrico,30,5,3,5,4,4,-,51,5,9,8,9
+7,738,vikavolt,-,-,inseto,eletrico,40,4,8,5,4,5,-,66,8,13,12,9
+7,739,crabrawler,-,-,lutador,-,25,5,3,3,3,7,-,46,5,12,8,6
+7,740,crabominable,-,-,lutador,gelo,50,7,4,4,4,5,-,74,7,12,11,8
+7,741,oricorio,baile style,-,fogo,voador,40,4,5,4,4,10,-,67,5,15,9,8
+7,741,oricorio,pom-pom style,-,eletrico,voador,40,4,5,4,4,10,-,67,5,15,9,8
+7,741,oricorio,pa'u style,-,psiquico,voador,40,4,5,4,4,10,-,67,5,15,9,8
+7,741,oricorio,sensu style,-,fantasma,voador,40,4,5,4,4,10,-,67,5,15,9,8
+7,742,cutiefly,-,-,inseto,fada,20,3,3,2,2,9,-,39,3,12,6,4
+7,743,ribombee,-,-,inseto,fada,30,3,5,3,4,13,-,58,5,18,8,7
+7,744,rockruff,-,-,pedra,-,25,4,2,2,2,6,-,41,4,10,6,4
+7,744,rockruff,own tempo rockruff,-,pedra,-,25,4,2,2,2,6,-,41,4,10,6,4
+7,745,lycanroc,midday form,-,pedra,-,40,6,3,4,4,12,-,69,6,18,9,8
+7,745,lycanroc,midnight form,-,pedra,-,45,6,3,4,4,9,-,71,6,15,9,8
+7,745,lycanroc,dusk form,-,pedra,-,40,6,3,4,4,11,-,68,6,17,9,8
+7,746,wishiwashi,solo form,-,agua,-,25,1,2,1,2,4,-,35,2,6,3,3
+7,746,wishiwashi,school form,-,agua,-,25,7,7,7,7,3,-,56,7,10,14,14
+7,747,mareanie,-,-,venenoso,agua,25,3,3,4,3,5,-,43,3,8,6,7
+7,748,toxapex,-,-,venenoso,agua,25,4,3,8,8,4,-,52,4,8,7,16
+7,749,mudbray,-,-,terra,-,35,5,3,4,3,5,-,55,5,10,8,7
+7,750,mudsdale,-,-,terra,-,50,7,3,5,5,4,-,74,7,11,10,10
+7,751,dewpider,-,-,agua,inseto,20,2,2,3,4,3,-,34,2,5,4,7
+7,752,araquanid,-,-,agua,inseto,35,4,3,5,7,5,-,59,4,9,7,12
+7,753,fomantis,-,-,grama,-,20,3,3,2,2,4,-,34,3,7,6,4
+7,754,lurantis,-,-,grama,-,35,6,4,5,5,5,-,60,6,11,10,10
+7,755,morelull,-,-,grama,fada,20,2,4,3,4,2,-,35,4,6,6,7
+7,756,shiinotic,-,-,grama,fada,30,3,5,4,5,3,-,50,5,8,8,9
+7,757,salandit,-,-,venenoso,fogo,25,3,4,2,2,8,-,44,4,12,7,4
+7,758,salazzle,-,-,venenoso,fogo,35,4,6,3,3,12,-,63,6,18,10,6
+7,759,stufful,-,-,normal,lutador,35,4,3,3,3,5,-,53,4,9,7,6
+7,760,bewear,-,-,normal,lutador,60,7,3,4,3,6,-,83,7,13,10,7
+7,761,bounsweet,-,-,grama,-,25,2,2,2,2,4,-,37,2,6,4,4
+7,762,steenee,-,-,grama,-,30,2,2,3,3,7,-,47,2,9,4,6
+7,763,tsareena,-,-,grama,-,40,6,3,5,5,8,-,67,6,14,9,10
+7,764,comfey,-,-,fada,-,30,3,5,5,6,10,-,59,5,15,8,11
+7,765,oranguru,-,-,normal,psiquico,45,3,5,4,6,6,-,69,5,11,8,10
+7,766,passimian,-,-,lutador,-,50,6,2,5,3,8,-,74,6,14,8,8
+7,767,wimpod,-,-,inseto,agua,15,2,1,2,2,8,-,30,2,10,3,4
+7,768,golisopod,-,-,inseto,agua,40,7,3,7,5,4,-,66,7,11,10,12
+7,769,sandygast,-,-,fantasma,terra,30,3,4,4,3,2,-,46,4,6,7,7
+7,770,palossand,-,-,fantasma,terra,45,4,5,6,4,4,-,68,5,9,9,10
+7,771,pyukumuku,-,-,agua,-,30,3,2,7,7,1,-,50,3,4,5,14
+7,772,type: null,-,-,normal,-,50,5,5,5,5,6,-,76,5,11,10,10
+7,773,silvally,-,-,normal,-,50,5,5,5,5,10,-,80,5,15,10,10
+7,774,minior,meteor form,-,pedra,voador,30,3,3,5,5,6,-,52,3,9,6,10
+7,774,minior,core form,-,pedra,voador,30,5,5,3,3,12,-,58,5,17,10,6
+7,775,komala,-,-,normal,-,35,6,4,4,5,7,-,61,6,13,10,9
+7,776,turtonator,-,-,fogo,dragao,30,4,5,7,5,4,-,55,5,9,9,12
+7,777,togedemaru,-,-,eletrico,aco,35,5,2,4,4,10,-,60,5,15,7,8
+7,778,mimikyu,-,-,fantasma,fada,30,5,3,4,6,10,-,58,5,15,8,10
+7,779,bruxish,-,-,agua,psiquico,35,6,4,4,4,10,-,63,6,16,10,8
+7,780,drampa,-,-,normal,dragao,40,3,7,5,5,4,-,64,7,11,10,10
+7,781,dhelmise,-,-,fantasma,grama,35,7,5,5,5,4,-,61,7,11,12,10
+7,782,jangmo-o,-,-,dragao,-,25,3,3,4,3,5,pseudo,43,3,8,6,7
+7,783,hakamo-o,-,-,dragao,lutador,30,4,4,5,4,7,pseudo,54,4,11,8,9
+7,784,kommo-o,-,-,dragao,lutador,40,6,5,7,6,9,pseudo,73,6,15,11,13
+7,785,tapu koko,-,-,eletrico,fada,35,6,5,5,4,13,lend,68,6,19,11,9
+7,786,tapu lele,-,-,psiquico,fada,35,5,7,4,6,10,lend,67,7,17,12,10
+7,787,tapu bulu,-,-,grama,fada,35,7,5,6,5,8,lend,66,7,15,12,11
+7,788,tapu fini,-,-,agua,fada,35,4,5,6,7,9,lend,66,5,14,9,13
+7,789,cosmog,-,-,psiquico,-,25,2,2,2,2,4,-,37,2,6,4,4
+7,790,cosmoem,-,-,psiquico,-,25,2,2,7,7,4,-,47,2,6,4,14
+7,791,solgaleo,-,-,psiquico,aco,70,7,6,6,5,10,lend,104,7,17,13,11
+7,792,lunala,-,-,psiquico,fantasma,70,6,7,5,6,10,lend,104,7,17,13,11
+7,793,nihilego,-,-,pedra,venenoso,55,3,7,3,7,11,-,86,7,18,10,10
+7,794,buzzwole,-,-,inseto,lutador,55,7,3,7,3,8,-,83,7,15,10,10
+7,795,pheromosa,-,-,inseto,lutador,40,7,7,2,2,16,-,74,7,23,14,4
+7,796,xurkitree,-,-,eletrico,-,45,5,9,4,4,9,-,76,9,18,14,8
+7,797,celesteela,-,-,aco,voador,50,6,6,6,6,7,-,81,6,13,12,12
+7,798,kartana,-,-,grama,aco,30,10,3,7,2,11,-,63,10,21,13,9
+7,799,guzzlord,-,-,sombrio,dragao,115,6,5,3,3,5,-,137,6,11,11,6
+7,800,necrozma,-,-,psiquico,-,50,6,7,6,5,8,lend,82,7,15,13,11
+7,800,necrozma,dusk mane necrozma,-,psiquico,aco,50,8,6,7,6,8,lend,85,8,16,14,13
+7,800,necrozma,dawn wings necrozma,-,psiquico,fantasma,50,6,8,6,7,8,lend,85,8,16,14,13
+7,800,necrozma,ultra necrozma,-,psiquico,dragao,50,9,9,5,5,13,lend,91,9,22,18,10
+7,801,magearna,-,-,aco,fada,40,5,7,6,6,7,mit,71,7,14,12,12
+7,802,marshadow,-,-,lutador,fantasma,45,7,5,4,5,13,mit,79,7,20,12,9
+7,803,poipole,-,-,venenoso,-,35,4,4,4,4,8,-,59,4,12,8,8
+7,804,naganadel,-,-,venenoso,dragao,40,4,7,4,4,13,-,72,7,20,11,8
+7,805,stakataka,-,-,pedra,aco,35,7,3,11,6,2,-,64,7,9,10,17
+7,806,blacephalon,-,-,fogo,fantasma,30,7,8,3,4,11,-,63,8,19,15,7
+7,807,zeraora,-,-,eletrico,-,45,6,6,4,4,15,mit,80,6,21,12,8
+7,808,meltan,-,-,aco,-,25,4,3,4,2,4,-,42,4,8,7,6
+7,809,melmetal,-,-,aco,-,70,8,4,8,4,4,-,98,8,12,12,12
+8,810,grookey,-,-,grama,-,25,4,2,3,2,7,-,43,4,11,6,5
+8,811,thwackey,-,-,grama,-,35,5,3,4,3,8,-,58,5,13,8,7
+8,812,rillaboom,-,-,grama,-,50,7,3,5,4,9,-,78,7,16,10,9
+8,813,scorbunny,-,-,fogo,-,25,4,2,2,2,7,-,42,4,11,6,4
+8,814,raboot,-,-,fogo,-,35,5,3,3,3,10,-,59,5,15,8,6
+8,815,cinderace,-,-,fogo,-,40,6,4,4,4,12,-,70,6,18,10,8
+8,816,sobble,-,-,agua,-,25,2,4,2,2,7,-,42,4,11,6,4
+8,817,drizzile,-,-,agua,-,35,3,5,3,3,9,-,58,5,14,8,6
+8,818,inteleon,-,-,agua,-,35,5,7,4,4,12,-,67,7,19,12,8
+8,819,skwovet,-,-,normal,-,35,3,2,3,2,3,-,48,3,6,5,5
+8,820,greedent,-,-,normal,-,60,5,3,5,4,2,-,79,5,7,8,9
+8,821,rookidee,-,-,voador,-,20,3,2,2,2,6,-,35,3,9,5,4
+8,822,corvisquire,-,-,voador,-,35,4,3,3,3,8,-,56,4,12,7,6
+8,823,corviknight,-,-,voador,aco,50,5,3,6,5,7,-,76,5,12,8,11
+8,824,blipbug,-,-,inseto,-,15,1,2,1,3,5,-,27,2,7,3,4
+8,825,dottler,-,-,inseto,psiquico,25,2,3,4,5,3,-,42,3,6,5,9
+8,826,orbeetle,-,-,inseto,psiquico,30,3,4,6,6,9,-,58,4,13,7,12
+8,827,nickit,-,-,sombrio,-,20,2,3,2,3,5,-,35,3,8,5,5
+8,828,thievul,-,-,sombrio,-,35,3,5,3,5,9,-,60,5,14,8,8
+8,829,gossifleur,-,-,grama,-,20,2,2,3,3,1,-,31,2,3,4,6
+8,830,eldegoss,-,-,grama,-,30,3,4,5,6,6,-,54,4,10,7,11
+8,831,wooloo,-,-,normal,-,25,2,2,3,3,5,-,40,2,7,4,6
+8,832,dubwool,-,-,normal,-,40,4,3,5,5,9,-,66,4,13,7,10
+8,833,chewtle,-,-,agua,-,25,4,2,3,2,5,-,41,4,9,6,5
+8,834,drednaw,-,-,agua,pedra,45,6,3,5,4,8,-,71,6,14,9,9
+8,835,yamper,-,-,eletrico,-,30,3,2,3,3,3,-,44,3,6,5,6
+8,836,boltund,-,-,eletrico,-,35,5,5,3,3,13,-,64,5,18,10,6
+8,837,rolycoly,-,-,pedra,-,15,2,2,3,3,3,-,28,2,5,4,6
+8,838,carkol,-,-,pedra,fogo,40,3,3,5,4,5,-,60,3,8,6,9
+8,839,coalossal,-,-,pedra,fogo,55,4,4,6,5,3,-,77,4,7,8,11
+8,840,applin,-,-,grama,dragao,20,2,2,4,2,2,-,32,2,4,4,6
+8,841,flapple,-,-,grama,dragao,35,6,5,4,3,7,-,60,6,13,11,7
+8,842,appletun,-,-,grama,dragao,55,5,5,4,4,3,-,76,5,8,10,8
+8,843,silicobra,-,-,terra,-,30,3,2,4,3,5,-,47,3,8,5,7
+8,844,sandaconda,-,-,terra,-,40,6,4,7,4,8,-,69,6,14,10,11
+8,845,cramorant,-,-,voador,agua,35,5,5,3,5,9,-,62,5,14,10,8
+8,846,arrokuda,-,-,agua,-,25,4,2,2,2,7,-,42,4,11,6,4
+8,847,barraskewda,-,-,agua,-,35,7,3,3,3,14,-,65,7,21,10,6
+8,848,toxel,-,-,eletrico,venenoso,20,2,3,2,2,4,-,33,3,7,5,4
+8,849,toxtricity,amped form,-,eletrico,venenoso,40,5,6,4,4,8,-,67,6,14,11,8
+8,849,toxtricity,low key form,-,eletrico,venenoso,40,5,6,4,4,8,-,67,6,14,11,8
+8,850,sizzlipede,-,-,fogo,inseto,25,4,3,3,3,5,-,43,4,9,7,6
+8,851,centiskorch,-,-,fogo,inseto,50,6,5,4,5,7,-,77,6,13,11,9
+8,852,clobbopus,-,-,lutador,-,25,4,3,3,3,4,-,42,4,8,7,6
+8,853,grapploct,-,-,lutador,-,40,6,4,5,4,5,-,64,6,11,10,9
+8,854,sinistea,-,-,fantasma,-,20,3,4,3,3,5,-,38,4,9,7,6
+8,855,polteageist,-,-,fantasma,-,30,4,7,4,6,7,-,58,7,14,11,10
+8,856,hatenna,-,-,psiquico,-,25,2,3,3,3,4,-,40,3,7,5,6
+8,857,hattrem,-,-,psiquico,-,30,2,5,4,4,5,-,50,5,10,7,8
+8,858,hatterene,-,-,psiquico,fada,30,5,7,5,6,3,-,56,7,10,12,11
+8,859,impidimp,-,-,sombrio,fada,25,3,3,2,2,5,-,40,3,8,6,4
+8,860,morgrem,-,-,sombrio,fada,35,3,4,3,3,7,-,55,4,11,7,6
+8,861,grimmsnarl,-,-,sombrio,fada,50,6,5,4,4,6,-,75,6,12,11,8
+8,862,obstagoon,-,-,sombrio,normal,50,5,3,6,5,10,-,79,5,15,8,11
+8,863,perrserker,-,-,aco,-,35,6,3,5,3,5,-,57,6,11,9,8
+8,864,cursola,-,-,fantasma,-,30,5,8,3,7,3,-,56,8,11,13,10
+8,865,sirfetch'd,-,-,lutador,-,35,7,4,5,5,7,-,63,7,14,11,10
+8,866,mr. rime,-,-,gelo,psiquico,40,5,6,4,5,7,-,67,6,13,11,9
+8,867,runerigus,-,-,terra,fantasma,30,5,3,8,6,3,-,55,5,8,8,14
+8,868,milcery,-,-,fada,-,25,2,3,2,4,4,-,40,3,7,5,6
+8,869,alcremie,-,-,fada,-,35,3,6,4,7,7,-,62,6,13,9,11
+8,870,falinks,-,-,lutador,-,35,5,4,5,3,8,-,60,5,13,9,8
+8,871,pincurchin,-,-,eletrico,-,25,6,5,5,5,2,-,48,6,8,11,10
+8,872,snom,-,-,gelo,inseto,15,2,3,2,2,2,-,26,3,5,5,4
+8,873,frosmoth,-,-,gelo,inseto,35,4,7,3,5,7,-,61,7,14,11,8
+8,874,stonjourner,-,-,pedra,-,50,7,1,7,1,7,-,73,7,14,8,8
+8,875,eiscue,gelo face,-,gelo,-,40,4,4,6,5,5,-,64,4,9,8,11
+8,875,eiscue,nogelo face,-,gelo,-,40,4,4,4,3,13,-,68,4,17,8,7
+8,876,indeedee,male,-,psiquico,normal,30,4,6,3,5,10,-,58,6,16,10,8
+8,876,indeedee,female,-,psiquico,normal,35,3,5,4,6,9,-,62,5,14,8,10
+8,877,morpeko,full belly mode,-,eletrico,sombrio,30,5,4,3,3,10,-,55,5,15,9,6
+8,877,morpeko,hangry mode,-,eletrico,sombrio,30,5,4,3,3,10,-,55,5,15,9,6
+8,878,cufant,-,-,aco,-,40,4,2,3,3,4,-,56,4,8,6,6
+8,879,copperajah,-,-,aco,-,65,7,4,4,4,3,-,87,7,10,11,8
+8,880,dracozolt,-,-,eletrico,dragao,45,5,4,5,4,8,-,71,5,13,9,9
+8,881,arctozolt,-,-,eletrico,gelo,45,5,5,5,4,6,-,70,5,11,10,9
+8,882,dracovish,-,-,agua,dragao,45,5,4,5,4,8,-,71,5,13,9,9
+8,883,arctovish,-,-,agua,gelo,45,5,4,5,5,6,-,70,5,11,9,10
+8,884,duraludon,-,-,aco,dragao,35,5,6,6,3,9,-,64,6,15,11,9
+8,885,dreepy,-,-,dragao,fantasma,15,3,2,2,2,9,pseudo,33,3,12,5,4
+8,886,drakloak,-,-,dragao,fantasma,35,4,3,3,3,11,pseudo,59,4,15,7,6
+8,887,dragapult,-,-,dragao,fantasma,45,6,5,4,4,15,pseudo,79,6,21,11,8
+8,888,zacian,hero of many battles,-,fada,-,50,6,4,6,6,14,lend,86,6,20,10,12
+8,888,zacian,crowned sword,-,fada,aco,50,8,4,6,6,15,lend,89,8,23,12,12
+8,889,zamazenta,hero of many battles,-,lutador,-,50,6,4,6,6,14,lend,86,6,20,10,12
+8,889,zamazenta,crowned shield,-,lutador,aco,50,6,4,7,7,13,lend,87,6,19,10,14
+8,890,eternatus,-,-,venenoso,dragao,70,5,8,5,5,13,lend,106,8,21,13,10
+8,890,eternatus,eternamax,-,venenoso,dragao,130,6,7,13,13,13,lend,182,7,20,13,26
+8,891,kubfu,-,-,lutador,-,30,5,3,3,3,8,lend,52,5,13,8,6
+8,892,urshifu,single strike style,-,lutador,sombrio,50,7,4,5,3,10,lend,79,7,17,11,8
+8,892,urshifu,rapid strike style,-,lutador,agua,50,7,4,5,3,10,lend,79,7,17,11,8
+8,893,zarude,-,-,sombrio,grama,55,6,4,6,5,11,mit,87,6,17,10,11
+8,894,regieleki,-,-,eletrico,-,40,5,5,3,3,20,lend,76,5,25,10,6
+8,895,regidrago,-,-,dragao,-,100,5,5,3,3,8,lend,124,5,13,10,6
+8,896,glastrier,-,-,gelo,-,50,8,4,7,6,3,-,78,8,11,12,13
+8,897,spectrier,-,-,fantasma,-,50,4,8,3,4,13,-,82,8,21,12,7
+8,898,calyrex,-,-,psiquico,grama,50,4,4,4,4,8,mit,74,4,12,8,8
+8,898,calyrex,gelo rider,-,psiquico,gelo,50,9,5,8,7,5,mit,84,9,14,14,15
+8,898,calyrex,shadow rider,-,psiquico,fantasma,50,5,9,4,5,15,mit,88,9,24,14,9
+8,899,wyrdeer,-,-,normal,psiquico,55,6,6,4,4,7,-,82,6,13,12,8
+8,900,kleavor,-,-,inseto,pedra,35,7,3,5,4,9,-,63,7,16,10,9
+8,901,ursaluna,-,-,terra,normal,65,7,3,6,4,5,-,90,7,12,10,10
+9,901,ursaluna,bloodmoon,-,terra,normal,60,4,7,6,4,6,-,87,7,13,11,10
+8,902,basculegion,male,-,agua,fantasma,60,6,4,4,4,8,-,86,6,14,10,8
+8,902,basculegion,female,-,agua,fantasma,60,5,5,4,4,8,-,86,5,13,10,8
+8,903,sneasler,-,-,lutador,venenoso,40,7,2,3,4,12,-,68,7,19,9,7
+8,904,overqwil,-,-,sombrio,venenoso,45,6,4,5,4,9,-,73,6,15,10,9
+8,905,enamorus,incarnate forme,-,fada,voador,40,6,7,4,4,11,-,72,7,18,13,8
+8,905,enamorus,therian forme,-,fada,voador,40,6,7,6,5,5,-,69,7,12,13,11
+9,906,sprigatito,-,-,grama,-,20,4,3,3,3,7,-,40,4,11,7,6
+9,907,floragato,-,-,grama,-,35,4,3,4,4,9,-,59,4,13,7,8
+9,908,meowscarada,-,-,grama,sombrio,40,6,5,4,4,13,-,72,6,19,11,8
+9,909,fuecoco,-,-,fogo,-,35,3,4,3,2,4,-,51,4,8,7,5
+9,910,crocalor,-,-,fogo,-,45,3,5,4,3,5,-,65,5,10,8,7
+9,911,skeledirge,-,-,fogo,fantasma,55,4,6,5,4,7,-,81,6,13,10,9
+9,912,quaxly,-,-,agua,-,30,4,3,3,3,5,-,48,4,9,7,6
+9,913,quaxwell,-,-,agua,-,35,5,4,4,3,7,-,58,5,12,9,7
+9,914,quaquaval,-,-,agua,lutador,45,6,5,4,4,9,-,73,6,15,11,8
+9,915,lechonk,-,-,normal,-,30,3,2,2,3,4,-,44,3,7,5,5
+9,916,oinkologne,male,-,normal,-,55,5,3,4,4,7,-,78,5,12,8,8
+9,916,oinkologne,female,-,normal,-,60,5,3,4,5,7,-,84,5,12,8,9
+9,917,tarountula,-,-,inseto,-,20,3,2,3,2,2,-,32,3,5,5,5
+9,918,spidops,-,-,inseto,-,30,4,3,5,5,4,-,51,4,8,7,10
+9,919,nymble,-,-,inseto,-,20,3,2,2,2,5,-,34,3,8,5,4
+9,920,lokix,-,-,inseto,sombrio,40,6,3,4,3,10,-,66,6,16,9,7
+9,921,pawmi,-,-,eletrico,-,25,3,2,1,2,6,-,39,3,9,5,3
+9,922,pawmo,-,-,eletrico,lutador,30,4,3,2,2,9,-,50,4,13,7,4
+9,923,pawmot,-,-,eletrico,lutador,35,6,4,4,3,11,-,63,6,17,10,7
+9,924,tandemaus,-,-,normal,-,25,3,2,3,3,8,-,44,3,11,5,6
+9,925,maushold,family of four,-,normal,-,40,4,4,4,4,12,-,68,4,16,8,8
+9,925,maushold,family of three,-,normal,-,40,4,4,4,4,12,-,68,4,16,8,8
+9,926,fidough,-,-,fada,-,20,3,2,4,3,7,-,39,3,10,5,7
+9,927,dachsbun,-,-,fada,-,30,4,3,6,4,10,-,57,4,14,7,10
+9,928,smoliv,-,-,grama,normal,25,2,3,3,3,3,-,39,3,6,5,6
+9,929,dolliv,-,-,grama,normal,30,3,4,3,4,4,-,48,4,8,7,7
+9,930,arboliva,-,-,grama,normal,40,4,7,5,6,4,-,66,7,11,11,11
+9,931,squawkabilly,green plumage,-,normal,voador,45,5,3,3,3,10,-,69,5,15,8,6
+9,931,squawkabilly,blue plumage,-,normal,voador,45,5,3,3,3,10,-,69,5,15,8,6
+9,931,squawkabilly,yellow plumage,-,normal,voador,45,5,3,3,3,10,-,69,5,15,8,6
+9,931,squawkabilly,white plumage,-,normal,voador,45,5,3,3,3,10,-,69,5,15,8,6
+9,932,nacli,-,-,pedra,-,30,3,2,4,2,3,-,44,3,6,5,6
+9,933,naclstack,-,-,pedra,-,30,3,2,5,4,4,-,48,3,7,5,9
+9,934,garganacl,-,-,pedra,-,50,5,3,7,5,4,-,74,5,9,8,12
+9,935,charcadet,-,-,fogo,-,20,3,3,2,2,4,-,34,3,7,6,4
+9,936,armarouge,-,-,fogo,psiquico,45,3,7,5,4,8,-,72,7,15,10,9
+9,937,ceruledge,-,-,fogo,fantasma,40,7,3,4,5,9,-,68,7,16,10,9
+9,938,tadbulb,-,-,eletrico,-,35,2,3,3,2,5,-,50,3,8,5,5
+9,939,bellibolt,-,-,eletrico,-,55,4,6,5,5,5,-,80,6,11,10,10
+9,940,wattrel,-,-,eletrico,voador,20,2,3,2,2,7,-,36,3,10,5,4
+9,941,kilowattrel,-,-,eletrico,voador,35,4,6,3,3,13,-,64,6,19,10,6
+9,942,maschiff,-,-,sombrio,-,30,4,2,3,3,6,-,48,4,10,6,6
+9,943,mabosstiff,-,-,sombrio,-,40,6,3,5,4,9,-,67,6,15,9,9
+9,944,shroodle,-,-,venenoso,normal,20,4,2,2,2,8,-,38,4,12,6,4
+9,945,grafaiai,-,-,venenoso,normal,35,5,4,4,4,11,-,63,5,16,9,8
+9,946,bramblin,-,-,grama,fantasma,20,4,3,2,2,6,-,37,4,10,7,4
+9,947,brambleghast,-,-,grama,fantasma,30,6,4,4,4,9,-,57,6,15,10,8
+9,948,toedscool,-,-,terra,grama,20,2,3,2,5,7,-,39,3,10,5,7
+9,949,toedscruel,-,-,terra,grama,40,4,4,4,6,10,-,68,4,14,8,10
+9,950,klawf,-,-,pedra,-,35,5,2,6,3,8,-,59,5,13,7,9
+9,951,capsakid,-,-,grama,-,25,4,4,2,2,5,-,42,4,9,8,4
+9,952,scovillain,-,-,grama,fogo,35,6,6,4,4,8,-,63,6,14,12,8
+9,953,rellor,-,-,inseto,-,25,3,2,3,3,3,-,39,3,6,5,6
+9,954,rabsca,-,-,inseto,psiquico,40,3,6,5,5,5,-,64,6,11,9,10
+9,955,flittle,-,-,psiquico,-,15,2,3,2,2,8,-,32,3,11,5,4
+9,956,espathra,-,-,psiquico,-,50,3,6,3,3,11,-,76,6,17,9,6
+9,957,tinkatink,-,-,fada,aco,25,3,2,3,4,6,-,43,3,9,5,7
+9,958,tinkatuff,-,-,fada,aco,35,3,3,3,5,8,-,57,3,11,6,8
+9,959,tinkaton,-,-,fada,aco,45,4,4,4,6,10,-,73,4,14,8,10
+9,960,wiglett,-,-,agua,-,5,3,2,2,2,10,-,24,3,13,5,4
+9,961,wugtrio,-,-,agua,-,20,5,3,3,4,12,-,47,5,17,8,7
+9,962,bombirdier,-,-,voador,sombrio,35,6,3,5,5,9,-,63,6,15,9,10
+9,963,finizen,-,-,agua,-,35,3,3,2,2,8,-,53,3,11,6,4
+9,964,palafin,zero form,-,agua,-,50,4,3,4,4,10,-,75,4,14,7,8
+9,964,palafin,hero form,-,agua,-,50,8,6,5,5,10,-,84,8,18,14,10
+9,965,varoom,-,-,aco,venenoso,25,4,2,4,3,5,-,43,4,9,6,7
+9,966,revavroom,-,-,aco,venenoso,40,6,3,5,4,9,-,67,6,15,9,9
+9,967,cyclizar,-,-,dragao,normal,35,5,5,4,4,13,-,66,5,18,10,8
+9,968,orthworm,-,-,aco,-,35,5,3,8,3,7,-,61,5,12,8,11
+9,969,glimmet,-,-,pedra,venenoso,25,2,6,3,3,6,-,45,6,12,8,6
+9,970,glimmora,-,-,pedra,venenoso,45,3,7,5,5,9,-,74,7,16,10,10
+9,971,greavard,-,-,fantasma,-,25,4,2,3,3,4,-,41,4,8,6,6
+9,972,houndstone,-,-,fantasma,-,40,6,3,5,5,7,-,66,6,13,9,10
+9,973,flamigo,-,-,voador,lutador,45,6,4,4,4,9,-,72,6,15,10,8
+9,974,cetoddle,-,-,gelo,-,55,4,2,3,2,5,-,71,4,9,6,5
+9,975,cetitan,-,-,gelo,-,85,6,3,4,3,8,-,109,6,14,9,7
+9,976,veluza,-,-,agua,psiquico,45,6,4,4,4,7,-,70,6,13,10,8
+9,977,dondozo,-,-,agua,-,75,5,4,6,4,4,-,98,5,9,9,10
+9,978,tatsugiri,curly form,-,dragao,agua,35,3,6,3,5,9,-,61,6,15,9,8
+9,978,tatsugiri,droopy form,-,dragao,agua,35,3,6,3,5,9,-,61,6,15,9,8
+9,978,tatsugiri,stretchy form,-,dragao,agua,35,3,6,3,5,9,-,61,6,15,9,8
+9,979,annihilape,-,-,lutador,fantasma,55,6,3,4,5,9,-,82,6,15,9,9
+9,980,clodsire,-,-,venenoso,terra,65,4,3,3,5,2,-,82,4,6,7,8
+9,981,farigiraf,-,-,normal,psiquico,60,5,6,4,4,6,-,85,6,12,11,8
+9,982,dudunsparce,two-segment form,-,normal,-,65,5,5,4,4,6,-,89,5,11,10,8
+9,982,dudunsparce,three-segment form,-,normal,-,65,5,5,4,4,6,-,89,5,11,10,8
+9,983,kingambit,-,-,sombrio,aco,50,7,3,6,5,5,-,76,7,12,10,11
+9,984,great tusk,-,-,terra,lutador,60,7,3,7,3,9,-,89,7,16,10,10
+9,985,scream tail,-,-,fada,psiquico,60,4,4,5,6,12,-,91,4,16,8,11
+9,986,brute bonnet,-,-,grama,sombrio,60,7,4,5,5,6,-,87,7,13,11,10
+9,987,flutter mane,-,-,fantasma,fada,30,3,7,3,7,14,-,64,7,21,10,10
+9,988,slither wing,-,-,inseto,lutador,45,7,5,4,6,9,-,76,7,16,12,10
+9,989,sandy shocks,-,-,eletrico,terra,45,5,7,5,5,11,-,78,7,18,12,10
+9,990,iron treads,-,-,terra,aco,45,6,4,6,4,11,-,76,6,17,10,10
+9,991,iron bundle,-,-,gelo,agua,30,4,7,6,3,14,-,64,7,21,11,9
+9,992,iron hands,-,-,lutador,eletrico,80,7,3,6,4,5,-,105,7,12,10,10
+9,993,iron jugulis,-,-,sombrio,voador,50,4,7,5,4,11,-,81,7,18,11,9
+9,994,iron moth,-,-,fogo,venenoso,40,4,7,3,6,11,-,71,7,18,11,9
+9,995,iron thorns,-,-,pedra,eletrico,50,7,4,6,5,8,-,80,7,15,11,11
+9,996,frigibax,-,-,dragao,gelo,35,4,2,3,3,6,pseudo,53,4,10,6,6
+9,997,arctibax,-,-,dragao,gelo,45,5,3,4,4,7,pseudo,68,5,12,8,8
+9,998,baxcalibur,-,-,dragao,gelo,60,8,4,5,5,9,pseudo,91,8,17,12,10
+9,999,gimmighoul,chest form,-,fantasma,-,25,2,4,4,4,1,-,40,4,5,6,8
+9,999,gimmighoul,roaming form,-,fantasma,-,25,2,4,2,3,8,-,44,4,12,6,5
+9,1000,gholdengo,-,-,aco,fantasma,45,3,7,5,5,9,-,74,7,16,10,10
+9,1001,wo-chien,-,-,sombrio,grama,45,5,5,5,7,7,mit,74,5,12,10,12
+9,1002,chien-pao,-,-,sombrio,gelo,40,6,5,4,4,14,-,73,6,20,11,8
+9,1003,ting-lu,-,-,sombrio,terra,80,6,3,7,4,5,mit,105,6,11,9,11
+9,1004,chi-yu,-,-,sombrio,fogo,30,4,7,4,6,10,mit,61,7,17,11,10
+9,1005,roaring moon,-,-,dragao,sombrio,55,7,3,4,6,12,-,87,7,19,10,10
+9,1006,iron valiant,-,-,fada,lutador,40,7,6,5,3,12,-,73,7,19,13,8
+9,1007,koraidon,-,-,lutador,dragao,50,7,5,6,5,14,mit,87,7,21,12,11
+9,1008,miraidon,-,-,eletrico,dragao,50,5,7,5,6,14,mit,87,7,21,12,11
+9,1009,walking wake,-,-,agua,dragao,50,5,7,5,5,11,mit,83,7,18,12,10
+9,1010,iron leaves,-,-,grama,psiquico,45,7,4,5,6,11,-,78,7,18,11,11
+9,1011,dipplin,-,-,grama,dragao,40,4,5,6,4,4,-,63,5,9,9,10
+9,1012,poltchageist,-,-,grama,fantasma,20,3,4,3,3,5,-,38,4,9,7,6
+9,1013,sinistcha,-,-,grama,fantasma,40,3,7,6,4,7,-,67,7,14,10,10
+9,1014,okidogi,-,-,venenoso,lutador,45,7,3,6,5,8,-,74,7,15,10,11
+9,1015,munkidori,-,-,venenoso,psiquico,45,4,7,4,5,11,-,76,7,18,11,9
+9,1016,fezandipiti,-,-,venenoso,fada,45,5,4,5,7,10,-,76,5,15,9,12
+9,1017,ogerpon,teal mask,-,grama,-,40,6,3,5,5,11,-,70,6,17,9,10
+9,1017,ogerpon,wellspring mask,-,grama,agua,40,6,3,5,5,11,-,70,6,17,9,10
+9,1017,ogerpon,hearthflame mask,-,grama,fogo,40,6,3,5,5,11,-,70,6,17,9,10
+9,1017,ogerpon,cornerstone mask,-,grama,pedra,40,6,3,5,5,11,-,70,6,17,9,10
+9,1018,archaludon,-,-,aco,dragao,45,6,7,7,4,9,-,78,7,16,13,11
+9,1019,hydrapple,-,-,grama,dragao,55,4,6,6,4,5,-,80,6,11,10,10
+9,1020,gouging fogo,-,-,fogo,dragao,55,6,4,7,5,10,-,87,6,16,10,12
+9,1021,raging bolt,-,-,eletrico,dragao,65,4,7,5,5,8,-,94,7,15,11,10
+9,1022,iron boulder,-,-,pedra,psiquico,45,6,4,4,6,13,-,78,6,19,10,10
+9,1023,iron crown,-,-,aco,psiquico,45,4,7,5,6,10,-,77,7,17,11,11
+9,1024,terapagos,normal form,-,normal,-,45,4,4,5,5,6,-,69,4,10,8,10
+9,1024,terapagos,terastal form,-,normal,-,50,5,6,6,6,9,-,82,6,15,11,12
+9,1024,terapagos,stellar form,-,normal,-,80,6,7,6,6,9,-,114,7,16,13,12
+9,1025,pecharunt,-,-,venenoso,fantasma,45,5,5,8,5,9,-,77,5,14,10,13
