@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 import pandas as pd
 from pathlib import Path
 
@@ -20,42 +21,5 @@ media_status_tipo1_sem_pml = df_sem_pml.groupby('tipo_1')[['hp', 'atk', 'sp_atk'
 
 saida = Path('../04_output/media_status_tipo_sem_pml.csv')
 media_status_tipo1_sem_pml.to_csv(saida, index=False)
-
-
-
-
-
-
-print(df.head().to_string())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
