@@ -11,6 +11,7 @@ Esta pasta documenta minha jornada de aprendizado em Python para análise de dad
 | Módulo | Tema |
 |--------|------|
 | [01_introducao_pandas](./01_introducao_pandas) | Series, DataFrame, leitura de dados, groupby |
+| [02_visualizacao](./02_visualizacao) | Matplotlib, Seaborn, personalização, subplots |
 
 ## Detalhamento dos Módulos
 
@@ -52,24 +53,37 @@ Esta pasta documenta minha jornada de aprendizado em Python para análise de dad
 - `.idxmax()` para encontrar índices de valores máximos
 - `.reset_index()` para transformar índice em coluna
 
-#### Aula 06 - Merge e Concatenação (JOIN do Pandas) - *Em andamento*
+#### Aula 06 - Merge e Concatenação (JOIN do Pandas)
 - `pd.concat()` - empilhar DataFrames (UNION)
 - `pd.merge()` - juntar DataFrames por colunas (INNER JOIN, LEFT JOIN, etc.)
 
-#### Aula 07 - Tratamento de valores nulos - *Planejado*
+#### Aula 07 - Tratamento de valores nulos
 - Identificar valores nulos (`.isnull()`, `.isna()`)
 - Remover valores nulos (`.dropna()`)
 - Preencher valores nulos (`.fillna()`)
 
-#### Aula 08 - Limpeza de dados - *Planejado*
+#### Aula 08 - Limpeza de dados
 - Remover duplicatas (`.drop_duplicates()`)
 - Converter tipos de dados (`.astype()`)
 - Renomear colunas (`.rename()`)
 
-#### Aula 09 - Projeto guiado - *Planejado*
-- Aplicar todos os conceitos em um projeto completo
-- Análise exploratória de dados
-- Geração de relatórios
+#### Aula 09 - Pipeline Leitura-Escrita
+- Ler processar e salvar arquivos com Pandas + Pathlib
+
+### MÓDULO 2 - Visualização
+**Objetivo:** Aprender a bibliotecas de visualização, Matplotlib e Seaborn
+
+#### Aula 01 - Introdução ao Matplotlib
+
+#### Aula 02 - Personalização
+
+#### Aula 03 - Subplots
+
+#### Aula 04 - Histograma e Boxplot (Intro Seaborn)
+
+#### Aula 05 - Heatmap e Pairplot
+
+#### Aula 06 - Estilos e Paletas
 
 ## Contato
 
