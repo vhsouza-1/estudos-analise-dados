@@ -1,55 +1,53 @@
 import pandas as pd
 from pathlib import Path
 
-entrada = Path('../02_raw/pokedex_raw.csv')
+entrada1 = Path('../02_raw/pokedex_raw.csv')
 
-df = pd.read_csv(entrada)
+df1 = pd.read_csv(entrada1)
 
-df = df.rename(columns={
-    'Geração': 'gen',
+df1 = df1.rename(columns={
     'ID': 'id',
-    'Nome': 'nome',
-    'Forma': 'forma',
-    'Estágio': 'estagio',
-    'Tipo 1': 'tipo_1',
-    'Tipo 2': 'tipo_2',
+    'Name': 'name',
+    'Form': 'form',
+    'Type1': 'type_1',
+    'Type2': 'type_2',
+    'Total': 'bst',
     'HP': 'hp',
-    'Ataque': 'atk',
-    'Ataque Especial': 'sp_atk',
-    'Defesa': 'def',
-    'Defesa Especial': 'sp_def',
-    'Velocidade': 'vel',
-    'Pseudo/Mítico/ Lendário': 'pml'
+    'Attack': 'atk',
+    'Defense': 'def',
+    'Sp. Atk': 'sp_atk',
+    'Sp. Def': 'sp_def',
+    'Speed': 'spd',
+    'Generation': 'gen'
 })
 
-df['nome'] = df['nome'].str.strip().str.lower()
-df['forma'] = df['forma'].str.strip().str.lower()
-df['tipo_1'] = df['tipo_1'].str.strip().str.lower()
-df['tipo_2'] = df['tipo_2'].str.strip().str.lower()
-df['pml'] = df['pml'].str.strip().str.lower()
+for coluna in df1.columns:
+    if df1[coluna].dtype == 'str':
+        df1[coluna] = df1[coluna].str.lower().str.strip()
 
-df['pml'] = df['pml'].map({'pseudoendário': 'pseudo', 'lendário': 'lend', 'mítico': 'mit'})
+df1 = df1.sort_values(['id', 'gen']).reset_index(drop=True)
 
-tipos = {
-    'aço': 'aco',
-    'dragão': 'dragao',
-    'psíquico': 'psiquico',
-    'elétrico': 'eletrico',
-    'água': 'agua'
+df1 = df1[['id', 'gen', 'name', 'form', 'type_1', 'type_2', 'hp', 'atk', 'def', 'sp_atk', 'sp_def', 'spd', 'bst']]
+
+entrada2 = Path('../02_raw/pokedex_bruno_raw.csv')
+df2 = pd.read_csv(entrada2)
+
+df1['pml'] = df2['Pseudo/Mítico/ Lendário']
+df1['pml'] = df1['pml'].str.lower().str.strip()
+
+dict_pml = {
+    'lendário': 'leg',
+    'pseudoendário': 'psd_leg',
+    'mítico': 'myth'
 }
 
-df['forma'] = df['forma'].fillna('-')
-df['estagio'] = df['estagio'].fillna('-')
-df['tipo_2'] = df['tipo_2'].fillna('-')
-df['pml'] = df['pml'].fillna('-')
-
-df['tipo_1'] = df['tipo_1'].replace(tipos)
-df['tipo_2'] = df['tipo_2'].replace(tipos)
+df1['pml'] = df1['pml'].replace(dict_pml)
+df1['pml'] = df1['pml'].fillna('')
 
 saida = Path('../03_processed/pokedex.csv')
-df.to_csv(saida, index=False)
+df1.to_csv(saida, index=False)
 
-
+input("\nPressione ENTER para sair...")
 
 
 
