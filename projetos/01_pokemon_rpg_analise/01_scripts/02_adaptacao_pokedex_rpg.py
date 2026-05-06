@@ -28,7 +28,8 @@ df = df.drop('bst', axis=1)
 # Calcular novo BST
 df['bst_rpg'] = df[['hp', 'atk', 'def', 'sp_atk', 'sp_def', 'spd']].sum(axis=1)
 
+# Salvar pokedex adapatada para rpg
+saida = Path('../03_processed/pokedex_rpg.csv')
 
-
-
+df.to_csv(saida, index=False)
 
