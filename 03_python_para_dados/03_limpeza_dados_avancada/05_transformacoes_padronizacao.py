@@ -836,7 +836,8 @@ print(df.to_string())
 # Teste no df_funcionarios
 """
 
-"""def pipeline_transformacoes_funcionarios(df_sujo):
+"""
+def pipeline_transformacoes_funcionarios(df_sujo):
 
     df = df_sujo.copy()
     relatorio = []
@@ -913,7 +914,9 @@ print(df_limpo.head().to_string())
 print()
 
 for i, linha in enumerate(log, 1):
-    print(f'{i}: {linha}')"""
+    print(f'{i}: {linha}')
+
+"""
 
 # O relatorio desse pipeline ficou mais clean, me inspirei bastante no exemplo que vc deu na aula, obrigado!
 
@@ -1026,15 +1029,6 @@ def classificar_score_funcionario(score_funcionario):
 
 df['score_funcionario_class'] = df['score_funcionario'].apply(classificar_score_funcionario)
 
-# Regras de prioridade (implemente como achar melhor):
-# - Prioridade 1: Avaliação Excelente + Score Alto
-# - Prioridade 2: Salário Alto + Anos Sênior
-# - Prioridade 3: Score Médio ou Bom
-# - Prioridade 4: Demais casos
-#
-# Crie uma coluna 'prioridade_promocao' com valores 1, 2, 3, 4
-# e outra coluna 'justificativa' explicando o motivo
-
 def definir_prioridade_promocao(row):
     if (row['avaliacao_class'] == 'Excelente') and (row['score_funcionario_class'] == 'Alto'):
         return 1, 'Avaliação Excelente + Score Alto'
@@ -1050,6 +1044,5 @@ def definir_prioridade_promocao(row):
     else:
         return 4, 'Demais casos'
 
-df[['prioridade_promocao', 'justificativa']] = df.apply(definir_prioridade_promocao, axis=1, result_type='expand') # fui pesquisar e descobri o parâmetro result_type='expand' muito útil!
-
+df[['prioridade_promocao', 'justificativa']] = df.apply(definir_prioridade_promocao, axis=1, result_type='expand')
 print(df.to_string())
