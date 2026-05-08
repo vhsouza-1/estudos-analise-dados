@@ -946,6 +946,29 @@ for i, linha in enumerate(log, 1):
 # Depois crie um resumo mostrando quantos funcionários em cada prioridade
 """
 
+
+import pandas as pd
+import numpy as np
+
+# Dados para o exercício:
+np.random.seed(42)
+
+df_funcionarios = pd.DataFrame({
+    'funcionario_id': range(1, 21),
+    'nome': ['ana', 'BRUNO', 'carla', 'DANIEL', '  elisa  ', 'FABIO', 'gabriela', 'HUGO', '  isabela  ', 'JOAO',
+             'KARINA', 'LUCAS', 'mariana', 'NATALIA', '  otavio  ', 'PAULA', 'Rafael', 'SILVIA', 'TATIANA', 'ULISSES'],
+    'departamento': ['vendas', 'TI', 'vendas', 'RH', 'TI', 'VENDAS', 'rh', 'ti', 'RH', 'VENDAS',
+                     'financeiro', 'financeiro', 'vendas', 'TI', 'financeiro', 'rh', 'vendas', 'TI', 'financeiro', 'vendas'],
+    'salario': [3000, 4500, 3200, 4000, 4800, 3100, 3500, 5000, 4200, 3300,
+                5500, 6000, 3800, 5200, 4800, 3700, 4100, 5300, 5800, 3400],
+    'anos_empresa': [2, 5, 3, 8, 4, 1, 6, 10, 3, 2,
+                     7, 9, 4, 6, 5, 2, 3, 8, 7, 1],
+    'avaliacao': [3, 4, 3, 5, 4, 2, 4, 5, 3, 2,
+                  5, 5, 4, 4, 4, 3, 3, 5, 5, 2],
+    'bonus': [500, 800, 600, 1000, 900, 400, 750, 1200, 650, 450,
+              1100, 1300, 700, 950, 850, 550, 600, 1000, 1250, 500]
+})
+
 df = df_funcionarios.copy()
 
 df['nome'] = df['nome'].str.strip().str.title()
@@ -1045,4 +1068,5 @@ def definir_prioridade_promocao(row):
         return 4, 'Demais casos'
 
 df[['prioridade_promocao', 'justificativa']] = df.apply(definir_prioridade_promocao, axis=1, result_type='expand')
+
 print(df.to_string())
