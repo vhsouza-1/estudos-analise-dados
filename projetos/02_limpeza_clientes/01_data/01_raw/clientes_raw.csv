@@ -1,0 +1,207 @@
+id_cliente,nome,email,telefone,data_nascimento,data_cadastro,renda,categoria,compras
+1,Eduardo Ferreira,eduardo@email.com,(95) 8896-6951,2008-12-11,02/08/2022,-823.0,ouro,34.0
+2,Wagner Rocha,,29211161398,04/01/25,2013-15-18,377.0,básico,-2.0
+3,Zeca Dias,zeca@,(55)59104-7771,20/11/25,28/08/2018,5931.0,gold,4.0
+4,  Débora Carvalho  ,débora@email.c,tel: 81195-7315,08/09/2010,22/12/16,0.0,PLATINUM,
+5,wagner martins,wagner@email.com.br,tel: 44606-7962,02/05/2018,06.10.2015,6985.0,Basico,
+6,  Mariana Castro  ,mariana@email.com.br,(70)3329-8327,12.09.2022,30/04/2020,,gold,8.0
+7,  Rafael Carvalho  ,  rafael@email.com  ,(60)17560-1649,2033-10-02,05/07/18,,GOLD,-3.0
+8,  Débora Gomes  ,,55 17020 6214,2007-13-17,08.01.2006,1967.0,Premium,
+9,eduarda almeida,eduarda@empresa,97 98874 8521,25/09/09,1952-00-14,94628.0,ouro,-6.0
+10,ZECA CARVALHO,  zeca@email.com  ,11328046516,2008-04-25,02/03/2005,,GOLD,2.0
+11,CARLA GOMES,carla@email.c,,2021-07-28,12/11/2020,288.0,platina,-1.0
+12,  Carla Santos  ,carla@email,(70)1995-2831,1980-13-02,12/11/04,,Gold,7.0
+13,Karina Campos,  karina@email.com  ,80 56643 2985,21/10/2013,20/09/00,,Premium,2.0
+14,henrique dias,henrique@email.c,(31)26231-4444,31/05/04,2009-03-16,-2201.0,gold,
+15,Xuxa Santos,  xuxa@email.com  ,(68)2011-1893,28/07/2000,2007-03-14,165.0,básico,40.0
+16,  Eduardo Lima  ,eduardo@.com,(82) 14748-8323,2022-04-12,19/04/1999,-2759.0,GOLD,-6.0
+17,Silvia Freitas,silvia@email.c,(33) 15310-1097,26.07.2012,2031-04-27,-551.0,platina,28.0
+18,felipe rodrigues,,tel: 10137-1476,18/12/16,2029-07-06,289.0,basico,
+19,Silvia Barbosa,silviaemail.com,(30) 46288-9851,09.08.2011,20/09/2013,,platinum,-5.0
+20,Thiago Pereira,  thiago@email.com  ,(79) 6283-3358,29.11.2023,16/04/99,-1203.0,básico,
+21,  Eduardo Barbosa  ,eduardo@email,,2016-08-28,16/09/2021,,GOLD,-3.0
+22,SILVIA LIMA,silvia@email,tel: 56277-7345,2011-02-15,25/12/2024,58385.0,Premium,
+23,NATÁLIA ALVES,natália@email,(78) 30648-3680,13/01/05,05/05/2022,163704.0,básico,-2.0
+24,  Henrique Gomes  ,henrique@email.c,11551352505,08.02.2023,2000-04-13,0.0,Gold,38.0
+25,alberto martins,alberto@email.c,11867988709,17/06/2000,18/08/2000,161.0,ouro,3.0
+26,Silvia Rocha,silviaemail.com,11100098468,2034-10-13,2014-04-25,-4446.0,basic,
+27,BRUNO FREITAS,bruno@email.c,43 84814 1914,12/11/23,04/04/2023,130725.0,Gold,6.0
+28,FELIPE FREITAS,felipeemail.com,(58) 3982-2829,12/04/05,2024-10-26,84.0,platinum,
+29,BRUNO SILVA,,63 38761 3168,23.01.2013,02/09/2021,79118.0,basic,49.0
+30,Henrique Castro,henriqueemail.com,11194994271,19/11/02,2007-10-24,77164.0,,
+31,Beatriz Carvalho,beatriz@,(79)4871-3066,2022-02-16,2017-14-16,172545.0,Basico,-5.0
+32,Daniel Santos,daniel@,64420314062,09.05.2007,2000-08-17,105912.0,basico,6.0
+33,eduarda pereira,eduardaemail.com,(71) 42333-3804,07/08/2008,21.02.2019,186025.0,outro,15.0
+34,daniel almeida,danielemail.com,(21) 14951-8060,28/06/2014,05/12/03,137.0,PLATINUM,
+35,KARINA FREITAS,,(56) 57877-1757,08/02/13,06/08/07,,premio,-7.0
+36,eduarda oliveira,eduarda@.com,(69) 66616-2707,2005-06-05,31/12/2025,9925.0,Platinum,35.0
+37,Bruno Santos,bruno@,,2006-10-13,13/10/04,399.0,DIAMOND,-5.0
+38,  Yasmin Rodrigues  ,yasmin@.com,17 43563 5455,29/01/19,2024-07-05,,Diamond,-9.0
+39,Bruno Ribeiro,bruno@empresa,11451483788,2024-13-28,15/12/2002,0.0,Basico,-9.0
+40,  Ana Santos  ,ana@email.c,(24)97084-8374,29/05/19,2028-03-04,0.0,Platinum,-10.0
+41,  Mariana Pereira  ,,,28/02/2013,26.08.2003,12384.0,premio,-1.0
+42,OTÁVIO CAMPOS,,(48)40919-5472,1969-00-13,22/09/2013,-419.0,NA,31.0
+43,OTÁVIO SILVA,,(40) 48859-8679,2023-10-28,05/01/2018,500.0,básico,30.0
+44,EDUARDO ROCHA,eduardo@email.c,,16/07/00,2005-05-27,10355.0,Diamond,
+45,  Rafael Rodrigues  ,rafael@,(40) 70719-4991,22/07/2019,17.06.2016,-3090.0,GOLD,
+46,silvia alves,,14 57635 5926,06.08.2014,01/03/06,-2307.0,platina,-9.0
+47,Thiago Campos,thiago@email.com,51365002362,2024-04-10,20/05/03,194890.0,Diamond,27.0
+48,ZECA PEREIRA,zeca@email.c,(86)46442-5829,03/05/2020,01.12.2007,0.0,premium,-4.0
+49,CARLA FREITAS,,tel: 40886-7246,2001-03-09,2009-07-03,-841.0,premium,14.0
+50,  Alberto Almeida  ,alberto@email.com.br,(47) 16606-4507,2013-13-06,2029-10-01,0.0,basico,
+51,João Lima,joão@empresa,(30) 27424-2622,15/10/2017,03.04.2022,-162.0,Gold,-1.0
+52,carla alves,carla@email.com,tel: 76382-1329,17/03/2016,02.01.2002,0.0,Diamond,8.0
+53,Thiago Barbosa,thiago@email.c,,2033-03-22,2008-11-04,,Premium,-3.0
+54,RAFAEL ALVES,rafael@empresa,(17)6545-5865,2031-07-05,30/04/2021,71332.0,platinum,
+55,RAFAEL DIAS,rafael@email.com.br,11722782752,12/10/2022,28.01.2011,-2326.0,basic,
+56,THIAGO GOMES,thiago@email.com.br,(56)34529-6391,31.05.2020,12.08.1999,0.0,Gold,20.0
+57,Úrsula Rocha,  úrsula@email.com  ,(43) 7372-9414,1953-00-18,2035-09-26,149045.0,platinum,
+58,FELIPE SANTOS,  felipe@email.com  ,50799189749,09.03.2026,2025-03-27,,básico,28.0
+59,XUXA CASTRO,,18616077414,2027-07-16,06.07.2015,,ouro,-1.0
+60,Gabriela Silva,gabriela@email.c,17325398164,2015-03-09,1999-05-05,172005.0,GOLD,27.0
+61,eduarda barbosa,  eduarda@email.com  ,19320501065,22.07.2022,09/09/2022,0.0,ouro,
+62,  Otávio Alves  ,otávio@email,(90)20335-6556,1990-13-12,2033-10-12,89782.0,Diamond,-2.0
+63,Eduardo Pereira,eduardoemail.com,tel: 12955-4991,1991-00-24,24/08/2014,,BASIC,-9.0
+64,Daniel Ferreira,daniel@empresa,(76)1260-7000,06.07.2009,2001-06-27,183.0,Diamond,4.0
+65,Carlos Silva,carlos@,tel: 47083-4655,03.11.2006,21/12/21,2927.0,Basico,4.0
+66,  Úrsula Silva  ,úrsula@empresa,,09/04/15,2018-11-22,56594.0,platinum,-10.0
+67,  João Rodrigues  ,joão@.com,11408796188,07/09/11,20.07.2021,-2028.0,premio,-2.0
+68,BRUNO SILVA,bruno@email.c,(93) 1290-4274,28/09/01,26/11/17,-4696.0,NA,43.0
+69,eduardo castro,eduardo@email.com.br,,1960-14-12,2028-09-21,-1669.0,NA,11.0
+70,  Wagner Castro  ,wagner@,(56)55483-9172,02.07.2006,2035-08-29,126268.0,platinum,22.0
+71,  Eduardo Rocha  ,eduardo@.com,76 82328 1776,28/07/2004,29/03/2002,,Platinum,20.0
+72,Beatriz Ribeiro,,(94) 22014-3685,15/09/2002,13.03.2006,6596.0,PLATINUM,-4.0
+73,  Yasmin Lima  ,yasmin@.com,55330652190,26/04/15,20.09.2010,158312.0,ouro,42.0
+74,Rafael Ribeiro,rafael@,68 70664 3691,25/02/2003,2014-10-01,0.0,Gold,50.0
+75,Alberto Rodrigues,  alberto@email.com  ,11122922164,2016-15-16,18/08/2019,,Platinum,47.0
+76,CARLA DIAS,carla@email.com,11952732239,28/05/2018,06.08.2015,215.0,gold,10.0
+77,BRUNO RIBEIRO,bruno@email.com.br,(81)46197-1132,25.09.2012,24.08.2010,0.0,Diamond,-5.0
+78,OTÁVIO LIMA,otávio@.com,(21) 9543-6419,25/05/25,2003-07-22,352.0,Premium,-5.0
+79,ana freitas,ana@email,(72)49300-2266,02.01.1999,14.03.2018,111.0,basic,-10.0
+80,Henrique Souza,,(15) 23847-7494,17/07/14,22/12/2014,8090.0,Premium,
+81,BEATRIZ CASTRO,,(69)5023-4740,24.11.2022,08/07/14,2721.0,basico,41.0
+82,Patrícia Santos,patríciaemail.com,(73)44115-7381,15/07/08,2000-08-26,3740.0,Premium,-9.0
+83,Lucas Gomes,lucasemail.com,55 18741 1732,03/01/2013,2001-02-09,-3699.0,básico,-2.0
+84,Carlos Rocha,carlos@empresa,19759444908,2000-11-30,30.03.2007,74458.0,NA,47.0
+85,  Ana Oliveira  ,ana@email,11395659222,12/04/16,30/03/2007,-712.0,outro,12.0
+86,  Felipe Pereira  ,felipe@email.com.br,tel: 60877-1929,18.12.2015,2005-08-14,9505.0,outro,18.0
+87,  Carla Rocha  ,carla@empresa,11271909740,2027-05-16,20.09.2005,0.0,,-3.0
+88,  Gabriela Carvalho  ,gabrielaemail.com,,20.03.2002,09.08.2015,0.0,DIAMOND,-6.0
+89,RAFAEL OLIVEIRA,  rafael@email.com  ,29656119618,31.03.2010,30/01/03,63.0,Basico,-5.0
+90,ZECA GOMES,zeca@,,21/04/24,24/02/2021,,basico,
+91,Isabela Almeida,isabela@empresa,(60)33202-2984,22/06/2008,21.10.2007,96155.0,platina,42.0
+92,bruno rodrigues,bruno@.com,tel: 45924-8029,30.04.2002,31.03.2021,8111.0,basico,
+93,yasmin silva,,(66)15732-8051,18/03/19,04/04/2004,157.0,basic,-8.0
+94,Isabela Ferreira,isabela@email,82 10133 3416,16/07/11,09/06/2004,-4435.0,BASIC,27.0
+95,Daniel Castro,daniel@email.com.br,(18)21089-4961,12/10/24,29.11.2011,10906.0,Premium,
+96,karina campos,karina@email.com,11708415252,28/11/24,2006-02-10,-3412.0,gold,-7.0
+97,isabela souza,isabela@email.com.br,(14) 1582-3434,20.03.2008,27/01/10,0.0,Gold,-5.0
+98,  Lucas Almeida  ,lucas@.com,(42)75322-7718,07/06/25,23/10/2006,0.0,GOLD,36.0
+99,Ana Ferreira,,(22) 2040-2863,2029-10-08,2002-08-16,150593.0,premium,29.0
+100,Yasmin Gomes,yasmin@email.com.br,,2029-03-05,2032-01-30,7012.0,Basico,
+101,  João Santos  ,  joão@email.com  ,11901071252,27/06/2022,2025-04-14,0.0,DIAMOND,
+102,Bruno Martins,brunoemail.com,,10.11.2007,25/11/10,112114.0,diamond,11.0
+103,beatriz martins,beatriz@email.c,,29.01.2002,2014-00-04,102430.0,diamond,
+104,Thiago Carvalho,thiago@email,(50)1979-5989,2002-10-21,2008-07-26,-927.0,Gold,-5.0
+105,rafael gomes,,(83) 3148-7794,29/01/2019,2004-03-09,1906.0,platina,
+106,RAFAEL ROCHA,rafael@empresa,,2016-12-08,2010-01-10,7663.0,Diamond,47.0
+107,Mariana Lima,marianaemail.com,84930513269,05.06.2000,04/04/2008,165.0,Basico,-8.0
+108,ALBERTO ALVES,albertoemail.com,,19.09.2008,24/02/08,2231.0,premium,11.0
+109,  Bruno Lima  ,bruno@.com,11528125491,2026-12-03,28/03/2015,11243.0,basico,-4.0
+110,Carlos Ferreira,carlosemail.com,11101432656,28/10/13,22/08/2012,14727.0,PREMIUM,46.0
+111,Úrsula Rocha,úrsula@empresa,11253752248,14/06/2009,2021-08-17,-3037.0,Premium,-1.0
+112,EDUARDO FREITAS,eduardo@email.c,,2029-03-31,13/08/2006,2872.0,ouro,14.0
+113,Alberto Rocha,alberto@email,89 55109 1836,2035-06-09,09/08/2020,60729.0,Basico,
+114,Vanessa Santos,vanessa@email.c,(43) 64643-6112,12.04.2021,2027-06-16,94.0,PREMIUM,
+115,Ana Ferreira,ana@email.c,(66)2784-4538,12/03/22,08.08.2024,264.0,gold,21.0
+116,  Thiago Alves  ,thiago@email,(69) 6966-1365,24.05.2017,24/05/2006,137034.0,Platinum,-7.0
+117,YASMIN RIBEIRO,yasmin@email.c,,20/09/20,2013-07-19,382.0,Gold,-5.0
+118,Silvia Martins,silvia@,tel: 29364-3058,02/01/2006,07/02/19,145532.0,,31.0
+119,João Gomes,joão@email.c,,08/01/2025,28/08/2018,,,47.0
+120,  Rafael Castro  ,rafael@,,2014-15-01,12.05.2002,,Gold,
+121,xuxa rocha,xuxa@email.c,,13.03.2021,2001-05-23,327.0,Gold,
+122,zeca santos,zeca@email,tel: 70687-2767,16/05/2005,1965-13-24,-2131.0,BASIC,
+123,Isabela Rodrigues,isabelaemail.com,46 63808 1723,27/04/2000,18/03/2008,10616.0,basic,
+124,  Úrsula Silva  ,úrsula@email.com.br,(79)63082-1705,18/07/2010,2005-10-25,226.0,PLATINUM,
+125,Henrique Freitas,henrique@empresa,tel: 43801-1249,25.05.2017,03.11.2009,-2305.0,basic,50.0
+126,Patrícia Rodrigues,,(77)7632-2751,2005-01-15,22.05.2011,,,-3.0
+127,Patrícia Martins,patrícia@email,11757801845,01/05/2010,23.11.2007,2920.0,Premium,29.0
+128,Silvia Castro,,(64) 41257-4641,2004-11-03,19.09.2011,-1448.0,Basico,20.0
+129,eduardo dias,  eduardo@email.com  ,11387478861,2000-12-13,29/06/08,,PREMIUM,
+130,ANA BARBOSA,ana@,11223149557,29.07.2002,2018-07-19,179029.0,PREMIUM,-4.0
+131,  Carla Campos  ,carla@email.com,11671701993,2019-01-20,20.03.2011,373.0,Premium,-6.0
+132,  Rafael Martins  ,rafaelemail.com,,03.10.2002,26/07/16,,Premium,-1.0
+133,Carla Oliveira,carla@.com,(54) 72092-8146,2007-12-15,25/10/2018,-4954.0,PREMIUM,22.0
+134,  Natália Souza  ,natália@email.c,tel: 27008-2598,1982-15-18,08.11.2009,199590.0,gold,28.0
+135,DÉBORA GOMES,  débora@email.com  ,,16.03.2008,2026-01-01,8923.0,Platinum,-6.0
+136,xuxa rodrigues,,(60)97619-5944,2005-12-09,2002-04-23,-3558.0,Gold,-7.0
+137,  Thiago Almeida  ,thiago@email.c,,30/10/11,2010-10-22,5449.0,NA,-1.0
+138,GABRIELA CASTRO,gabriela@empresa,,1984-00-13,2024-05-22,,basic,
+139,Vanessa Gomes,vanessa@email,,26.06.2012,2009-11-22,,Premium,
+140,KARINA PEREIRA,karina@email,(12)63932-3396,06/12/17,1988-14-13,,PLATINUM,
+141,João Silva,joãoemail.com,,2030-04-11,24.10.2014,89811.0,ouro,
+142,Felipe Castro,felipe@email,(30) 19476-5357,2005-03-13,15.08.2005,0.0,BASIC,
+143,KARINA ROCHA,karina@,(95)6124-1789,2028-07-07,13/12/2017,12264.0,PREMIUM,-8.0
+144,Wagner Rodrigues,wagneremail.com,(76) 9841-9256,16.01.2023,1999-08-13,445.0,diamond,14.0
+145,joão oliveira,,,2007-02-04,2011-03-23,,outro,-8.0
+146,Beatriz Gomes,beatriz@email.com.br,,17.01.2008,2006-07-05,-1115.0,platina,
+147,yasmin campos,yasminemail.com,55145621148,20/06/2006,20/11/00,0.0,diamond,-3.0
+148,MARIANA SANTOS,mariana@email,55 45503 7118,17/04/06,08/10/24,1911.0,,
+149,CARLA MARTINS,carla@email,76 29894 4027,07/01/19,1960-14-21,125172.0,Platinum,34.0
+150,  Carlos Ribeiro  ,  carlos@email.com  ,(64) 32815-5614,2030-07-22,04.04.2014,,NA,-1.0
+151,patrícia souza,patrícia@email.com,(95) 6876-7952,27.09.2023,24/03/05,0.0,basic,
+152,Zeca Campos,zeca@email,(37)60795-7622,02/04/2016,1999-01-16,,PREMIUM,-5.0
+153,Gabriela Oliveira,gabriela@.com,88 13551 4484,1978-13-06,30/01/2009,50.0,platina,-8.0
+154,Eduarda Ribeiro,eduarda@email,(39) 65272-1742,06/01/2000,2020-06-22,466.0,platina,
+155,BRUNO RODRIGUES,brunoemail.com,56534031283,13.07.2015,20/09/09,,PLATINUM,34.0
+156,  Gabriela Dias  ,gabriela@email.com.br,11303054691,2018-02-23,16/09/2018,-2813.0,Basico,-8.0
+157,Alberto Alves,alberto@email.c,(36) 81258-2817,03/04/00,18/08/11,-712.0,Gold,-1.0
+158,Yasmin Oliveira,yasmin@,(35)89734-4474,1981-15-15,2004-12-12,445.0,basico,38.0
+159,  Eduardo Barbosa  ,eduardo@empresa,(21) 6875-2945,01/12/2000,20/04/2004,0.0,Basico,-4.0
+160,DANIEL PEREIRA,,76515759772,16/02/11,2014-09-30,10301.0,Gold,-6.0
+161,  Yasmin Rocha  ,yasmin@email.com,20 24049 1524,2010-01-19,2006-11-02,-383.0,premio,10.0
+162,YASMIN FREITAS,yasmin@empresa,85531915184,19.10.2023,02.03.2003,1403.0,ouro,23.0
+163,  Eduarda Santos  ,eduarda@email.com,tel: 81054-4736,03.02.2006,2019-08-05,,Diamond,-2.0
+164,felipe freitas,felipe@email,95342807721,12/09/99,02/02/2014,-2844.0,Diamond,46.0
+165,Alberto Silva,,11222708911,05/01/2022,05.04.2015,-3745.0,Basico,
+166,OTÁVIO CARVALHO,,(21) 64663-2892,08.11.2003,08/03/07,0.0,Diamond,
+167,Bruno Alves,bruno@empresa,(61) 47509-3458,18/02/2005,26.04.2014,58830.0,BASIC,
+168,  Zeca Gomes  ,zeca@email.com,78 86049 8430,10/09/01,14/12/16,,platina,
+169,NATÁLIA DIAS,natália@,(33) 28788-7758,13/08/2010,12/07/2017,,platina,37.0
+170,CARLA CARVALHO,carla@empresa,11170105582,27.06.2009,22.01.2025,0.0,Diamond,44.0
+171,KARINA FREITAS,,25 84767 7939,13.08.2004,19/08/2014,7476.0,platina,-3.0
+172,  Felipe Dias  ,felipe@,40432693053,2033-12-10,05/01/10,,Premium,21.0
+173,beatriz castro,beatriz@.com,(20)6681-6504,26/12/05,2003-05-06,0.0,platina,
+174,Carlos Martins,,11810594549,12/08/2018,28.10.2011,,NA,-8.0
+175,mariana lima,  mariana@email.com  ,tel: 39233-1973,25/02/2011,2026-02-03,0.0,premium,-2.0
+176,Eduarda Rodrigues,eduarda@.com,(34)8830-7530,09/11/2025,15/09/09,10675.0,PREMIUM,-10.0
+177,eduardo oliveira,eduardoemail.com,tel: 31055-5605,2035-03-16,21/05/09,449.0,Basico,-9.0
+178,Ana Almeida,,tel: 40853-9864,30.03.2015,2002-04-15,0.0,BASIC,
+179,mariana martins,mariana@,tel: 63385-8433,2033-10-02,15/12/2014,12894.0,PREMIUM,
+180,Carla Barbosa,carlaemail.com,(92) 2744-4422,27/02/23,07.05.2000,268.0,premium,12.0
+181,Xuxa Castro,,(57) 24849-2875,03/08/21,05/05/08,0.0,basic,
+182,  Eduardo Almeida  ,eduardo@.com,85456067533,1977-13-20,01.08.2020,,basico,
+183,silvia carvalho,silvia@empresa,21 99259 8979,20.03.2001,10/04/99,-167.0,PLATINUM,
+184,yasmin santos,yasmin@email.com,(19)84261-3652,09/04/1999,05.09.2013,377.0,premium,9.0
+185,VANESSA ALVES,,(50)3843-4685,2007-01-26,23.01.2008,365.0,diamond,
+186,VANESSA SILVA,vanessa@email.com.br,,2020-04-06,16/11/23,,platina,-7.0
+187,otávio campos,otávio@.com,(96) 56310-8709,07/01/03,04/02/1999,10572.0,outro,28.0
+188,carlos freitas,  carlos@email.com  ,tel: 58308-7733,04.11.2002,22/12/06,188024.0,gold,
+189,  Débora Rodrigues  ,débora@,(42)13917-6577,06/08/08,2028-07-27,,Premium,15.0
+190,Isabela Campos,isabela@email.com.br,(12)3477-5580,2027-02-23,2010-11-19,-2170.0,basic,10.0
+191,OTÁVIO MARTINS,otávio@email.com.br,(31) 80985-9509,2021-05-19,18/06/20,9640.0,Basico,-7.0
+192,Isabela Gomes,isabela@.com,11947346896,2033-11-07,26.09.2018,53189.0,Gold,-9.0
+193,Yasmin Almeida,yasmin@email.com,23206742684,10.08.2013,2022-10-01,-2099.0,GOLD,
+194,Otávio Campos,otávioemail.com,(20)3241-6600,17.11.2004,25/03/2008,,platina,6.0
+195,isabela santos,isabela@email.com,11718484950,19/12/99,04/11/17,136529.0,PLATINUM,-6.0
+196,Daniel Rocha,daniel@,tel: 88354-6693,2013-00-16,10/04/2012,131611.0,gold,
+197,  Carla Souza  ,carla@empresa,85335876034,23.07.2018,2015-05-27,14959.0,PLATINUM,-9.0
+198,  Lucas Rocha  ,lucasemail.com,(73)4432-8578,08/08/14,29/07/2007,,NA,-10.0
+199,  Xuxa Carvalho  ,,(41)1466-5773,1999-12-01,10/07/2023,0.0,platinum,
+200,  Natália Freitas  ,natália@email.com,,2005-15-15,31/08/18,,,-2.0
+96,karina campos,karina@email.com,11708415252,28/11/24,2006-02-10,-3412.0,gold,-7.0
+16,  Eduardo Lima  ,eduardo@.com,(82) 14748-8323,2022-04-12,19/04/1999,-2759.0,GOLD,-6.0
+31,Beatriz Carvalho,beatriz@,(79)4871-3066,2022-02-16,2017-14-16,172545.0,Basico,-5.0
+159,  Eduardo Barbosa  ,eduardo@empresa,(21) 6875-2945,01/12/2000,20/04/2004,0.0,Basico,-4.0
+129,eduardo dias,  eduardo@email.com  ,11387478861,2000-12-13,29/06/08,,PREMIUM,
+206,Cliente Repetido,eduardo@email.com,(40) 4376-4401,2016-01-14,13.07.2004,9018.0,Diamond,
