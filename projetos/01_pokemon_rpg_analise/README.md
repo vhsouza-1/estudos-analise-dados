@@ -1,10 +1,10 @@
 # Projeto de Tratamento da Pokédex para RPG
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Pipeline de limpeza e adaptação de dados da Pokédex (gerações 1 a 9) para um sistema de RPG. O projeto padroniza nomes de colunas, trata strings, classifica Pokémon como lendários/míticos/pseudolendários e converte os stats originais para valores balanceados para RPG.
 
-## 🎯 Objetivos
+## Objetivos
 
 - Padronizar nomes de colunas e valores textuais (minúsculo, sem espaços)
 - Classificar Pokémon como lendário, mítico ou pseudolendário
@@ -13,7 +13,7 @@ Pipeline de limpeza e adaptação de dados da Pokédex (gerações 1 a 9) para u
 - Calcular novo BST (Base Stat Total) adaptado
 - Remover colunas desnecessárias após conversão
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 - 02_raw/pokedex_raw.csv - Dados brutos da Pokédex
 - 02_raw/pokedex_bruno_raw.csv - Dados com classificação de lendários/míticos
@@ -22,7 +22,7 @@ Pipeline de limpeza e adaptação de dados da Pokédex (gerações 1 a 9) para u
 - 03_processed/pokedex.csv - Saída da limpeza (padronizada)
 - 03_processed/pokedex_rpg.csv - Saída final (adaptada para RPG)
 
-## 🔧 Etapas do Pipeline
+## Etapas do Pipeline
 
 ### Script 1: 01_limpeza.py
 
@@ -47,7 +47,7 @@ Pipeline de limpeza e adaptação de dados da Pokédex (gerações 1 a 9) para u
 
 Após a conversão, o BST original é removido e um novo 'bst_rpg' é calculado como a soma dos seis stats convertidos.
 
-## 📊 Exemplo de Transformação
+## Exemplo de Transformação
 
 | Stat | Original (Ex: Charizard) | Convertido (RPG) |
 |------|--------------------------|------------------|
@@ -60,35 +60,20 @@ Após a conversão, o BST original é removido e um novo 'bst_rpg' é calculado 
 | BST original | 534 | - |
 | bst_rpg | - | 86 |
 
-## 🚀 Como Executar
-
-Pré-requisitos:
-pip install pandas numpy
-
-Organize os arquivos:
-Coloque pokedex_raw.csv e pokedex_bruno_raw.csv na pasta 02_raw/
-
-Execute a limpeza:
-python 01_limpeza.py
-
-Execute a adaptação para RPG:
-python 02_adaptacao_pokedex_rpg.py
-
 Resultados:
 - 03_processed/pokedex.csv (dados padronizados)
 - 03_processed/pokedex_rpg.csv (dados adaptados para RPG)
 
-## 📌 Observações
+## Observações
 
 - O script trata Pokémon com formas alternativas (ex: Castform, Deoxys, Mega Evoluções)
 - A classificação 'pml' pode ficar vazia para Pokémon comuns (sem status especial)
 - Os multiplicadores foram definidos para balanceamento de um sistema de RPG específico
 - A ordenação por ID e geração garante consistência com a evolução cronológica
 
-## 👤 Autor
+## Contato
+- Nome: Vinícius Henrique Souza
+- email: vinicius.h.zlc@gmail.com
+- linkedin: [https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/](https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/)
 
-vhsouza - 12/05/2026
-
-## 📄 Licença
-
-Uso educacional - Projeto de estudo de limpeza e transformação de dados com pandas.
+Para uso educacional - Projeto de pokedex para rpg de pokemon com Pandas
