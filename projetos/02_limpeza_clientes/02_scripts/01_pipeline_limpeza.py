@@ -141,15 +141,64 @@ df['categoria'] = df['categoria'].replace(categorias_map).str.title()
 
 df['email'] = df['email'].str.strip().str.lower()
 
-mask_email = df['email'].str.contains('@email.com')
+# Tratar emails sem arroba:
 
-print(df['email'][~mask_email])
+mascara_sem_arroba = ~df['email'].str.contains('@')
+
+emails_sem_arroba = df.loc[mascara_sem_arroba, 'email']
+
+for idx, email in emails_sem_arroba.items():
+    dominio = email[-9:]
+    usuario = email.replace('email.com', '')
+    novo_email = usuario+'@'+dominio
+    df.loc[idx, 'email'] = novo_email
 
 
+# Tratar emails sem .com
 
+mascara_sem_pontocom = ~df['email'].str.contains('.com')
 
-# TODO: Crie uma função ou regex para limpar emails
-# TODO: Aplique na coluna 'email'
+emails_sem_pontocom = df.loc[mascara_sem_pontocom, 'email']
+
+# dominios_errados = [emails.split('@')[1] for emails in emails_sem_pontocom]
+# print(pd.Series(dominios_errados).unique())
+# ['email.c', 'empresa', 'email', ''] # Tipos de erro
+
+mascara_erro1 = mascara_sem_pontocom & df['email'].str.contains('email.c', regex=False)
+mascara_erro2 = mascara_sem_pontocom & df['email'].str.contains('empresa')
+mascara_erro3 = mascara_sem_pontocom & df['email'].str.contains('email') & ~mascara_erro1
+mascara_erro4 = mascara_sem_pontocom & ~(mascara_erro1|mascara_erro2|mascara_erro3)
+
+for idx, email in df.loc[mascara_erro1, 'email'].items():
+    novo_email = email.replace('email.c', 'email.com')
+    df.loc[idx, 'email'] = novo_email
+
+for idx, email in df.loc[mascara_erro2, 'email'].items():
+    novo_email = email.replace('empresa', 'empresa.com')
+    df.loc[idx, 'email'] = novo_email
+
+for idx, email in df.loc[mascara_erro3, 'email'].items():
+    novo_email = email.replace('email', 'email.com')
+    df.loc[idx, 'email'] = novo_email
+
+for idx, email in df.loc[mascara_erro4, 'email'].items():
+    # print(email) # apenas usuário@
+    novo_email = email + 'email.com'
+    df.loc[idx, 'email'] = novo_email
+
+# Nova verificação:
+# print(df['email'][~df['email'].str.contains('@')].count()) # 0
+
+# dominios = [email.split('@')[1] for email in df['email']]
+# print(pd.Series(dominios).unique()) # ['email.com', '.com', 'email.com.br', 'empresa.com']
+
+# Tratar emails no formato "@.com"
+
+mascara_erro5 = df['email'].str.contains('@.com', regex=False)
+
+for idx, email in df.loc[mascara_erro5, 'email'].items():
+    novo_email = email.replace('@.com', '@email.com')
+    df.loc[idx, 'email'] = novo_email
 
 # 3.2 Limpeza de telefones
 # Problemas: formatos diferentes, letras
