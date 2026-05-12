@@ -20,7 +20,7 @@ Pipeline completo de limpeza e padronização de dados de clientes. O projeto tr
 - 03_reports/01_imagens/ - Visualizações (opcional)
 - 04_docs/ - Documentação
 
-## 🔧 Etapas do Pipeline
+## Etapas do Pipeline
 
 ### 1. Padronização de Formatos
 
@@ -82,10 +82,9 @@ Resultado: 01_data/02_processed/cliente_limpo.csv
 - Telefones com menos de 10 ou mais de 11 dígitos foram tratados como nulos
 - Colunas _norm foram retiradas do arquivo final
 
-## Autor
+## Contato
+- Nome: Vinícius Henrique Souza
+- email: vinicius.h.zlc@gmail.com
+- linkedin: [https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/](https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/)
 
-vhsouza - 11/05/2026
-
-## Licença
-
-Uso educacional - Projeto de estudo de limpeza de dados com pandas.
+Para uso educacional - Projeto de estudo de limpeza de dados com pandas.
