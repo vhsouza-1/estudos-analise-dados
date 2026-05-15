@@ -10,8 +10,8 @@ Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrand
 
 - [X] SQL (básico ao avançado)
 - [X] Python (geral)
-- [ ] Python (bibliotecas para Dados) (em andamento!)
-- [ ] Projetos integrados (SQL + Python)
+- [X] Python (bibliotecas para Dados)
+- [ ] Estatística para dados (em andamento!)
 - [ ] Power BI
 
 ## Estrutura do Repositório
@@ -34,8 +34,14 @@ Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrand
 - ['09_arquivos/'](02_Python/09_arquivos): leitura, escrita, arquivos csv, DictReader(). DictWriter()
 - ['10_logica_sequencias/'](02_Python/10_logica_sequencias): all(), any(), sum() sobre operacoes logicas
 
-### [03_python_para_dados/](03_python_para_dados) (em andamento!)
-- ['01_introducao_pandas/'](03_python_para_dados/01_introducao_pandas): Series, DataFrames, agrupamentos
+### [03_python_para_dados/](03_python_para_dados) 
+- ['01_introducao_pandas/'](03_python_para_dados/01_introducao_pandas): Series, DataFrames, groupby(), merge(), leitura e escrita.
+- ['02_visualizacao/'](03_python_para_dados/02_visualizacao): Matplotlib, seaborn, subplots, histogramas, boxplot, heatmap.
+- ['03_limpeza_dados_avancada/'](03_python_para_dados/03_limpeza_dados_avancada): nulos, duplicatas, inconsistências, regex, datas.
+
+### [04_estatistica/](04_estatistica) (em andamento!)
+- Numpy, estatística descritiva, distribuições de probabilidade, correlação...
+
 
 ## Contato
 - Nome: Vinícius Henrique Souza
