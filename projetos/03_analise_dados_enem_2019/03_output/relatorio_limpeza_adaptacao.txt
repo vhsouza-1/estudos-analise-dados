@@ -1,0 +1,17 @@
+=== RELATÓRIO DO SCRIPT DE LIMPEZA, PADRONIZAÇÃO E ADAPTAÇÃO ===
+Data: 2026-05-21 13:16:24.799624
+===============================================================
+1 - arquivo csv importado de: C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\02_data\01_raw\"enem2019_final_filter.csv" com 100.000 linhas
+2 - Quantidade de linhas duplicadas: 0
+3 - Quantidade de colunas no relatório: 66
+4 - Quantidade de colunas mantidas: 7
+5 - Colunas mantidas: ['TP_COR_RACA', 'TP_SEXO', 'NU_IDADE', 'SG_UF_RESIDENCIA', 'NU_NOTA_MEDIA', 'NU_NOTA_REDACAO', 'NU_TOTAL_ACERTOS']
+6 - Utilizando o Dicionário_Microdados_Enem_2019 vamos trocar os valores de "TP_COR_RACA" para seus valores categóricos:
+7 - 0 -> 'Não declarado', 1 -> 'Branca', 2 -> 'Preta', 3 -> 'Parda', 4 -> 'Amarela', 5 -> 'Indígena'
+8 - Coluna "NU_IDADE" convertida para valores inteiros
+9 - Quantidade de nulos células nulas identificadas: 1
+10 - Como a porcentagem de células nulas é ínfima (0.001%), dropamos as linhas
+11 - Colunas renomeadas: 'TP_COR_RACA' -> 'cor_raca', 'TP_SEXO' -> 'genero', 'NU_IDADE' -> 'idade', 'SG_UF_RESIDENCIA' -> 'uf', 'NU_NOTA_MEDIA' -> 'nota_media', 'NU_NOTA_REDACAO' -> 'nota_redacao', 'NU_TOTAL_ACERTOS' -> 'total_acertos'
+12 - Nome das novas colunas: ['cor_raca', 'genero', 'idade', 'uf', 'nota_media', 'nota_redacao', 'total_acertos']
+13 - arquivo csv salvo em: C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\02_data\02_processed\'enem2019_basico.csv'
+===============================================================
