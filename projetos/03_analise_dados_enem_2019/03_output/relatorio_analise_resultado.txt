@@ -1,0 +1,50 @@
+=== RELATÓRIO DO SCRIPT DE ANÁLISE DO RESULTADO ===
+Data: 2026-05-22 14:18:03.188046
+===============================================================
+1 - df processado importado de C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\02_data\02_processed\enem2019_basico.csv
+2 - ############################################################
+3 - Análise do total de acertos:
+4 -  - Média do total de acertos: 62
+5 -  - Mediana do total de acertos: 58
+6 -  - Moda do total de acertos: 50
+7 -  - Desvio Padrão do total de acertos: 21
+8 -  - Mínimo do total de acertos: 0
+9 -  - Máximo do total de acertos: 157
+10 -  - Q1 do total de acertos: 46
+11 -  - Q3 do total de acertos: 73
+12 -  - Total de Outliers em total de acertos: 2482 (2.482%)
+13 -  - Total de Outliers Sup.: 2480 (2.480%)
+14 -  - Total de Outliers Inf.: 2 (0.002%)
+15 - Gráfico "histograma_total_acertos.png" salvo em C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\03_output
+16 - Gráfico "boxplot_total_acertos.png" salvo em C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\03_output
+17 - ############################################################
+18 - Análise da nota da redação:
+19 -  - Média da nota da redação: 608
+20 -  - Mediana da nota da redação: 600
+21 -  - Moda da nota da redação: 600
+22 -  - Desvio Padrão da nota da redação: 178
+23 -  - Mínimo da nota da redação: 0.0
+24 -  - Máximo da nota da redação: 1000.0
+25 -  - Q1 da nota da redação: 520
+26 -  - Q3 da nota da redação: 720
+27 -  - Total de Outliers em nota da redação: 2003 (2.003%)
+28 -  - Total de Outliers Sup.: 0 (0.000%)
+29 -  - Total de Outliers Inf.: 2003 (2.003%)
+30 - Gráfico "histograma_nota_redacao.png" salvo em C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\03_output
+31 - Gráfico "boxplot_nota_redacao.png" salvo em C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\03_output
+32 - ############################################################
+33 - Análise da nota média:
+34 -  - Média da nota média: 532
+35 -  - Mediana da nota média: 524
+36 -  - Moda da nota da média: 507
+37 -  - Desvio Padrão da nota da média: 82
+38 -  - Mínimo da nota da média: 60.0
+39 -  - Máximo da nota da média: 820.52
+40 -  - Q1 da nota da média: 475
+41 -  - Q3 da nota da média: 585
+42 -  - Total de Outliers em nota da redação: 543 (0.543%)
+43 -  - Total de Outliers Sup.: 448 (0.448%)
+44 -  - Total de Outliers Inf.: 95 (0.095%)
+45 - Gráfico "histograma_nota_media.png" salvo em C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\03_output
+46 - Gráfico "boxplot_nota_media.png" salvo em C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\03_output
+===============================================================

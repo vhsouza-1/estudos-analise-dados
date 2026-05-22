@@ -1,0 +1,54 @@
+=== RELATÓRIO DO SCRIPT DE ANÁLISE DA PARTICIPAÇÃO ===
+Data: 2026-05-22 13:03:06.404311
+===============================================================
+1 - df processado importado de C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\02_data\02_processed\enem2019_basico.csv
+2 - Porcentagem das participações por genero:
+3 -  - Pessoas autoidentificadas com cor/raça F: 64.89%
+4 -  - Pessoas autoidentificadas com cor/raça M: 35.11%
+5 - Gráfico "participao_por_genero.png" salvo em C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\03_output
+6 - Porcentagem das participações por cor e raça:
+7 -  - Pessoas autoidentificadas com cor/raça Branca: 34.08%
+8 -  - Pessoas autoidentificadas com cor/raça Preta: 13.44%
+9 -  - Pessoas autoidentificadas com cor/raça Parda: 47.83%
+10 -  - Pessoas autoidentificadas com cor/raça Amarela: 2.35%
+11 -  - Pessoas autoidentificadas com cor/raça Indígena: 0.53%
+12 -  - Pessoas autoidentificadas com cor/raça Não declarado: 1.78%
+13 - Gráfico "participao_por_cor_raca.png" salvo em C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\03_output
+14 - Porcentagem das participações por unidade federativa (UF):
+15 -  - Pessoas residentes de TO: 0.78%
+16 -  - Pessoas residentes de MG: 9.57%
+17 -  - Pessoas residentes de MT: 1.40%
+18 -  - Pessoas residentes de BA: 9.19%
+19 -  - Pessoas residentes de SP: 14.99%
+20 -  - Pessoas residentes de RN: 2.93%
+21 -  - Pessoas residentes de PR: 3.17%
+22 -  - Pessoas residentes de CE: 6.87%
+23 -  - Pessoas residentes de MA: 4.86%
+24 -  - Pessoas residentes de DF: 1.89%
+25 -  - Pessoas residentes de AP: 0.76%
+26 -  - Pessoas residentes de RS: 3.90%
+27 -  - Pessoas residentes de PE: 5.86%
+28 -  - Pessoas residentes de PB: 3.28%
+29 -  - Pessoas residentes de AM: 1.87%
+30 -  - Pessoas residentes de RJ: 6.85%
+31 -  - Pessoas residentes de PA: 5.75%
+32 -  - Pessoas residentes de GO: 2.79%
+33 -  - Pessoas residentes de PI: 2.58%
+34 -  - Pessoas residentes de SE: 1.83%
+35 -  - Pessoas residentes de MS: 1.27%
+36 -  - Pessoas residentes de RO: 1.20%
+37 -  - Pessoas residentes de ES: 2.21%
+38 -  - Pessoas residentes de AL: 1.77%
+39 -  - Pessoas residentes de SC: 1.74%
+40 -  - Pessoas residentes de AC: 0.50%
+41 -  - Pessoas residentes de RR: 0.19%
+42 - Gráfico "participao_por_uf.png" salvo em C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\03_output
+43 - Análise da participação por idade:
+44 -  - Média das idades: 22
+45 -  - Mediana das idades: 19
+46 -  - Moda das idades: 18
+47 -  - Desvio padrão das idades: 6.69
+48 -  - Menor valor das idades: 13
+49 -  - Maior valor das idades: 83
+50 - Gráfico "participao_por_idade.png" salvo em C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\03_output
+===============================================================
