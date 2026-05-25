@@ -128,3 +128,10 @@ O dataset original é grande (~3-4M linhas). O script utiliza uma amostra de 100
 - 03_output/ - Gráficos de participação e análise de resultados
 - 03_output/03_analises_cruzadas/ - Heatmap, regressões, boxplots cruzados
 - 03_output/*.txt - Relatórios técnicos de cada etapa
+
+
+## Contato
+- Nome: Vinícius Henrique Souza
+- Físico | Mestre em Educação em Ciências | Estudante de Análise de Dados
+- email: vinicius.h.zlc@gmail.com
+- linkedin: [https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/](https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/)
