@@ -104,19 +104,19 @@ pip install pandas numpy matplotlib seaborn scipy
 
 ### Execução (ordem recomendada)
 
-# 1. Preparar estrutura de pastas
+#### 1. Preparar estrutura de pastas
 python 01_scripts/setup.py
 
-# 2. Limpar e preparar dados
+#### 2. Limpar e preparar dados
 python 01_scripts/01_limpeza_padronizacao_adaptacao.py
 
-# 3. Analisar participação
+#### 3. Analisar participação
 python 01_scripts/02_analise_participacao.py
 
-# 4. Analisar resultados
+#### 4. Analisar resultados
 python 01_scripts/03_analise_resultado.py
 
-# 5. Análises cruzadas
+#### 5. Análises cruzadas
 python 01_scripts/04_analises_cruzadas.py
 
 ### Observação
