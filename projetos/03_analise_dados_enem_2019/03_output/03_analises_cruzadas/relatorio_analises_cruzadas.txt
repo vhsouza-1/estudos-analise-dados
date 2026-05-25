@@ -1,0 +1,63 @@
+=== RELATÓRIO DO SCRIPT DE ANÁLISES CRUZADAS ===
+Data: 2026-05-25 14:03:56.126762
+===============================================================
+1 - df processado importado de C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\02_data\02_processed\enem2019_basico.csv
+2 - ###############################################################
+3 - Análise das notas entre gêneros:
+4 - Gráfico "boxplot_nota_genero.png" salvo em C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\03_output\03_analises_cruzadas
+5 - Grupo M: Média das notas: 541.58 | Desvio padrão: 85.55
+6 - Grupo F: Média das notas: 527.24 | Desvio padrão: 80.01
+7 - Resultado do Teste A/B (ttest):
+8 -  - Estatística t: 25.88
+9 -  - P-valor: 0.0000% (5.367059926528156e-147)
+10 - Resultado estatísticamente significativo (p-valor < 0.05)
+11 -  - Diferença absoluta das médias : 14.34
+12 -  - Diferença percentual das médias : 2.72%
+13 - ###############################################################
+14 - Análise da nota entre cor/raça:
+15 - Gráfico "boxplot_nota_cor_raca.png" salvo em C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\03_output\03_analises_cruzadas
+16 - Grupo Cor/Raça Branca: Média das notas: 555.81 | Desvio Padrão: 85.10
+17 - Grupo Cor/Raça Preta: Média das notas: 515.67 | Desvio Padrão: 72.96
+18 - Grupo Cor/Raça Parda: Média das notas: 520.75 | Desvio Padrão: 78.62
+19 - Grupo Cor/Raça Amarela: Média das notas: 524.27 | Desvio Padrão: 82.10
+20 - Grupo Cor/Raça Indígena: Média das notas: 491.28 | Desvio Padrão: 69.65
+21 - Grupo Cor/Raça Não declarado: Média das notas: 539.43 | Desvio Padrão: 90.91
+22 - Resultados do Teste A/B (ANOVA):
+23 - Estatística f: 929.35
+24 - P-valor: 0.0000% (0.0)
+25 - Resultado estatisticamente significativo (p-valor < 0.05)
+26 - Comparações par a par:
+27 -  - Branca e Preta (p=0.0000)
+28 -  - Branca e Parda (p=0.0000)
+29 -  - Branca e Amarela (p=0.0000)
+30 -  - Branca e Indígena (p=0.0000)
+31 -  - Branca e Não declarado (p=0.0000)
+32 -  - Preta e Parda (p=0.0000)
+33 -  - Preta e Amarela (p=0.0000)
+34 -  - Preta e Indígena (p=0.0000)
+35 -  - Preta e Não declarado (p=0.0000)
+36 -  - Parda e Amarela (p=0.0343)
+37 -  - Parda e Indígena (p=0.0000)
+38 -  - Parda e Não declarado (p=0.0000)
+39 -  - Amarela e Indígena (p=0.0000)
+40 -  - Amarela e Não declarado (p=0.0000)
+41 -  - Indígena e Não declarado (p=0.0000)
+42 - ###############################################################
+43 - Relação entre variáveis numéricas: nota final, número de acertos, nota da redação:
+44 - Gráfico salvo em C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\03_output\03_analises_cruzadas\"heatmap_variaveis_numericas.png"
+45 - Correlação do número de acertos e da nota da redação na nota final:
+46 -  - Correlação entre Nota da Redação e Nota Final: 0.84 (Positiva Forte)
+47 -  - Correlação entre Número de Acertos e Nota Final: 0.91 (Positiva Forte)
+48 - ###############################################################
+49 - Regressão linear entre Nota da Redação e Nota Final:
+50 -  - Equação da reta: nota_media = 0.39 * nota_redacao + 294.63
+51 -  - Coeficiente R²: 0.71
+52 -  - P-valor: 0.00% (0.0)
+53 - Gráfico salvo em C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\03_output\03_analises_cruzadas\ "Regressao_linear_redacao_nota_final.png"
+54 - ###############################################################
+55 - Regressão linear entre Total de Acertos e Nota Final:
+56 -  - Equação da reta: nota_media = 3.57 * total_acertos + 311.47
+57 -  - Coeficiente R²: 0.83
+58 -  - P-valor: 0.00% (0.0)
+59 - Gráfico salvo em C:\Users\code\Desktop\estudos-analise-dados\projetos\03_analise_dados_enem_2019\03_output\03_analises_cruzadas\ "regressao_linear_acertos_nota_final.png"
+===============================================================
