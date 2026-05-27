@@ -141,7 +141,7 @@ slope, intercept, r, p, stderr = stats.linregress(df['marketing'], df['vendas'])
 print(f"vendas = {slope:.2f} * marketing + {intercept:.2f}")
 print(f"R² = {r**2:.4f}")
 
-## 📌 Principais Aprendizados
+## Principais Aprendizados
 
 | Conceito | O que você deve saber |
 |----------|----------------------|
@@ -151,7 +151,7 @@ print(f"R² = {r**2:.4f}")
 | Teste A/B | Padrão ouro para causalidade em negócios |
 | Regressão | Prever y a partir de x (mas cuidado com extrapolação) |
 
-## 🛠️ Bibliotecas Utilizadas
+## Bibliotecas Utilizadas
 
 | Biblioteca | Versão | Finalidade |
 |------------|--------|------------|
@@ -162,16 +162,15 @@ print(f"R² = {r**2:.4f}")
 | matplotlib | 3.7+ | Visualizações base |
 | seaborn | 0.12+ | Gráficos estatísticos |
 
-## ▶️ Como Utilizar
+## Como Utilizar
 
-# Clone o repositório
+### Clone o repositório
 git clone https://github.com/seu-usuario/estudo-analise-dados.git
 
-# Navegue até a pasta do bloco
+### Navegue até a pasta do bloco
 cd estudo-analise-dados/04_estatistica
 
-# Execute qualquer aula (exemplo)
-python 05_teste_ab_pratica.py
+### Abra qualquer aula em um IDE!
 
 ## Projetos Relacionados
 
@@ -183,7 +182,6 @@ python 05_teste_ab_pratica.py
 - Físico | Mestre em Educação em Ciências | Estudante de Análise de Dados
 - email: vinicius.h.zlc@gmail.com
 - linkedin: [https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/](https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/)
-
 
 ## Agradecimentos
 
