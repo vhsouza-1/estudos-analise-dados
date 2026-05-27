@@ -177,15 +177,12 @@ python 05_teste_ab_pratica.py
 
 - Análise Estatística do ENEM 2019 - Projeto integrador aplicando todos os conceitos
 
-## Autor
+## Contato
 
-Vinicius H. Souza
-
-- Físico | Mestre em Educação em Ciências
-- Estudante de Análise de Dados
-
-![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)
+- Nome: Vinícius Henrique Souza
+- Físico | Mestre em Educação em Ciências | Estudante de Análise de Dados
+- email: vinicius.h.zlc@gmail.com
+- linkedin: [https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/](https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/)
 
 
 ## Agradecimentos
