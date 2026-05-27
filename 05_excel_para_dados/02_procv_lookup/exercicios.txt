@@ -1,0 +1,185 @@
+Exercício 1: PROCV básico (buscar nome do produto)
+
+Na tabela de vendas, crie uma coluna "nome_produto" que busque o nome do produto usando o id_produto.
+
+Fórmula esperada (PROCV):
+
+=PROCV([@id_produto]; Produtos!$A:$B; 2; 0)
+
+Onde:
+
+    [@id_produto] é o valor que você quer buscar
+
+    Produtos!$A:$B é a tabela onde procurar (coluna A = id, coluna B = nome)
+
+    2 é a coluna que você quer retornar (nome está na coluna 2)
+
+    0 significa "correspondência exata"
+
+
+R: Antes de tudo, dei uma pesquisada legal para entender como funciona o processo de importação de dados de diferes .csv para diferentes abas. Depois fui entender a sintaxe do procv. Descobri sobre a sintaxe e, mais especificamente descobri sobre usar tblProdutos ao inves de Produtos!$A:$B (tblProdutos foi o nome que eu coloquei na tabela feita na aba produtos). Minha formula final ficou:
+
+=PROCV([@[id_produto]]; tblProdutos; 2; 0) # tem que colocor id_produto entre colchetes por conta do _
+
+#######################################################################################################
+
+Exercício 2: PROCV com mais colunas
+
+Crie duas novas colunas na tabela de vendas:
+
+    "preco_unitario" - busque na tabela produtos
+
+    "categoria" - busque na tabela produtos
+
+Dica: Você pode arrastar a fórmula para a direita ou ajustar o número da coluna.
+
+
+R: formula da coluna preco_unitario:
+
+=PROCV([@[id_produto]]; tblProdutos; 4; 0)
+
+formula da coluna categoria:
+
+=PROCV([@[id_produto]]; tblProdutos; 3; 0)
+
+
+#######################################################################################################
+
+
+Exercício 3: Valor total da venda
+
+Crie uma coluna "valor_total" que calcule quantidade * preco_unitario.
+
+
+R: formula usada
+
+=[@quantidade]*[@[preco_unitario]]
+
+
+#######################################################################################################
+
+
+Exercício 4: SEERRO + PROCV (tratar erros)
+
+Alguns id_produto podem não existir na tabela de produtos. Use SEERRO para que, se o PROCV não encontrar, retorne "Produto não cadastrado" em vez de #N/D.
+
+R: Utilizei as seguinte formula
+
+
+=SEERRO(PROCV([@[id_produto]]; tblProdutos; n_coluna; 0); "Produto não cadastrado")
+
+em que n_coluna assumiu os valores, 2, 3 e 4 para nome_produto, categoria e preco_unitario respectivamente.
+
+
+#######################################################################################################
+
+
+Exercício 5: XLOOKUP (substituto moderno)
+
+Refaça o Exercício 1 usando XLOOKUP no lugar de PROCV.
+
+Fórmula esperada (XLOOKUP):
+excel
+
+=XLOOKUP([@id_produto]; Produtos!$A:$A; Produtos!$B:$B; "Não encontrado")
+
+Vantagem: Você não precisa contar colunas, só apontar a coluna de retorno.
+
+R: Depois de muito quebrar a cabeça descobri que no meu excel não tem XLOOKUP, entretanto, ele tem =PROCX() que é a mesma coisa. Na verdade parece que é a versão traduzida. Fórmula usada:
+
+=PROCX([@[id_produto]]; tblProdutos[id_produto]; tblProdutos[nome_produto]; "Não encontrado")
+
+
+#######################################################################################################
+
+
+Exercício 6: XLOOKUP para a ESQUERDA (PROCV não faria)
+
+Na tabela de produtos, crie uma coluna "vendedor_exemplo" que busque o nome de um vendedor pelo nome (não pelo id). Use XLOOKUP para buscar em qualquer direção.
+
+Dica: Use a tabela vendedores para buscar o nome (já que o nome está na esquerda do que você quer retornar). PROCV não conseguiria fazer isso.
+
+Fórmula esperada:
+excel
+
+=XLOOKUP("Ana"; Vendedores!$A:$A; Vendedores!$B:$B; "Não encontrado")
+
+R: Esse eu fiz diferente, pra ter mais sentido, fiz o seguinte. Criei uma coluna chamada regiao_vendedor, e puxei a regiao da tabela vendedores pelo nome:
+
+=PROCX([@vendedor]; tblVendedores[vendedor]; tblVendedores[regiao]; "Não encontrado")
+
+
+#######################################################################################################
+
+Exercício 7: CORRESP + ÍNDICE (alternativa clássica)
+
+Use CORRESP + ÍNDICE para buscar o nome do produto (mesmo resultado do Exercício 1).
+
+Duas etapas:
+
+Passo 1: Crie uma coluna "posicao" que encontre a linha do produto:
+excel
+
+=CORRESP([@id_produto]; Produtos!$A:$A; 0)
+
+Passo 2: Crie uma coluna "nome_produto_index" que retorne o valor daquela linha:
+excel
+
+=ÍNDICE(Produtos!$B:$B; [@posicao])
+
+Ou em uma única fórmula:
+excel
+
+=ÍNDICE(Produtos!$B:$B; CORRESP([@id_produto]; Produtos!$A:$A; 0))
+
+
+
+R: Fiz dos dois jeitos. 
+
+Primeiro com duas etapas:
+
+coluna posição: =CORRESP([@[id_produto]]; tblProdutos[id_produto])
+coluna nome_produto_index =ÍNDICE(tblProdutos[nome_produto]; [@posicao])
+
+Com uma etapa:
+
+=ÍNDICE(tblProdutos[nome_produto]; CORRESP([@[id_produto]]; tblProdutos[id_produto]))
+
+Percebi que ele faz a mesma coisa que o procx, mas com mais etapas. Provavelmente era muito util quando só existia o procv.
+
+
+#######################################################################################################
+
+Exercício 8: Valor total por região (resumo)
+
+Fora da tabela de vendas (em outra área da planilha), crie:
+
+a) Uma lista com as regiões (Norte, Sul, Leste, Oeste, etc.)
+
+b) Para cada região, calcule o valor total de vendas
+
+Dica: Use =SOMASE() ou =SOMASES().
+
+Fórmula esperada (supondo região na coluna X e valor_total na coluna Y):
+excel
+
+=SOMASE(Vendedores!$B:$B; "Sul"; Vendas!$Y:$Y)
+
+Mas atenção: você precisa fazer a conexão venda → vendedor → região. Pode ser necessário usar PROCV para trazer a região para a tabela de vendas primeiro.
+
+R:
+
+Como eu ja tinha criado a coluna regiao_vendedor no ex. 6, utilizei ela.
+
+Primeiro, fora da tabela, eu criei uma coluna manualmente chamada região: [Norte, Nordeste, Centro-Oeste, Sudeste, Sul] (só coloquei nessa formula do pandas pra vc enteder, claro que n fiz assim). Norte ta no P3 e Sul no P7. Ai depois na célula do lado de Norte, Q3, eu fiz a fórmula: 
+
+=SOMASE(tblVendas[regiao_vendedor]; P3; tblVendas[valor_total])
+
+ai arrastei a fórmula pras demais linhas até Q7, e onde estava P3 foi sendo atualizado até P7.
+
+
+Eu deveria ter feito algo diferente? Tipo, ter criado a coluna região de forma automática? Se sim, como?
+
+
+
+

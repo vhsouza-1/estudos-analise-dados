@@ -1,0 +1,163 @@
+Exercício 1: SE básico
+
+Crie uma coluna chamada "status_venda" que classifique cada venda como:
+
+    "Acima da Meta" se vendas > meta
+
+    "Abaixo da Meta" se vendas <= meta
+
+Fórmula esperada: =SE([@vendas] > [@meta]; "Acima da Meta"; "Abaixo da Meta")
+
+
+R: Primeiro selecionei os dados e criei uma tabela. Depois percebi que as colunas que tinham strings estava sendo processadas erradas. Fui pesquisar e descobri que o excel faz string n vazia ser maior que qualquer numero nessas comparações. Ai descobri a função =ÉNÚM() para fazer a verificação dos erros. Minha formula final ficou:
+
+=SE(E(ÉNÚM([@vendas]); ÉNÚM([@meta])); SE([@vendas] >= [@meta]; "Meta batida"; "Abaixo da meta"); "Verificar dados")
+
+###################################################################################################
+
+Exercício 2: SE com múltiplas condições (aninhado)
+
+Crie uma coluna chamada "classificacao" que classifique as vendas em:
+
+    "Excelente" se vendas > 3000
+
+    "Bom" se vendas entre 1500 e 3000
+
+    "Regular" se vendas <= 1500
+
+Fórmula esperada: =SE([@vendas] > 3000; "Excelente"; SE([@vendas] >= 1500; "Bom"; "Regular"))
+
+R: =SE(ÉNÚM([@vendas]); SE([@vendas]>3000; "Excelente"; SE([@vendas]<=1500; "Bom"; "Regular")); "Verificar dados")
+
+###################################################################################################
+
+Exercício 3: SE com E
+
+Crie uma coluna chamada "bonus_incentivo" que:
+
+    Retorne "Sim" se o vendedor vendeu acima da meta (vendas > meta) E a venda foi na região "Norte" ou "Sul"
+
+    Retorne "Não" caso contrário
+
+Fórmula esperada: =SE(E([@vendas] > [@meta]; OU([@regiao]="Norte"; [@regiao]="Sul")); "Sim"; "Não")
+
+
+
+R: Pra evitar o problema de complexificar a formula com a verificacao se é numérica fiz da seguinte forma:
+
+=SE(E([@[status_vendas]]="Meta batida"; OU([@regiao]="Norte"; [@regiao]="Sul")); "Sim"; "Não")
+
+Inclusive, descobri que precisa colocar o nome da coluna entre colchetes se tiver caractere especial.
+	
+
+###################################################################################################
+
+
+Exercício 4: SE com OU
+
+Crie uma coluna chamada "produto_destaque" que:
+
+    Retorne "Destaque" se o produto for "Tênis" OU as vendas forem > 4000
+
+    Retorne "Normal" caso contrário
+
+Fórmula esperada: =SE(OU([@produto]="Tênis"; [@vendas] > 4000); "Destaque"; "Normal")
+
+R: Utilizei a seguinte fórmula para contornar o problema com os valores problemáticos de vendas:
+
+=SE(ÉNÚM([@vendas]); SE(OU([@produto]="Tênis"; [@vendas] > 4000); "Destaque"; "Normal"); "Verificar dados")
+
+###################################################################################################
+
+
+Exercício 5: Lucro e margem
+
+Crie duas novas colunas:
+
+a) Coluna "lucro" = vendas - custo
+
+b) Coluna "margem" = lucro / vendas (formato percentual)
+
+Atenção: Algumas linhas têm valores de erro ("erro", "N/A", "#DIV/0!"). Use =SEERRO() para:
+
+    Na coluna "lucro", se der erro, retorne "Erro no cálculo"
+
+    Na coluna "margem", se der erro, retorne "Indisponível"
+
+Fórmulas esperadas:
+
+    Lucro: =SEERRO([@vendas] - [@custo]; "Erro no cálculo")
+
+    Margem: =SEERRO([@lucro] / [@vendas]; "Indisponível")
+
+
+R: Formulas utilizadas para evitar os erros ja comentados:
+
+=SE(E(ÉNÚM([@vendas]); ÉNÚM([@custo])); [@vendas] - [@custo]; "Erro no cálculo")
+=SEERRO(SE(E(ÉNÚM([@vendas]); ÉNÚM([@lucro])); [@lucro]/[@vendas]; "Indisponível"); Indisponível)
+
+###################################################################################################
+
+Exercício 6: Bônus por desempenho (condições múltiplas)
+
+Crie uma coluna chamada "bonus" que siga a regra:
+Condição	                Bônus
+vendas > 4000	                R$ 500
+vendas entre 2500 e 4000	R$ 300
+vendas entre 1500 e 2500	R$ 150
+vendas <= 1500	                R$ 0
+
+Além disso: Se o vendedor for "Ana" ou "Bruno", o bônus é multiplicado por 1.5.
+
+Dica: Use SE aninhado para a faixa de vendas e depois multiplique pela condição extra.
+
+
+R: Eu fiz essa versão mais simples... Pra fazer isso sem usar outra coluna base fica meio monstruoso...
+
+
+=SE(ÉNÚM([@vendas]); SE([@vendas]>4000; 500; SE([@vendas]<=1500; 0; SE([@vendas]<2500; 150; 300))) ; "Verificar dados")
+
+
+###################################################################################################
+
+Exercício 7: Flag de erro
+
+Crie uma coluna chamada "tem_erro" que:
+
+    Retorne "Erro" se a coluna vendas ou custo contiver erro ("erro", "N/A", etc.)
+
+    Retorne "OK" caso contrário
+
+Dica: Use =OU() combinado com =É.ERRO() ou =É.TEXTO() para identificar valores problemáticos.
+
+
+R: Construi essa fórmula:
+=SE(OU(OU(ÉERRO([@vendas]); ÉTEXTO([@vendas])); OU(ÉERRO([@custo]); ÉTEXTO([@custo]))); "Erro"; "OK")
+
+Descobri que a não tem o ponto "." entre as palavras. Descobri depois de quebrar muito a cabeça kkkkk
+
+
+###################################################################################################
+
+Exercício 8: Resumo gerencial
+
+Fora da tabela de dados (em uma célula separada), crie:
+
+a) Quantos vendedores tiveram vendas acima da meta
+
+b) Quantos produtos foram classificados como "Destaque"
+
+c) Qual o total de bônus que a empresa pagaria (soma da coluna bonus)
+
+Dica: Use =CONT.SE() para contar e =SOMA() para somar.
+
+
+a) =CONT.SE(Tabela1[status_vendas]; "Meta batida")
+
+b) =CONT.SE(J:J; "Destaque") # Descobri que da pra fazer nome da coluna tbm
+
+c) =SOMA(M:M)
+
+
+
+

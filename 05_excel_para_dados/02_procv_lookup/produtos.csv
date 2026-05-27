@@ -1,0 +1,11 @@
+id_produto;nome_produto;categoria;preco_unitario;custo_unitario
+1;Camiseta;Calçados;174;39
+2;Calça Jeans;Calçados;190;80
+3;Tênis;Vestuário;186;24
+4;Boné;Calçados;170;70
+5;Moletom;Calçados;75;44
+6;Bermuda;Calçados;64;19
+7;Jaqueta;Calçados;163;47
+8;Regata;Vestuário;111;79
+9;Meia;Vestuário;144;32
+10;Cinto;Acessórios;76;63
