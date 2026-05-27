@@ -175,7 +175,7 @@ python 05_teste_ab_pratica.py
 
 ## Projetos Relacionados
 
-- Análise Estatística do ENEM 2019 - Projeto integrador aplicando todos os conceitos
+- [Análise Estatística do ENEM 2019](../projetos/03_analise_dados_enem_2019) - Projeto integrador aplicando todos os conceitos
 
 ## Contato
 
