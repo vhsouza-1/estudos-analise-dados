@@ -1,0 +1,252 @@
+Exercício 1: Soma de vendas por categoria
+
+Crie uma tabela dinâmica que mostre:
+
+    LINHAS: Categoria
+
+    VALORES: Soma do valor_total
+
+Perguntas para responder:
+
+    Qual categoria teve maior faturamento total?
+
+    Qual categoria teve menor faturamento total?
+
+R: Abri o csv, depois transformei ele em tabela e nomeei para tblVendas. No meu excel CTRL T seleciona os dados. CTRL ALT T é que faz a tabela.
+Depois cliquei em inserir, tabela dinâmica, nova planilha.
+
+Ai nessa nova planilha, com a tabela dinâmica, arrastei categoria para Linhas e valor_total para Valores. Quando fiz isso ele já foi direto como Soma de valor_total. Selecionei a coluna de soma valor_total e colocoque pra aparecer como moeda.
+
+Qual categoria teve maior faturamento total? Acessórios	 R$ 202,380.00 
+Qual categoria teve menor faturamento total? Calçados	 R$ 191,805.00  (tecnicamente seria (vazio) R$ 1,287.00 )
+
+#################################################################################################################
+
+Exercício 2: Soma de vendas por produto dentro da categoria
+
+Crie uma tabela dinâmica que mostre:
+
+    LINHAS: Categoria (principal) e Produto (subordinado)
+
+    VALORES: Soma do valor_total
+
+Dica: Você pode colocar duas colunas na área de LINHAS. A ordem importa!
+
+Pergunta: Dentro da categoria "Vestuário", qual produto vendeu mais?
+
+R: Coloquei a produto em Linhas, embaixo de categoria e ele fez o agrupamento primeiro por categoria e depois por produto. Depois ordenei por ordem do maior para o menor e depois coloquei tudo no formato de moeda.
+
+Dentro da categoria "Vestuário", qual produto vendeu mais? Camiseta R$ 28,103.00 
+
+#################################################################################################################
+
+Exercício 3: Média de vendas por vendedor
+
+Crie uma tabela dinâmica que mostre:
+
+    LINHAS: Vendedor
+
+    VALORES: Média do valor_total
+
+Dica: Clique na seta ao lado de "Soma de valor_total" → Configurações do Campo de Valor → Média.
+
+Pergunta: Qual vendedor tem o maior ticket médio?
+
+R: Criei uma tabela dinâmica nova em outra aba. 
+
+
+Qual vendedor tem o maior ticket médio? Ana	 R$ 1,329.03 
+#################################################################################################################
+
+Exercício 4: Vendas por região (com duas dimensões)
+
+Crie uma tabela dinâmica que mostre:
+
+    LINHAS: Região
+
+    COLUNAS: Mês (extrair da coluna "data" - use =MÊS() para criar uma coluna auxiliar primeiro)
+
+    VALORES: Soma do valor_total
+
+Atenção: Você precisa criar uma coluna "mes" na tabela original antes de criar a tabela dinâmica.
+
+Fórmula para extrair mês: =MÊS([@data])
+
+Pergunta: Qual região teve maior faturamento em Dezembro?
+
+R: A coluna mes ja existia na tabela original.
+Qual região teve maior faturamento em Dezembro? Centro-Oeste:  R$ 16,991.00 
+Essa tabela pivot foi bem legal, entendi o potencial da tabela dinâmica.
+
+#################################################################################################################
+
+Exercício 5: Contagem de vendas por produto
+
+Crie uma tabela dinâmica que mostre:
+
+    LINHAS: Produto
+
+    VALORES: Contagem de vendas (quantas vezes cada produto foi vendido)
+
+Dica: Use "Contagem de valor_total" ou "Contagem de produto" (qualquer coluna serve para contar linhas).
+
+Pergunta: Quantas vezes o produto "Tênis" foi vendido?
+
+R: Na verdade aqui você se equivocou. A análise que vc quer pede que eu olhe a Soma de quantidade. Pq a contagem de valor_total ou contagem de produto mostra quantas vendas foram realizadas, mas se em 1 vendas, for vendido 2 produtos, vc não pega esse valor.
+
+R: Quantas vezes o produto "Tênis" foi vendido? 564 vezes.
+Em comparação com contagem de valor_total, seriam 56...
+
+#################################################################################################################
+
+Exercício 6: Percentual do total
+
+Na tabela dinâmica do Exercício 1 (soma por categoria), altere para mostrar % do total geral.
+
+Dica: Configurações do Campo de Valor → Mostrar valores como → % do total geral.
+
+Pergunta: Qual categoria representa mais de 15% do faturamento?
+
+
+R: Fiz a modificação pedida. Todas as categorias representam mais de 15%:
+
+Acessórios	35.09%
+Calçados	33.26%
+Vestuário	31.42%
+
+Menos (vazio)	0.22% que tecnicamente n é uma categoria.
+
+#################################################################################################################
+
+Exercício 7: Vendas por trimestre e categoria (duas dimensões)
+
+Crie uma tabela dinâmica que mostre:
+
+    LINHAS: Categoria
+
+    COLUNAS: Trimestre (use a coluna trimestre já existente)
+
+    VALORES: Soma do valor_total
+
+Perguntas:
+
+    Qual categoria vendeu mais no 4º trimestre?
+
+    Houve alguma categoria que cresceu muito entre o 1º e o 4º trimestre?
+
+R: Qual categoria vendeu mais no 4º trimestre? Acessórios  R$ 49,336.00 
+
+Houve alguma categoria que cresceu muito entre o 1º e o 4º trimestre?
+
+A categoria acessórios foi de  R$ 34,720.00 para  R$ 49,336.00 
+As outras categorias teve picos diferentes em diferentes trimestre, mas o maior crescimento do 1 pro 4 foi acessório.
+Isso é algo que pode ser melhor visualizado com um lineplot simples.
+
+#################################################################################################################
+
+Exercício 8: Agrupamento de datas (anos e meses)
+
+Crie uma tabela dinâmica que mostre:
+
+    LINHAS: Data (agrupada por ANO e MÊS)
+
+    VALORES: Soma do valor_total
+
+Dica: No Excel, clique com botão direito na data dentro da tabela dinâmica → Agrupar → selecione ANO e MÊS.
+
+Pergunta: Em qual mês de 2024 as vendas foram mais altas?
+
+
+R: Fiz o agrupamento dentro da tabela dinâmica como vc falou, achei bem prático.
+
+Em qual mês de 2024 as vendas foram mais altas? Agosto	 R$ 60,269.00 
+
+
+#################################################################################################################
+
+Exercício 9: Filtros e segmentação de dados
+
+Adicione segmentação de dados (Slicer) à tabela dinâmica do Exercício 1:
+
+    Clique na tabela dinâmica
+
+    Inserir → Segmentação de Dados
+
+    Selecione "Região" e "Vendedor"
+
+Pergunta: Use a segmentação para responder:
+
+    Qual categoria vendeu mais na região "Sul"?
+
+    Qual categoria vendeu mais com o vendedor "Ana"?
+
+R: Wow essa coisa de segmentação de dados é muito interessante. Eu meio que crio um filtro que eu posso ficar ativando e desativando clicando nesse popzinho que abre né.
+
+Qual categoria vendeu mais na região "Sul"?  Calçados	43.06%	 R$ 54,313.00 (Selecionei "Sul" e todos os vendedores)
+Qual categoria vendeu mais com o vendedor "Ana"?   Calçados	42.13%	 R$ 54,312.00 (Selecionei "Ana" e todas as regiões)
+
+#################################################################################################################
+
+Exercício 10: Tratamento de dados sujos na tabela dinâmica
+
+O dataset tem alguns problemas:
+
+    Linha 10: região vazia
+
+    Linha 25: categoria nula
+
+    Linha 50: valor negativo (-999)
+
+a) Crie uma tabela dinâmica normal. O que acontece com a região vazia e a categoria nula?
+
+b) Crie uma nova coluna na tabela original chamada "regiao_tratada" que substitua valores vazios por "Não informado".
+
+Fórmula sugerida: =SE([@regiao]=""; "Não informado"; [@regiao])
+
+c) Crie outra coluna "categoria_tratada" que substitua nulos por "Outros".
+
+d) Crie uma terceira coluna "valor_total_tratado" que substitua valores negativos por 0.
+
+Fórmula sugerida: =SE([@valor_total]<0; 0; [@valor_total])
+
+e) Crie uma nova tabela dinâmica usando as colunas tratadas.
+
+Pergunta: Houve diferença significativa nos valores após o tratamento?
+
+R:
+
+a) Quando vou fazer análises que envolvem região e categoria, sempre aparece um (vazio)
+
+b) =SE([@regiao]=""; "Não informado"; [@regiao])
+
+c) =SE([@categoria]=""; "Outros"; [@categoria])
+
+d) =SE([@[valor_total]]<0; MED([valor_total]); [@[valor_total]]) (achei melhor trocar pela mediana)
+
+
+Comparação entre as tabelas dinâmicas:
+
+Não tratada:
+
+Soma de valor_total	Rótulos de Coluna						
+Rótulos de Linha	Centro-Oeste	Leste	Norte	Oeste	Sul	(vazio)	Total Geral
+Acessórios	 R$ 48,414.00 	 R$ 22,428.00 	 R$ 39,516.00 	 R$ 53,677.00 	 R$ 37,337.00 	 R$ 1,008.00 	 R$ 202,380.00 
+Calçados	 R$ 39,137.00 	 R$ 25,749.00 	 R$ 36,052.00 	 R$ 36,554.00 	 R$ 54,313.00 		 R$ 191,805.00 
+Vestuário	 R$ 39,909.00 	 R$ 28,744.00 	 R$ 41,639.00 	 R$ 37,742.00 	 R$ 33,192.00 		 R$ 181,226.00 
+(vazio)					 R$ 1,287.00 		 R$ 1,287.00 
+Total Geral	 R$ 127,460.00 	 R$ 76,921.00 	 R$ 117,207.00 	 R$ 127,973.00 	 R$ 126,129.00 	 R$ 1,008.00 	 R$ 576,698.00 
+
+tratada:
+
+Soma de valor_total_tratado	Rótulos de Coluna						
+Rótulos de Linha	Centro-Oeste	Leste	Norte	Oeste	Sul	Não informado	Total Geral
+Acessórios	 R$ 48,414.00 	 R$ 22,428.00 	 R$ 39,516.00 	 R$ 53,677.00 	 R$ 39,257.50 	 R$ 1,008.00 	 R$ 204,300.50 
+Calçados	 R$ 39,137.00 	 R$ 25,749.00 	 R$ 36,052.00 	 R$ 36,554.00 	 R$ 54,313.00 		 R$ 191,805.00 
+Vestuário	 R$ 39,909.00 	 R$ 28,744.00 	 R$ 41,639.00 	 R$ 37,742.00 	 R$ 33,192.00 		 R$ 181,226.00 
+Outros					 R$ 1,287.00 		 R$ 1,287.00 
+Total Geral	 R$ 127,460.00 	 R$ 76,921.00 	 R$ 117,207.00 	 R$ 127,973.00 	 R$ 128,049.50 	 R$ 1,008.00 	 R$ 578,618.50 
+
+
+Num primeiro momento tive alguns problemas, primeiro que se eu selecionar a tblVendas e colocar pra criar tabela diamica, as colunas novas não aparecem kkkkkk boa excel, faz todo sentido do mundo. Ai pra criar mesmo eu precisei selecionar as colunas. Ai consegui peguer as colunas tratas novas. Outro problema, a tabela diamica tratada, por algum motivo que tbm não faz sentido pra mim resolveu manter a linha e coluna (vazio) mesmo que não tivesse nenhum valor associado à elas. Ai tive que ocultar manualmente. Por fim, tive que arrastar manualmente a coluna Não Informado pro final pq ele ficou no meio das regiões. Mas acabou que deu tudo certo e ficou bem bonitinha até no final. Pra ficar melhor, acho que poderiamos ter substitudio os valores vazios de categorias pela moda das categorias.
+
+
