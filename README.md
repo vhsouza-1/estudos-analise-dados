@@ -11,7 +11,8 @@ Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrand
 - [X] SQL (básico ao avançado)
 - [X] Python (geral)
 - [X] Python (bibliotecas para Dados)
-- [ ] Estatística para dados (em andamento!)
+- [X] Estatística para Dados
+- [X] Excel para Dados
 - [ ] Power BI
 
 ## Estrutura do Repositório
@@ -39,9 +40,15 @@ Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrand
 - ['02_visualizacao/'](03_python_para_dados/02_visualizacao): Matplotlib, seaborn, subplots, histogramas, boxplot, heatmap.
 - ['03_limpeza_dados_avancada/'](03_python_para_dados/03_limpeza_dados_avancada): nulos, duplicatas, inconsistências, regex, datas.
 
-### [04_estatistica/](04_estatistica) (em andamento!)
-- Numpy, estatística descritiva, distribuições de probabilidade, correlação...
+### [04_estatistica/](04_estatistica)
+- Numpy, estatística descritiva, distribuições de probabilidade, correlação, Testes A/B, Regressão Linear.
 
+### [05_excel_para_dados/](05_excel_para_dados)
+- ['01_funcoes_logicas/'](05_excel_para_dados/01_funcoes_logicas): =SE(), =E(), =OU(), =SEERO(), =SOMASE()
+- ['02_procv_lookup/'](05_excel_para_dados/02_procv_lookup): =PROCV(), =PROCX()
+- ['03_tabela_dinamica/'](05_excel_para_dados): Criação de tabela dinâmica e análises a partir dela
+- ['04_formatacao_condicional/'](05_excel_para_dados/04_formatacao_condicional): Formatação de células, linhas, colunas, com base em condições.
+- ['05_graficos/'](05_excel_para_dados/05_graficos): Criação e edição de diferentes gráficos (linhas, barras, scatter + regressão e etc.)
 
 ## Contato
 - Nome: Vinícius Henrique Souza
