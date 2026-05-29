@@ -1,0 +1,101 @@
+vendedor;produto;categoria;vendas;meta;percentual_meta;qtde_clientes;ticket_medio;avaliacao
+Daniel;Boné;Calçados;3620;2500;1,45;96;77;4
+Elisa;Camiseta;Calçados;516;2500;0,21;84;150;4
+Carla;Boné;Calçados;1743;2500;0,7;27;90;4
+Elisa;Calça Jeans;Acessórios;2705;2500;1,08;85;194;4
+Elisa;Camiseta;Acessórios;3024;2500;1,21;18;190;4
+Bruno;Moletom;Vestuário;15000;2500;0,63;83;95;3
+Carla;Tênis;Vestuário;3944;2500;1,58;67;84;4
+Carla;Boné;Acessórios;3065;2500;1,23;26;183;4
+Carla;Tênis;Calçados;1560;2500;0,62;16;131;5
+Elisa;Tênis;Vestuário;2827;2500;1,13;55;164;4
+Daniel;Camiseta;Acessórios;3920;2500;1,57;22;96;5
+Carla;Tênis;Acessórios;801;2500;0,32;49;59;4
+Elisa;Moletom;Acessórios;50;2500;1,91;51;105;3
+Bruno;Tênis;Calçados;1106;2500;0,44;18;79;5
+Daniel;Camiseta;Acessórios;3670;2500;1,47;59;158;3
+Bruno;Moletom;Acessórios;1199;2500;0,48;36;54;3
+Daniel;Calça Jeans;Acessórios;1639;2500;0,66;75;168;1
+Elisa;Tênis;Acessórios;690;2500;0,28;14;82;4
+Ana;Camiseta;Vestuário;2800;2500;1,12;38;167;4
+Daniel;Calça Jeans;Vestuário;1480;2500;0,59;46;114;4
+Bruno;Calça Jeans;Acessórios;3475;2500;1,39;47;195;5
+Elisa;Boné;Calçados;1684;2500;0,67;92;60;2
+Daniel;Moletom;Vestuário;3827;2500;1,53;17;134;3
+Ana;Tênis;Acessórios;3894;2500;1,56;74;75;3
+Ana;Camiseta;Vestuário;627;2500;0,25;95;112;2
+Carla;Boné;Vestuário;2565;2500;1,03;26;135;4
+Carla;Moletom;Calçados;2316;2500;0,93;80;108;4
+Bruno;Boné;Acessórios;1069;2500;0,43;98;76;4
+Daniel;Moletom;Acessórios;2395;2500;0,96;54;147;3
+Daniel;Moletom;Calçados;3233;2500;1,29;13;154;4
+Carla;Tênis;Calçados;4363;2500;1,75;45;148;1
+Daniel;Moletom;Acessórios;4514;2500;1,81;79;178;5
+Daniel;Boné;Acessórios;3401;2500;1,36;40;198;2
+Ana;Moletom;Calçados;2186;2500;0,87;28;104;4
+Carla;Tênis;Vestuário;3509;2500;1,4;70;55;5
+Elisa;Tênis;Vestuário;654;2500;0,26;63;144;4
+Carla;Boné;Calçados;3037;2500;1,21;48;182;5
+Elisa;Calça Jeans;Vestuário;1909;2500;0,76;83;151;3
+Ana;Calça Jeans;Calçados;4557;2500;1,82;99;52;5
+Bruno;Moletom;Vestuário;1284;2500;0,51;28;72;4
+Daniel;Camiseta;Vestuário;3675;2500;1,47;48;102;4
+Ana;Moletom;Acessórios;4841;2500;1,94;76;132;2
+Daniel;Boné;Acessórios;3306;2500;1,32;54;194;2
+Bruno;Boné;Vestuário;1037;2500;0,41;22;134;2
+Bruno;Boné;Vestuário;2341;2500;0,94;67;127;4
+Ana;Boné;Acessórios;2955;2500;1,18;29;159;5
+Bruno;Boné;Acessórios;1024;2500;0,41;81;50;4
+Elisa;Tênis;Acessórios;3450;2500;1,38;70;100;1
+Bruno;Calça Jeans;Calçados;4631;2500;1,85;48;53;5
+Daniel;Boné;Vestuário;4615;2500;1,85;10;162;4
+Daniel;Camiseta;Acessórios;2868;2500;1,15;12;81;4
+Daniel;Camiseta;Vestuário;4347;2500;1,74;86;83;2
+Daniel;Camiseta;Calçados;4995;2500;2,0;71;141;4
+Elisa;Camiseta;Calçados;3201;2500;1,28;72;144;3
+Carla;Tênis;Acessórios;1471;2500;0,59;34;121;4
+Ana;Camiseta;Calçados;1666;2500;0,67;65;88;5
+Daniel;Boné;Vestuário;3274;2500;1,31;42;167;2
+Bruno;Moletom;Acessórios;2482;2500;0,99;47;52;4
+Daniel;Camiseta;Vestuário;1353;2500;0,54;15;172;3
+Bruno;Tênis;Vestuário;4646;2500;1,86;67;99;3
+Bruno;Tênis;Calçados;4236;2500;1,69;53;61;4
+Daniel;Camiseta;Calçados;4269;2500;1,71;54;103;4
+Elisa;Moletom;Calçados;1074;2500;0,43;41;182;4
+Bruno;Camiseta;Calçados;3761;2500;1,5;54;106;4
+Bruno;Tênis;Calçados;1648;2500;0,66;70;194;4
+Daniel;Calça Jeans;Acessórios;2215;2500;0,89;56;161;4
+Bruno;Boné;Vestuário;4354;2500;1,74;30;96;4
+Bruno;Tênis;Vestuário;2991;2500;1,2;89;134;4
+Daniel;Camiseta;Vestuário;3160;2500;1,26;94;191;4
+Daniel;Boné;Vestuário;3624;2500;1,45;84;115;4
+Ana;Camiseta;Calçados;3551;2500;1,42;45;124;3
+Elisa;Camiseta;Vestuário;504;2500;0,2;28;152;5
+Elisa;Calça Jeans;Acessórios;1376;2500;0,55;29;87;4
+Bruno;Boné;Acessórios;1491;2500;0,6;66;99;3
+Elisa;Boné;Vestuário;4642;2500;1,86;27;147;4
+Bruno;Calça Jeans;Vestuário;4864;2500;1,95;56;131;3
+Ana;Tênis;Acessórios;4965;2500;1,99;58;79;5
+Daniel;Camiseta;Acessórios;1135;2500;0,45;23;128;1
+Daniel;Moletom;Calçados;2193;2500;0,88;24;140;3
+Daniel;Camiseta;Acessórios;2182;2500;0,87;40;101;4
+Elisa;Camiseta;Calçados;619;2500;0,25;10;128;4
+Ana;Tênis;Calçados;1330;2500;0,53;63;79;5
+Elisa;Camiseta;Calçados;4175;2500;1,67;12;155;2
+Elisa;Calça Jeans;Calçados;1869;2500;0,75;25;100;5
+Ana;Calça Jeans;Calçados;1240;2500;0,5;96;130;2
+Ana;Boné;Vestuário;616;2500;0,25;66;182;5
+Ana;Moletom;Acessórios;3338;2500;1,34;84;78;2
+Ana;Camiseta;Calçados;1650;2500;0,66;21;181;1
+Daniel;Camiseta;Acessórios;2431;2500;0,97;83;187;4
+Carla;Tênis;Acessórios;1512;2500;0,6;25;194;5
+Carla;Calça Jeans;Calçados;2164;2500;0,87;81;123;5
+Ana;Moletom;Vestuário;1581;2500;0,63;85;66;4
+Carla;Boné;Calçados;1012;2500;0,4;33;133;5
+Carla;Calça Jeans;Vestuário;3349;2500;1,34;37;118;1
+Ana;Boné;Acessórios;1059;2500;0,42;17;83;5
+Carla;Tênis;Vestuário;4172;2500;1,67;45;55;4
+Elisa;Tênis;Vestuário;3843;2500;1,54;99;102;4
+Bruno;Camiseta;Vestuário;4570;2500;1,83;17;175;5
+Bruno;Moletom;Acessórios;1970;2500;0,79;67;92;4
+Ana;Boné;Acessórios;1080;2500;0,43;69;164;4

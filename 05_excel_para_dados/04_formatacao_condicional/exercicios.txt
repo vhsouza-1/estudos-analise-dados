@@ -1,0 +1,256 @@
+Exercício 1: Realçar valores acima da meta
+
+Na coluna "vendas" , destaque em verde as células onde vendas > meta.
+
+Passos:
+
+    Selecione a coluna vendas
+
+    Formatação Condicional → Realçar Regras das Células → Maior que
+
+    Valor: =$B$2 (referência à célula da meta) → cuidado com referência absoluta
+
+Dica: Como a meta é a mesma para todos, use uma referência absoluta (com $) para a célula da meta.
+
+Pergunta: Quantos vendedores bateram a meta?
+
+R: Abri o excel vazio, importei os dados como tabela. Depois selecionei toda a coluna e percebi que o cabeçalho também estava sendo editado. Fui pesquisar e descobri o fantástico "CTRL SHIFT seta pra baixo" que resolveu meus problemas. Depois brinquei ali um pouco com a formatação e percebi que eu não posso usar =[meta] nem =[@meta] para acessar a coluna meta, tenho que fazer com o nome da coluna true mesmo =E$2$ para a celula travada ou =E2 para fazer linha a linha. Coloquei condições tbm para quando a celula é menor que a meta e descobri que posso gerenciar várias regras diferentes usando o Gerenciador de Regras, achei uma funcionalidade ótima!
+
+Para responder "Quantos vendedores bateram a meta?"
+
+Eu fui no cabeçalho de vendas, filtrei por Cor, peguei apenas a cor verde, selecionei com ctrl shit seta pra baixo e a contagem deu 51.
+
+####################################################################################################################
+
+Exercício 2: Realçar valores abaixo da meta (vermelho)
+
+Na coluna "vendas" , destaque em vermelho as células onde vendas < meta.
+
+Passos:
+
+    Formatação Condicional → Realçar Regras das Células → Menor que
+
+    Valor: referência à meta
+
+Pergunta: Qual a diferença entre o vendedor com maior venda e o com menor venda dentro da mesma categoria?
+
+
+
+R: Criei uma tabela dinâmica em outra aba, coloquei categoria e vendedor em linhas (vendedor subordinado à categoria), na parte de valores coloquei soma das vendas. Ai fui na tabela e coloquei para ordenar do maior para o menor. Me deu uma ótima visualização dos dados.
+
+Acessórios: Daniel	 R$ 33,676.00 e Carla	 R$ 6,849.00 (dif  R$ 26,827.00 )
+Calçados: Daniel	 R$ 18,310.00 e Elisa	 R$ 13,138.00 (dif  R$ 5,172.00 )
+Vestuário: Bruno	 R$ 41,087.00 e Ana	 R$ 5,624.00 (dif  R$ 35,463.00 )
+
+####################################################################################################################
+
+Exercício 3: Destaque para os 3 maiores valores
+
+Na coluna "vendas" , destaque os 3 maiores valores em azul escuro (fundo) com texto branco.
+
+Passos:
+
+    Formatação Condicional → Regras Superiores/Inferiores → Os 10 Maiores Itens
+
+    Mude de 10 para 3
+
+    Escolha o formato (preenchimento azul escuro, fonte branca)
+
+Pergunta: Quais são os 3 maiores valores e de quais vendedores?
+
+
+R: Fui em formtação, regra de 10 maiores, mudei de 10 para 3, ai coloquei pra editar o formato e coloquei azul escuro no preenchimento e branco na fonte. Confirmei, fui no cabeçalho de vendas e filtrei por cor azul escuro. Os 3 que ficaram foram:
+
+
+Bruno	15000
+Daniel	4995
+Ana	4965
+
+
+####################################################################################################################
+
+
+Exercício 4: Acima da média
+
+Na coluna "vendas" , destaque em amarelo as células que estão acima da média da coluna.
+
+Passos:
+
+    Formatação Condicional → Regras Superiores/Inferiores → Acima da Média
+
+Pergunta: Quantos vendedores estão acima da média? Qual a porcentagem?
+
+
+R: Implementei essa formatação condicional. Confirmei no gerenciador de regras se ela estava em primeiro, pra garantir que o filtro por cor iria funcionar bem. Fui no cabeçalho e apliquei o filtro por cor amarela. Selecionei com ctrl shift seta e a contagem foi 49. A porcentagem é 49/100 (100 é o n total de linhas) que é, convenientemente, 49% hehe
+
+####################################################################################################################
+
+Exercício 5: Barras de dados (comparação visual)
+
+Na coluna "vendas" , aplique Barras de Dados para visualizar rapidamente quem vendeu mais.
+
+Passos:
+
+    Formatação Condicional → Barras de Dados
+
+    Escolha uma cor (ex: azul gradiente)
+
+Pergunta: Sem olhar os números, quais vendedores você identifica como os maiores vendedores?
+
+R: É facil perceber a venda de 15000 do Bruno. Depois dele vem muitas vendas parecidas em torno de 4500 que confunde visualmente, mas dá para ter uma boa ideia. Da pra ver a barra do 4995 e do 4965 de forma intuitiva, mas eu não confiaria 100% na visualização por esse modo, mais ajuda certamente. Legal é que se eu clica no cabeçalho de vendas e organizar do maior para o menor as barras se alinham bonitinhas. Isso é bom pra identificar outliers...
+
+####################################################################################################################
+
+Exercício 6: Escala de cores para percentual da meta
+
+Na coluna "percentual_meta" (onde 1 = 100% da meta), aplique uma Escala de Cores de 3 cores:
+
+    Vermelho para valores baixos (< 0.8)
+
+    Amarelo para valores médios (0.8 - 1.2)
+
+    Verde para valores altos (> 1.2)
+
+Passos:
+
+    Formatação Condicional → Escalas de Cores → Mais Regras
+
+    Configure: Mínimo (Vermelho), Ponto médio (Amarelo), Máximo (Verde)
+
+    Defina os valores: 0.8 e 1.2
+
+Pergunta: Quantos vendedores estão na zona vermelha (abaixo de 80% da meta)?
+
+R: Apliquei a formatação condicional. Coloquei valor minimo 0.8 e valor max de 1.2. No valor médio, eu só tinha como colocar um numero, então coloquei 1. Ai a coluna ficou vermelho pra menor que 0.8, verde para maior que 1.2 e um gradiente de amarelo para quem ficou entre esses dois intervalos. Depois filtrei pela cor vermelha e a contagem foi 39.
+
+####################################################################################################################
+
+Exercício 7: Conjunto de ícones (status)
+
+Na coluna "percentual_meta" , aplique um Conjunto de Ícones de 3 símbolos:
+
+    ✔️ (verde) para >= 100% da meta
+
+    ⚠️ (amarelo) para entre 80% e 100%
+
+    ❌ (vermelho) para < 80%
+
+Passos:
+
+    Formatação Condicional → Conjunto de Ícones → Mais Regras
+
+    Configure com base em percentual ou valor
+
+Pergunta: Quantos vendedores têm status "⚠️" (quase bateram a meta)?
+
+R Fiz a formatação, tinha um v verde, um triangulo amarelo, sem a exclamação infelizmente e o x vermelho. Depois fui no cabeçalho e percebi que na opção filtrar por "cor" aparecia a opção dos icons. Filtrei pelo triangulo amarelo e depois de selecionar as linhas a contagem foi 10.
+
+####################################################################################################################
+
+Exercício 8: Formatação condicional com fórmulas (regra personalizada)
+
+Na coluna "avaliacao" , destaque em verde as células onde a avaliação é igual a 5 E a venda foi acima da meta.
+
+Fórmula (use "Usar uma fórmula para determinar quais células formatar"):
+excel
+
+=E([@avaliacao]=5; [@vendas]>[@meta])
+
+Passos:
+
+    Selecione a coluna avaliacao (ou a linha inteira, se quiser formatar tudo)
+
+    Formatação Condicional → Nova Regra → Usar uma fórmula
+
+    Digite a fórmula acima
+
+    Escolha o formato (preenchimento verde)
+
+Pergunta: Quantos vendedores têm avaliação 5 E venderam acima da meta?
+
+R: O meu excel não aceitou essa fórmula: =E([@avaliacao]=5; [@vendas]>[@meta]) como eu tinha percebido e comentado anteriormente, essa parte de formatação da problema com tabela. Daí eu tive que usar a versão "adaptada" dessa fórmula, que é:
+
+=E(I2=5; D2>E2)
+
+ai deu certo. Depois do filtro, a contagem deu 10.
+
+####################################################################################################################
+
+
+Exercício 9: Formatação em toda a linha (condição baseada em uma célula)
+
+Formate a LINHA INTEIRA (da coluna A até I) quando a venda for acima da meta.
+
+Fórmula (selecione toda a tabela primeiro):
+excel
+
+= $E2 > $F2
+
+Atenção: Use referência mista ($E2) para fixar a coluna E (vendas) mas permitir que a linha varie.
+
+Passos:
+
+    Selecione toda a tabela (A2:I101)
+
+    Formatação Condicional → Nova Regra → Usar uma fórmula
+
+    Digite a fórmula acima
+
+    Escolha um formato (ex: borda verde, fundo claro)
+
+Dica: A formatação será aplicada à linha inteira quando a condição for verdadeira.
+
+R: Deu certo, entretanto, a fórmula correta é = $D2 > $E2, vc errou as colunas.
+
+####################################################################################################################
+
+Exercício 10: Dashboard visual (aplicação integrada)
+
+Crie um pequeno dashboard na mesma planilha (à direita da tabela) com:
+
+a) Um título: "Painel de Performance - Vendedores"
+
+b) Uma célula com o total de vendas, formatada com:
+
+    Barra de dados (para dar destaque visual)
+
+    Fonte grande e negrito
+
+c) Uma célula com o percentual de vendedores que bateram a meta, formatada com:
+
+    Escala de cores (baixo vermelho, alto verde)
+
+d) Uma tabela resumo (de 3 linhas) mostrando:
+
+    Quantos vendedores tiveram avaliação 5
+
+    Quantos tiveram avaliação 4
+
+    Quantos tiveram avaliação ≤ 3
+
+Com conjunto de ícones na coluna de quantidade:
+
+    ✔️ para quantidade > 15
+
+    ⚠️ para quantidade entre 5 e 15
+
+    ❌ para quantidade < 5
+
+Pergunta: Com base no seu dashboard, você diria que o time de vendas está performando bem? Por quê?
+
+
+R: Eu vi alguns problemas na sua organização. Como eu tenho varias vendas dos mesmos 5 vendedores, a avaliação precisaria ser agrupada por vendedor. Outra coisa, pra eu analisar se cada vendedor bate a meta individualmente, eu preciso somar tudo que ele vendeu, ver a quantidade de vendas que ele fez, multiplicar a quantidade pelo valor da meta, que é fixo para toda venda, e comparar o valor total vendido com essa meta individual. Fiz isso. Outra coisa, mesmo problema para a questão da avaliação, o que eu fiz foi calcular a avaliação media deles, que precisou fazer uma soma das avaliações individuais e dividir pela quantidade de vendas. Resultado final foi a seguinte tabela:
+
+Painel de Performance - Vendedores						
+Vendedores	Total de Vendas	Meta	Bateu Meta	pct BM	qtd vendas	av. média
+Daniel	 R$ 81,341.00 	 R$ 65,000.00 	Sim	20%	26	3.35
+Bruno	 R$ 69,179.00 	 R$ 52,500.00 	Sim	20%	21	3.86
+Ana	 R$ 43,936.00 	 R$ 45,000.00 	Não		18	3.67
+Carla	 R$ 40,583.00 	 R$ 40,000.00 	Sim	20%	16	4.00
+Elisa	 R$ 38,812.00 	 R$ 47,500.00 	Não		19	3.58
+Total	 R$ 273,851.00 	 R$ 250,000.00 	Sim	60%	100	3.67
+
+
+Fiz toda essa tabela na mão, não usei tabela dinâmica hehe pelo desafio. Acho que a dinâmica me poupava alguns trabalhos. Ah, e fiz todas as formatções condicionais nas celulas.
+
+
