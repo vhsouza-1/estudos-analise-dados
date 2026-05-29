@@ -2,9 +2,8 @@
 
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen.svg)
 ![Excel](https://img.shields.io/badge/Excel-2019%2B-blue.svg)
-![Nível](https://img.shields.io/badge/Nível-Intermediário-orange.svg)
 
-## 📋 Sobre o Bloco
+## Sobre o Bloco
 
 Este bloco cobre os fundamentos do Excel para Análise de Dados, com foco no que um Analista de Dados Jr precisa saber no dia a dia. Todo o conteúdo foi desenvolvido para quem já tem familiaridade com Python/pandas, estabelecendo paralelos entre as ferramentas.
 
@@ -82,21 +81,14 @@ Este bloco cobre os fundamentos do Excel para Análise de Dados, com foco no que
 | Gráfico de linhas | Inserir → Gráfico → Linhas | sns.lineplot() |
 | Dispersão | Inserir → Gráfico → Dispersão | sns.scatterplot() |
 
-## 👨‍💻 Autor
+## Contato
 
-Vinicius H. Souza
+- Nome: Vinícius Henrique Souza
+- Físico | Mestre em Educação em Ciências | Estudante de Análise de Dados
+- email: vinicius.h.zlc@gmail.com
+- linkedin: [https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/](https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/)
 
-- Físico | Mestre em Educação em Ciências
-- Estudante de Análise de Dados
-
-![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT.
-
-## 🙏 Agradecimentos
+## Agradecimentos
 
 - DeepSeek (assistente de estudos)
-- Microsoft (Excel)
+- Comunidade de dados (documentação aberta)
