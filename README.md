@@ -13,7 +13,7 @@ Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrand
 - [X] Python (bibliotecas para Dados)
 - [X] Estatística para Dados
 - [X] Excel para Dados
-- [ ] Power BI
+- [ ] Power BI (A SEGUIR!)
 
 ## Estrutura do Repositório
 
