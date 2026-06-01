@@ -1,0 +1,312 @@
+Exercício 1: Gráfico de colunas (vendas por categoria)
+
+Dataset: vendas_categoria.csv
+
+Crie um gráfico de colunas mostrando as vendas por categoria.
+
+Personalize:
+
+    Título: "Vendas por Categoria - 2024"
+
+    Rótulo do eixo X: "Categoria"
+
+    Rótulo do eixo Y: "Vendas (R$)"
+
+    Adicione rótulos de dados (valores em cima das barras)
+
+    Cores: escolha uma paleta agradável
+
+Pergunta: Qual categoria tem o maior faturamento? Qual o menor?
+
+R: Fiquei brincando aqui com os gráficos, achei incrível. Querendo ou não é mais fácil e intuitivo do que fazer no plt e no sns kkkkkk. Fiz um gráfico de barros e dei uma editada. É bem intuitivo até. Acredito que seja bem intuitivo tbm para mim porque sofri bastante com plt e sns hehe.
+
+Qual categoria tem o maior faturamento? Eletrônicos
+Qual o menor? Livros
+
+#################################################################################################################
+
+Exercício 2: Gráfico de linhas (tendência mensal)
+
+Dataset: vendas_mensal.csv
+
+Crie um gráfico de linhas comparando as vendas de 2023 e 2024 mês a mês.
+
+Personalize:
+
+    Título: "Comparativo de Vendas Mensais - 2023 vs 2024"
+
+    Eixo X: meses (Jan a Dez)
+
+    Eixo Y: vendas (R$)
+
+    Linha 2023: azul, marcadores circulares
+
+    Linha 2024: verde, marcadores quadrados
+
+    Legenda: identificar cada linha
+
+    Grade: adicionar grade principal (eixo Y)
+
+Perguntas:
+
+    Em quais meses 2024 foi superior a 2023?
+
+    Houve algum mês com queda significativa?
+
+R: Consegui fazer, apanhei um pouco para alterar os marcadores, apesar de ser bem intuitivo eu estava tentando mudar a cor do marcador de laranja (padrão) para verde, e ele estava mudando a borda do marcador kkkkk mas depois percebi.
+
+Em quais meses 2024 foi superior a 2023? Jan, Fev, Mar, Abr, Maio, Jul, Ago, Out, Nov, Dez (só não foi em Jun e Set)
+
+Houve algum mês com queda significativa? Em Jun e Set o gráfico apresentou quedas significativas nos dois anos. Em Janeiro tbm se vc contar a transição entre os anos.
+
+#################################################################################################################
+
+Exercício 3: Gráfico de pizza (proporção por categoria)
+
+Dataset: vendas_categoria.csv
+
+Crie um gráfico de pizza mostrando a participação de cada categoria no total.
+
+Personalize:
+
+    Título: "Participação por Categoria"
+
+    Adicione rótulos de dados com porcentagem (não valor absoluto)
+
+    Explodir a fatia da maior categoria (destacar)
+
+    Cores: use cores distintas
+
+Pergunta: Quanto percentualmente a maior categoria representa do total?
+
+Atenção: Gráfico de pizza só é recomendado para poucas categorias (no máximo 5-6).
+
+
+R: Consegui fazer, descobri que explodir a fatia é arrastar ela pra fora, não sabia que dava pra fazer, achei bem interessante. Adicionei elementos no gráfico chamado texto explicativo que tem o nome e a pct. Também mudei o esquema de cores.
+
+Pergunta: Quanto percentualmente a maior categoria representa do total? 33% (Eletrônicos)
+
+#################################################################################################################
+
+Exercício 4: Gráfico de dispersão (marketing vs vendas)
+
+Dataset: marketing_vendas.csv
+
+Crie um gráfico de dispersão (XY) mostrando a relação entre investimento em marketing e vendas.
+
+Personalize:
+
+    Título: "Relação: Investimento em Marketing vs Vendas"
+
+    Eixo X: "Investimento em Marketing (R$)"
+
+    Eixo Y: "Vendas (R$)"
+
+    Adicione linha de tendência linear (com equação e R²)
+
+    Marcadores: círculos azuis, tamanho médio
+
+Perguntas:
+
+    A relação parece linear? Positiva ou negativa?
+
+    Qual o R² da linha de tendência? O que isso significa?
+
+
+R: Consegui plotar, achei incrivel... Principalmente o fato de poder fazer as regressões de forma automática já com os parâmetros e equações.
+
+A relação parece linear? Positiva ou negativa? Parece linear positiva
+
+Qual o R² da linha de tendência? O que isso significa? Para linear é R2 = 0.8073, mas como eu posso explorar, eu consigo achar de forma muito fácil o que encaixa melhor. Uma reg. exp. da R2 = 0.8422, e uma polinomial de ordem 2 da R2 = 0.8474.
+
+#################################################################################################################
+
+Exercício 5: Gráfico de barras empilhadas (composição por produto)
+
+Dataset: vendas_composicao.csv
+
+Crie um gráfico de barras empilhadas mostrando a composição das vendas (online vs loja física) por produto.
+
+Personalize:
+
+    Título: "Composição de Vendas por Produto - Online vs Loja Física"
+
+    Eixo X: produto
+
+    Eixo Y: vendas (R$)
+
+    Cores: uma cor para online, outra para loja física
+
+    Legenda: identificar as duas séries
+
+    Rótulos de dados: opcional (pode ficar poluído)
+
+Perguntas:
+
+    Qual produto tem maior participação de vendas online?
+
+    Qual produto vende mais no total?
+
+
+R: Consegui fazer, já vem por padrão com cores diferentes, coloquei os rótulos de forma que não ficassem poluídos.
+
+
+Qual produto tem maior participação de vendas online? Moletom (R$ 2.268)
+
+Qual produto vende mais no total? Tênis (1679 física, 1806 online, total 3485)
+
+
+#################################################################################################################
+
+Exercício 6: Gráfico combinado (barras + linha)
+
+Dataset: vendas_mensal.csv
+
+Crie um gráfico combinado onde:
+
+    As vendas de 2023 são representadas por colunas
+
+    As vendas de 2024 são representadas por linha
+
+Personalize:
+
+    Título: "Vendas 2023 (colunas) vs 2024 (linha)"
+
+    Eixo X: meses
+
+    Eixo Y: vendas (R$) - um eixo apenas (já que as métricas são iguais)
+
+    Colunas 2023: azul claro
+
+    Linha 2024: vermelha, com marcadores
+
+Dica: No Excel, você pode criar um gráfico de colunas primeiro, depois clicar com botão direito na série 2024 → Alterar Tipo de Gráfico → Linha.
+
+Pergunta: Visualmente, qual padrão você percebe nas vendas ao longo do ano?
+
+R: O excel tinha um modelo de gráfico pronto em que eu podia combinar dois graficos, ai selecionei barra para 2023 e linha para 2024. Depois ajustei as cores como pediu. Coloquei os mercadores de bolinha vermelho com borda branca para destacar.
+
+
+Visualmente, qual padrão você percebe nas vendas ao longo do ano? Queda em jan, jun e set. Estável nos demais meses. Com um pico entre Jun e Set.
+
+#################################################################################################################
+
+Exercício 7: Mini-dashboard com 2 gráficos
+
+Dataset: vendas_mensal.csv e vendas_categoria.csv
+
+Crie uma nova planilha chamada "Dashboard" e monte:
+
+a) No canto superior esquerdo: gráfico de linhas (evolução mensal 2023-2024) - mesmo do exercício 2
+
+b) No canto superior direito: gráfico de pizza (participação por categoria) - mesmo do exercício 3
+
+c) Abaixo (centralizado): gráfico de colunas (vendas por categoria) - mesmo do exercício 1
+
+Personalize:
+
+    Todos os gráficos com bordas (contorno)
+
+    Fundo da planilha: cinza bem claro
+
+    Título principal da planilha (em células, não no gráfico): "Dashboard de Vendas - 2023/2024" (fonte grande, negrito)
+
+Pergunta: Se você fosse apresentar este dashboard para um gerente, quais seriam os 3 principais insights?
+
+R: Consegui. Com os gráficos o que eu fiz foi literalmente copiar e colar eles para a aba nova. Ai organizei eles nos lugares, coloquei as bordas naquele painel lateral mesmo que abre quando editamos o grafico. Ai dei um CTRL T (no meu CTRL A abre a seção de arquivo, por ser excel br, sim bem pouco prático) ai fui em exibir tirei as linhas de grade e depois fui em preenchimento e coloquei o cinza.
+
+Sobre os insights, primeiramente falaria sobre o padrão de quedas detectados no grafico de linha, que eu ja expliquei anteriormente.
+
+Depois, sobre o grafico de barras falaria sobre a grande diferença entre eletronicos e livros e analisar qual esta sendo o lucro liquido com os livros, para ver se não está apenas trzendo prejuizo. Talvez pensar em métodos de tornar a venda de livros mais eficiente.
+
+Sobre o grafico de pizza, destacaria a grande participação de eletrônicos e pensar em como podemos otimizar cada vez mais esse mercado. Visto que representa 1/3 das vendas da nossa empresa.
+
+#################################################################################################################
+
+Exercício 8: Formatação avançada de gráficos
+
+No gráfico de colunas do Exercício 1, aplique as seguintes formatações avançadas:
+
+    Cor gradiente nas barras (azul claro → azul escuro)
+
+    Rótulos de dados com formatação de moeda (R$)
+
+    Linha de referência horizontal na média das vendas (linha pontilhada)
+
+    Remova as linhas de grade (exceto eixo Y)
+
+    Altere o título para fonte maior (14pt, negrito)
+
+Pergunta: Compare o gráfico original com o formatado. Qual comunica melhor a informação?
+
+
+R: Descobri que tenho que fazer o gradiente individualmente e editar os rotulos como moeda individualmente. Meio trabalhoso para muitas colunas. Outra coisa, eu fui tentar fazer "Linha de referência horizontal na média das vendas (linha pontilhada)" ai eu descobri pq o excel não é usado como ferramenta de visualização kkkkkkkkkk meu deus do céu que trabalhoso e desconfigura tudo ainda por cima.
+
+#################################################################################################################
+
+
+Exercício 9: Gráfico de anel (donut) para composição
+
+Crie um gráfico de anel (donut chart) para as vendas por categoria (dataset vendas_categoria.csv).
+
+Diferença: Gráfico de anel é uma pizza com um buraco no meio.
+
+Personalize:
+
+    Título: "Participação por Categoria"
+
+    Rótulos de dados com porcentagem
+
+    Buraco central com texto: "Total" e o valor total (use uma caixa de texto ou célula vinculada)
+
+    Cores: escolha uma paleta harmoniosa
+
+Pergunta: O gráfico de anel é visualmente mais agradável que o de pizza? Por quê?
+
+R: Consegui fazer, percebi que consigo deixar as porcentagens transparentes e se eu arrastar elas, fica um balãozinho que conecta elas até a sua respectiva porção do anel, muito útil. Para colocar o texto com total fiz duas caixas de texto, uma escrita TOTAL e outra vinculada à uma célula onde eu fiz =SOMA() dos valores da tabela.
+
+O gráfico de anel é visualmente mais agradável que o de pizza? Por quê? Apesar deles serem praticamente o mesmo grafico, só que o anel não tem "o meio" eles me dão um ar de coisas diferentes. O de pizza me da uma sensação de vamos ver quando do todo a categoria representa. Já o grafico em anel me parece algo mais secundário, talvez pra complementar uma info que venha no meio. 
+
+#################################################################################################################
+
+
+Exercício 10: Sparklines (mini-gráficos dentro de células)
+
+Dataset: vendas_mensal.csv
+
+Na mesma planilha dos dados, adicione uma nova coluna chamada "Tendência 2024" à direita e insira Sparklines (mini-gráficos de linha) para cada ano?
+
+Na verdade: Vamos fazer para cada ano:
+
+Passos:
+
+    Adicione uma coluna após as vendas de 2024 chamada "Tendência 2023"
+
+    Adicione outra coluna "Tendência 2024"
+
+    Para cada linha (mês não faz sentido), na verdade sparkline é por linha de dados.
+
+Correção: Sparkline mostra a tendência ao longo do tempo. Seus dados estão organizados em colunas (meses nas linhas). Então sparkline faria sentido para cada mês? Não.
+
+Vamos fazer certo: Os dados estão em formato "mes" nas linhas, "ano" nas colunas. O sparkline acompanharia a linha? Na verdade, sparkline precisa de dados em linha.
+
+Solução rápida: Transponha os dados (copie, cole especial → transpor) para ter anos nas linhas e meses nas colunas. Adicione sparkline de linha para cada ano.
+
+Personalize:
+
+    Sparkline: tipo linha
+
+    Cor: azul para 2023, verde para 2024
+
+    Destacar ponto máximo e mínimo (marcadores)
+
+Pergunta: Em um rápido olhar, qual ano teve maior pico de vendas? O sparkline comunica isso rapidamente?
+
+R: Eu transpus a tabela, para ficar assim:
+
+ano	Jan	Fev	Mar	Abr	Mai	Jun	Jul	Ago	Set	Out	Nov	Dez
+2023	8860	13390	13226	13191	11772	11092	13734	14265	8466	13334	12426	13578
+2024	9995	15834	15397	15110	14507	10222	14419	16645	8235	14725	12941	16063
+
+Fiz o grafico de linha depois de dez. Assim, parece que não dá pra editar esse gráfico não. E outra coisa, não achei tão útil para esse caso específico para responder a sua pergunta, como eles ficam compactados, meio que n tem tantos detalhes, principalmente se os dois graficos forem parecidos, como é o caso. Mas imagino que é uma funcionalidade interessante para alguns casos.
+
