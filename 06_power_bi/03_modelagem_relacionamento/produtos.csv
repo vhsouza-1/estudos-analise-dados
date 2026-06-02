@@ -1,0 +1,11 @@
+id_produto;produto;categoria;custo_unitario;fornecedor
+1;Camiseta;Acessórios;49;Fornecedor A
+2;Calça Jeans;Vestuário;74;Fornecedor B
+3;Tênis;Acessórios;20;Fornecedor B
+4;Boné;Calçados;83;Fornecedor B
+5;Moletom;Vestuário;72;Fornecedor C
+6;Bermuda;Acessórios;63;Fornecedor B
+7;Jaqueta;Vestuário;37;Fornecedor B
+8;Regata;Vestuário;48;Fornecedor A
+9;Meia;Acessórios;40;Fornecedor A
+10;Cinto;Vestuário;61;Fornecedor B

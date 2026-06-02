@@ -1,0 +1,101 @@
+id_cliente;cliente;cidade;segmento
+1;Cliente_1;Brasília;Governo
+2;Cliente_2;Porto Alegre;Varejo
+3;Cliente_3;Belo Horizonte;Governo
+4;Cliente_4;Belo Horizonte;Governo
+5;Cliente_5;Porto Alegre;Atacado
+6;Cliente_6;Belo Horizonte;Varejo
+7;Cliente_7;São Paulo;Atacado
+8;Cliente_8;Belo Horizonte;Varejo
+9;Cliente_9;Belo Horizonte;Governo
+10;Cliente_10;Porto Alegre;Varejo
+11;Cliente_11;Porto Alegre;Atacado
+12;Cliente_12;Belo Horizonte;Atacado
+13;Cliente_13;Rio de Janeiro;Atacado
+14;Cliente_14;Porto Alegre;Varejo
+15;Cliente_15;Brasília;Atacado
+16;Cliente_16;Brasília;Atacado
+17;Cliente_17;São Paulo;Atacado
+18;Cliente_18;Belo Horizonte;Governo
+19;Cliente_19;Rio de Janeiro;Governo
+20;Cliente_20;São Paulo;Varejo
+21;Cliente_21;Belo Horizonte;Varejo
+22;Cliente_22;Porto Alegre;Atacado
+23;Cliente_23;Brasília;Governo
+24;Cliente_24;Rio de Janeiro;Atacado
+25;Cliente_25;Brasília;Atacado
+26;Cliente_26;Porto Alegre;Governo
+27;Cliente_27;Belo Horizonte;Governo
+28;Cliente_28;Porto Alegre;Governo
+29;Cliente_29;Porto Alegre;Varejo
+30;Cliente_30;Brasília;Varejo
+31;Cliente_31;Rio de Janeiro;Atacado
+32;Cliente_32;Porto Alegre;Varejo
+33;Cliente_33;Brasília;Governo
+34;Cliente_34;Rio de Janeiro;Governo
+35;Cliente_35;Belo Horizonte;Varejo
+36;Cliente_36;Belo Horizonte;Atacado
+37;Cliente_37;São Paulo;Atacado
+38;Cliente_38;Brasília;Varejo
+39;Cliente_39;Rio de Janeiro;Atacado
+40;Cliente_40;Porto Alegre;Atacado
+41;Cliente_41;Belo Horizonte;Atacado
+42;Cliente_42;Rio de Janeiro;Governo
+43;Cliente_43;Brasília;Governo
+44;Cliente_44;São Paulo;Varejo
+45;Cliente_45;Belo Horizonte;Governo
+46;Cliente_46;Rio de Janeiro;Atacado
+47;Cliente_47;Rio de Janeiro;Governo
+48;Cliente_48;Rio de Janeiro;Varejo
+49;Cliente_49;Brasília;Governo
+50;Cliente_50;Brasília;Atacado
+51;Cliente_51;Brasília;Atacado
+52;Cliente_52;Porto Alegre;Varejo
+53;Cliente_53;Rio de Janeiro;Governo
+54;Cliente_54;Belo Horizonte;Governo
+55;Cliente_55;Brasília;Governo
+56;Cliente_56;Brasília;Atacado
+57;Cliente_57;Rio de Janeiro;Varejo
+58;Cliente_58;Brasília;Governo
+59;Cliente_59;Porto Alegre;Atacado
+60;Cliente_60;Porto Alegre;Atacado
+61;Cliente_61;Brasília;Atacado
+62;Cliente_62;Rio de Janeiro;Governo
+63;Cliente_63;Rio de Janeiro;Governo
+64;Cliente_64;Rio de Janeiro;Governo
+65;Cliente_65;São Paulo;Governo
+66;Cliente_66;Brasília;Governo
+67;Cliente_67;Rio de Janeiro;Governo
+68;Cliente_68;Porto Alegre;Governo
+69;Cliente_69;Belo Horizonte;Governo
+70;Cliente_70;Belo Horizonte;Governo
+71;Cliente_71;Rio de Janeiro;Atacado
+72;Cliente_72;Belo Horizonte;Governo
+73;Cliente_73;Belo Horizonte;Varejo
+74;Cliente_74;São Paulo;Atacado
+75;Cliente_75;Porto Alegre;Governo
+76;Cliente_76;Porto Alegre;Varejo
+77;Cliente_77;São Paulo;Governo
+78;Cliente_78;São Paulo;Varejo
+79;Cliente_79;Belo Horizonte;Varejo
+80;Cliente_80;Brasília;Varejo
+81;Cliente_81;Belo Horizonte;Varejo
+82;Cliente_82;São Paulo;Atacado
+83;Cliente_83;Porto Alegre;Atacado
+84;Cliente_84;Belo Horizonte;Varejo
+85;Cliente_85;Brasília;Governo
+86;Cliente_86;Belo Horizonte;Varejo
+87;Cliente_87;Rio de Janeiro;Atacado
+88;Cliente_88;Belo Horizonte;Governo
+89;Cliente_89;São Paulo;Atacado
+90;Cliente_90;Porto Alegre;Atacado
+91;Cliente_91;Porto Alegre;Governo
+92;Cliente_92;São Paulo;Varejo
+93;Cliente_93;Rio de Janeiro;Varejo
+94;Cliente_94;São Paulo;Varejo
+95;Cliente_95;Belo Horizonte;Varejo
+96;Cliente_96;São Paulo;Governo
+97;Cliente_97;São Paulo;Governo
+98;Cliente_98;Rio de Janeiro;Governo
+99;Cliente_99;Belo Horizonte;Atacado
+100;Cliente_100;Brasília;Governo

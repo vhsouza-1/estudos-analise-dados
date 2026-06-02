@@ -1,0 +1,242 @@
+Exercício 1: Carregar as 4 tabelas
+
+Passos:
+
+    Power BI → Obter Dados → Pasta
+
+    Selecione a pasta 06_power_bi/03_modelagem_relacionamentos/
+
+    Carregue os 4 CSVs: vendas.csv, produtos.csv, vendedores.csv, clientes.csv
+
+
+R: Quando tentei fazer dessa forma, ele criou uma tabela com as informações desses 4 arquivos. Tive que carregar cada um individualmente.
+
+##############################################################################################
+
+Exercício 2: Conhecer o modelo de dados
+
+Passos:
+
+    Clique na aba Modelo (ícone de grade, lado esquerdo)
+
+Perguntas:
+
+    Quantas tabelas você vê?
+
+    Há relacionamentos automáticos? (linhas conectando tabelas)
+
+    O Power BI detectou as chaves automaticamente?
+
+R: Eu vejo 4 tabelas. Sim, há relacionamentos automáticos na forma de linhas conectando as tabelas, inclusive se eu passo o mouse sobre as linhas eles me mostram quais colunas são relacionadas. Nossa, agora que percebi que ele faz isso de forma automática. Então provavelmente se eu subir duas tabelas com uma coluna genérica "vendas" o pbi vai tentar criar uma relação entre elas né?
+
+##############################################################################################
+
+Exercício 3: Criar relacionamento (vendas → produtos)
+
+Passos:
+
+    Na aba Modelo, arraste vendas.id_produto até produtos.id_produto
+
+Configurações do relacionamento:
+
+    Cardinalidade: Muitos para um (*:1) → uma venda tem um produto, um produto pode estar em muitas vendas
+
+    Direção do filtro: Única (produtos filtra vendas)
+
+Pergunta: O Power BI criou automaticamente? Qual foi o resultado?
+
+r: Ele abriu uma janela chamada "Novo Relacionamento" tem essas duas opções que você falou, Cardinalidade e Direção do filtro cruzado, entretanto, não posso mexer em nada pois tem um alerta dizendo que já existe uma relação entre essas duas colunas. Excluí a relação e a criei novamente para testar. Deu certo.
+
+##############################################################################################
+
+Exercício 4: Criar relacionamento (vendas → vendedores)
+
+Passos:
+
+    Arraste vendas.id_vendedor até vendedores.id_vendedor
+
+Configuração: Muitos para um (*:1)
+
+R: Vide exercício 3.
+
+##############################################################################################
+
+Exercício 5: Criar relacionamento (vendas → clientes)
+
+Passos:
+
+    Arraste vendas.id_cliente até clientes.id_cliente
+
+Configuração: Muitos para um (*:1)
+
+r: Video exercício 3.
+
+##############################################################################################
+
+Exercício 6: Verificar o Star Schema
+
+Perguntas:
+
+    A tabela vendas está no centro?
+
+    As outras tabelas estão ao redor?
+
+    Quantas tabelas dimensão você tem? (produtos, vendedores, clientes)
+
+Falta uma tabela: Calendário (vamos criar no próximo exercício)
+
+R: Não estava na disposição de estrela, as tabelas estavam todas lado a lado. A tabela vendas estava a esquerda de todas as outras e, portanto, as demais à direita dela. Mas eu as reorganizei para ficar no esquema de estrela, com a tabele "Vendas" no meio. O resultado ficou uma tabela no centro ("Vendas") e 3 tabelas orbitantes (produtos, vendedores e clientes).
+
+##############################################################################################
+
+Exercício 7: Criar tabela Calendário (dimensão temporal)
+
+No Power BI (não no Power Query):
+
+Passos:
+
+    Vá para a aba Relatório
+
+    Página Inicial → Nova Tabela (ou Modelagem → Nova Tabela)
+
+Fórmula DAX para criar calendário:
+dax
+
+Calendario = CALENDAR(DATE(2024,1,1), DATE(2024,12,31))
+
+Adicionar colunas de navegação (no Power Query ou no DAX):
+dax
+
+Calendario = 
+ADDCOLUMNS(
+    CALENDAR(DATE(2024,1,1), DATE(2024,12,31)),
+    "Ano", YEAR([Date]),
+    "Mês", MONTH([Date]),
+    "Mês Nome", FORMAT([Date], "MMM"),
+    "Trimestre", QUARTER([Date]),
+    "Dia da Semana", WEEKDAY([Date], 2),
+    "Dia Nome", FORMAT([Date], "dddd")
+)
+
+Criar relacionamento:
+
+    Arraste vendas.data até Calendario.Date
+
+
+##############################################################################################
+
+
+Exercício 8: Criar visualizações usando os relacionamentos
+
+a) Vendas por Produto (usa vendas + produtos)
+
+Passos:
+
+    Gráfico de barras
+
+    Eixo: produtos.produto
+
+    Valores: vendas.valor_total (soma)
+
+Pergunta: O nome do produto apareceu mesmo estando em outra tabela?
+
+R: a) Sim, o nome do produto apareceu mesmo estando em outra tabela. Interessante, é um jeito diferente de ver o join/merge. Mais visual.
+
+b) Vendas por Vendedor (usa vendas + vendedores)
+
+Passos:
+
+    Gráfico de barras
+
+    Eixo: vendedores.vendedor
+
+    Valores: vendas.valor_total (soma)
+
+c) Vendas por Região (usa vendas + vendedores)
+
+Passos:
+
+    Gráfico de barras
+
+    Eixo: vendedores.regiao
+
+    Valores: vendas.valor_total (soma)
+
+d) Vendas por Mês (usa vendas + calendário)
+
+Passos:
+
+    Gráfico de linhas
+
+    Eixo: Calendario.Mês Nome (ordenar por Mês)
+
+    Valores: vendas.valor_total (soma)
+
+
+R: Todos os gráficos deram certo. Entretanto o último gráfico, Soma de valor total por Mês Nome deu problema. 2 coisas, 1 que o calendário que criamos era muito pequeno, precisei criar um calendário maior. Depois percebi que mês nome era ordenado alfabeticamente e tive que descobrir como ordena-lo pelo mês. Mas consegui.
+
+##############################################################################################
+
+Exercício 9: Testar os filtros
+
+Adicione segmentações (slicers):
+
+    Segmentação de Produto: use produtos.produto
+
+    Segmentação de Vendedor: use vendedores.vendedor
+
+    Segmentação de Região: use vendedores.regiao
+
+    Segmentação de Mês: use Calendario.Mês Nome
+
+Teste as combinações:
+
+    Selecione "Tênis" em produtos → todos os gráficos mostram apenas vendas de Tênis
+
+    Selecione "Ana" em vendedores → apenas vendas da Ana
+
+    Selecione ambas → venda de Tênis pela Ana
+
+Pergunta: O que acontece quando você seleciona filtros de tabelas diferentes? Funciona?
+
+R: Sim, tudo funciona perfeitamente, o pbi basicamente trata como se fosse tudo uma tabela só, igual com o Join/merge mesmo, na verdade é mais parecido com o Join porque você conserva as origens, no merge você junta tudo num df só. Adicionei também um cartão que mostra a soma de valor_total, isso complementa bastante a análise.
+
+##############################################################################################
+
+Exercício 10: Relatório final
+
+Organize um dashboard com:
+
+    Título: "Dashboard de Vendas - Star Schema"
+
+    Gráfico de barras: Vendas por Produto
+
+    Gráfico de barras: Vendas por Vendedor
+
+    Gráfico de barras: Vendas por Região
+
+    Gráfico de linhas: Vendas por Mês
+
+    Segmentações (slicers): Produto, Vendedor, Região, Mês
+
+Perguntas para responder:
+
+    Qual produto vendeu mais?
+
+    Qual vendedor vendeu mais?
+
+    Qual região vendeu mais?
+
+    Qual mês teve maior faturamento?
+
+R: Qual produto vendeu mais? Camiseta R$ 152,69 Mil
+
+Qual vendedor vendeu mais? Elisa R$ 247 Mil
+
+Qual região vendeu mais? Centro-Oeste (Região da Elisa)
+
+Qual mês teve maior faturamento? Abril R$ 121,28 Mil
+
+##############################################################################################
+
+Achei tranquilo, porque já tinha quebrado muito a cabeça com isso quando estava estudando SQL, então fazer os Joins de forma visual, arrastando as colunas é bem tranquilo. Achei um pouco confuso a questão do filtro e da cardinalidade, mas tudo bem. O esquema de você visualizar as tabelas e quais as conexões que elas possuem é muuuuuuito útiil. Bizarramente útil. É algo que um monte de linha escrita Join Join join... no sql não deixa tão claro. Gostei também da prática do calendário para a ordenação. E a parte final de fazer os gráficos, enfim, power bi né, bem incrível. To começando a entender porque existe cargos chamados Analista Power BI, pq basicamente vc pode ser uma analista de dados usando só essa ferramenta kkkkkkkkkk no começo achei que ela só fazia dashboard, mas agora eu to entendendo que ela meio que faz todo o resto também. Continuo preferindo o meu pandas, porque gosto de programação, mas assim, to dando muito valor e estou surpreso com a capacidade. 
