@@ -1,0 +1,210 @@
+Exercício 1: Verificar e corrigir tipos de dados
+
+Ao importar, o Power Query tenta adivinhar os tipos. Verifique:
+
+    id deve ser número inteiro 
+
+    data deve ser data  (se não, converta)
+
+    vendas deve ser número decimal 
+
+    quantidade deve ser número inteiro 
+
+    valor_total deve ser número decimal 
+
+Passos:
+
+    Clique no ícone ao lado do cabeçalho da coluna para alterar o tipo
+
+    Altere para o tipo correto (Inteiro, Decimal, Data, Texto)
+
+Pergunta: Alguma coluna está com tipo errado? Qual?
+
+R: As colunas vendas e valor_total foram automaticamente identificadas como inteiro. Quando eu fui trocar para decimal o Power Query falou que já tinha uma alteração de tipo feita. Ai vi que estava na "Etapas Aplicadas" à direita da tabela. Exclui a etapa feita e todos as colunas viraram string. Ai a partir de lá alterei o tipo de todas corretamente.
+
+################################################################################################################
+
+Exercício 2: Remover colunas desnecessárias
+
+Por enquanto não temos colunas desnecessárias. Mas vamos simular:
+
+    Se houvesse uma coluna "observacao", você removeria.
+
+Passo: Botão direito na coluna → Remover
+
+R: Eu dupliquei uma das colunas e removi. As duas etapas ficaram salvas nas etapas aplicadas. Coluna Duplicada seguido de Colunas Removidas.
+
+################################################################################################################
+
+Exercício 3: Filtrar linhas com problemas
+
+a) Filtrar a coluna vendas para remover valores negativos (vendas < 0)
+
+Passos:
+
+    Clique na seta da coluna vendas
+
+    Filtro Numérico → É menor que → digite 0 → OK
+
+    Remova essas linhas (vendas negativas são erro)
+
+b) Filtrar a coluna quantidade para remover valores <= 0 (quantidade zero ou negativa)
+
+Passos: Filtro Numérico → É menor que ou igual a → 0 → OK
+
+c) Filtrar a coluna produto para remover valores vazios (null ou string vazia)
+
+Passos:
+
+    Clique na seta da coluna produto
+
+    Desmarque (null) e (vazio) → OK
+
+R: a) Eu acredito que você me mandou fazer ao contrário. Na opção A eu consegui fazer esse filtro, mas eu fiquei apenas com a única linha que vendas = 0. Não tem como eu excluir essa linha. O que eu deveria ter feito, pelo que eu entendi é filtrar essa linha "para fora do dataset" fazendo: Filtro Numérico → É maior ou igual a → digite 0 → OK. Selecionar apenas essa linha é bom para ver quantas linhas problemáticas temos e caso eu queira modificar alguma coisa nela em específico. Mas pra tirar ela do dataset tem que ser o contrário. Aplicando Filtro Numérico → É maior ou igual a → digite 0 → OK. O valor de linhas foi de 500 para 499.
+
+b) Também filtrei a coluna quantidade para selecionar apenas os valores maiores que zero. 499 para 498.
+
+c) Apliquei o filtro. 498 para 497.
+
+
+################################################################################################################
+
+Exercício 4: Substituir valores (corrigir erros)
+
+a) Na coluna regiao, substitua "Suld" por "Sul"
+
+Passos:
+
+    Botão direito na coluna regiao → Substituir Valores
+
+    Valor a procurar: "Suld"
+
+    Substituir por: "Sul"
+
+    OK
+
+b) Na coluna categoria, substitua "Vest" por "Vestuário"
+
+Passos: Mesmo procedimento
+
+R: a) Eu fiz o seguinte, cliquei na setinha do cabeçalho da coluna regiao eu olhei os valores unicos e deixei apenas Suld marcado. Ai me voltou apenas 1 linha. Nessa linha eu fui em alterar valores e troquei "Suld" por "Sul". Fazendo isso acho que me compliquei um pouco. Tive que excluir o filtro anterior à substituição do valor na parte de Etapas Aplicadas. Mas deu tudo certo.
+
+b) Quando fui fazer a substituição de Vest por Vestuário o programa trocou tudo que era Vestuário para "Vestuáriouário". Descobri que tinha uma "opções avançadas" e que eu tinha que marcar "coincidir conteúdo da célula inteira" ai deu certo.
+
+
+################################################################################################################
+
+Exercício 5: Limpar texto (espaços e maiúsculas)
+
+a) Na coluna vendedor, remova espaços extras no início e fim
+
+Passos:
+
+    Botão direito → Transformar → Limpar → Recortar (Trim)
+
+    Isso remove espaços antes e depois do texto
+
+b) Na coluna produto, padronize para minúsculas
+
+Passos:
+
+    Botão direito → Transformar → Minúsculas
+
+c) Na coluna produto, padronize para "Capitalizar Cada Palavra" (primeira letra maiúscula)
+
+Passos:
+
+    Botão direito → Transformar → Colocar em Maiúsculas as Primeiras Letras
+
+R: a) Na minha tradução do power bi essa opção chama "cortar".
+
+b) Meio que o passo b) reverte o c) (que já era o que estava) e o passo c) resetou o b) (voltando ao que estava). Não sei se tem alguma diferença caso a eu aplicasse apenas o c) (para lidar com a célula CAMISETA) tentei aplicar só o c) e funcionou.
+
+################################################################################################################
+
+Exercício 6: Tratar valores nulos
+
+Na coluna categoria, temos um valor nulo (linha 45).
+
+Opções (escolha uma):
+
+    Opção A: Remover a linha (Filtro → Desmarcar null)
+
+    Opção B: Substituir por "Outros" (Substituir Valores → null → "Outros")
+
+Qual você escolheu? Por quê?
+
+
+a) Preferi remover a linha visto que essa linha representa ~ 0.2% dos dados. Para realizar uma análise estatística eu definitivamente excluiria essa linha. Entretanto, no caso de ser um relatório em que os números tem que bater perfeitamente, eu trataria essa linha substituindo por "Outros" ou até mesmo substituindo por "Vestuário".
+
+################################################################################################################
+
+Exercício 7: Remover duplicatas
+
+O dataset foi gerado sem duplicatas intencionais. Mas vamos simular:
+
+Passo: Botão direito no cabeçalho da tabela (no cantinho) → Remover Duplicatas
+
+Pergunta: Quantas linhas foram removidas? (deveria ser zero)
+
+R: Selecionei remover duplicatas e foram removidas zero linhas. Esse ícone de tabela que fica no cantinho parece ser bem útil... Tem várias opções interessantes.
+
+################################################################################################################
+
+Exercício 8: Criar coluna calculada no Power Query
+
+Crie uma nova coluna chamada "comissao" que seja 10% do valor_total.
+
+Passos:
+
+    Adicionar Coluna → Coluna Personalizada
+
+    Nome: "comissao"
+
+    Fórmula: [valor_total] * 0.1
+
+    OK
+
+PARÊNTESE PANDAS: df['comissao'] = df['valor_total'] * 0.1
+
+R: Aqui a opção era "Adicionar coluna personalizada". Fiz a sintaxe da formula como vc pediu. É de fato semelhante ao pandas. A coluna comissao foi criada sem um tipo especifico. Mudei para decimal fixo.
+
+
+################################################################################################################
+
+Exercício 9: Ordenar os dados
+
+Ordene os dados pela coluna data (do mais antigo para o mais novo).
+
+Passos:
+
+    Clique na seta da coluna data
+
+    Ordenar Crescente
+
+R: Fiz, deu certinho.
+
+################################################################################################################
+
+Exercício 10: Aplicar e carregar
+
+Após todos os passos:
+
+    Verifique se os passos estão registrados à direita (etapas aplicadas)
+
+    Clique em Fechar e Aplicar (canto superior esquerdo)
+
+Os dados transformados serão carregados no Power BI, prontos para análise.
+
+R: Todas as etapas estão na barra lateral. Percebi que olhando novamente na barra lateral não da pra entender muito bem o que foi feito, percebi que dá para renomear. É comum renomear as etapas quando se está lidando com um dataset grande, ou que precise de várias etapas imagino eu. Correto?
+
+################################################################################################################
+
+Observações: Entendi o poder do Power Query, mesmo eu preferindo fazer várias dessas coisas no Pandas, pq eu tenho mais controle, é inegável que o Power Query facilita e agiliza muito os processos que são mais simples. Porque dá para fazer muita coisa apenas pela interface. Sem precisar mexer com programação. Mas é legal que, como eu tenho noção de programação, por saber programar em Python, eu sempre fico de olho na "função" gerada pelo Power Query quando eu faço alguma coisa. Tipo a última coisa que fiz foi ordenar a tabela por data, que me gerou:
+
+= Table.Sort(#"Tipo Alterado com Localidade",{{"data", Order.Ascending}})
+
+Mesmo eu não sabendo que lingua é essa. Eu consigo identificar os elementos: "Sort", "data", "Order.Ascending" 
+
+Outra coisa que estava refletindo, claro que estou começando a aprender essas ferramentas, meu contato está sendo bem básico, mas percebi que por eu já saber SQL e Pandas, meio que essas ferramentas se tornam muito fáceis e intuitivas. Pq como eu já sei o procedimento, eu preciso apenas "procurar na ferramenta como fazer o que eu quero".
+

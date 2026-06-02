@@ -1,0 +1,51 @@
+#######################################################################################################################
+
+# Exercícios
+
+Exercício 1: Crie um cartão mostrando a quantidade total de vendas (conte quantas linhas). Dica: use a coluna vendas (qualquer coluna serve, desde que seja "Contagem").
+
+R: No cartão fica mostrando 40, não importa qual coluna eu selecione. Se eu tentar contar quantidade, valor_total, vendas... Sempre dá 40 e não, não to usando contagem distinta, com contagem distinta é menor ainda. Mas consegui fazer o cartão.
+
+#######################################################################################################################
+
+Exercício 2: Crie um gráfico de barras (vertical ou horizontal) mostrando as vendas totais por categoria (Vestuário, Calçados, Acessórios).
+
+R: Selecionei as barras verticais e marquei categoria e soma de vendas na aba Dados.
+#######################################################################################################################
+
+Exercício 3: Crie um gráfico de pizza mostrando a participação por produto.
+
+R: Selecionei gráfico de pizza e marquei produto e soma do valor_total. Vi que dá para configurar bastante coisa visualmente, mexer nas fatias, mexer no formato dos dados que aparecem...
+
+#######################################################################################################################
+
+
+Exercício 4: Crie uma segmentação para região e posicione ao lado dos gráficos.
+
+R: Consegui fazer. Interessante como todos os gráficos mudam, são todos muito conectado. Me faz pensar e se eu quiser fazer segmentações diferentes para dados diferentes...
+
+#######################################################################################################################
+
+Exercício 5: Teste as interações:
+
+    Filtre por região "Sul" → o que acontece?
+
+    Filtre por vendedor "Ana" → o que acontece?
+
+    Combine dois filtros (ex: região "Sul" + vendedor "Ana")
+
+
+R: Quando aplico o filtro por Sul, todos os gráficos mostram apenas a contagem relacionada à região Sul. É como se eu tivesse feito um group by por região e mostrasse os plots relacionados à região Sul. Interessante. Mesma coisa para o vendedor Ana. Quando faço os dois então é como um groupby duplo .groupby(['Sul', 'Ana']).
+
+
+#######################################################################################################################
+
+Exercício 6: Altere o título de cada gráfico para algo descritivo (ex: "Vendas por Produto", "Participação por Categoria").
+
+
+R: Uma coisa muito prática que eu percebi é que, se eu tiver editando o título de um gráfico e clicar em outro gráfico já fica automaticamente na parte de editar o título desse novo gráfico que eu selecionei, isso ajuda bastante na parte da formatação.
+
+
+#######################################################################################################################
+
+Exercício 7: Salve o arquivo como relatorio_vendas.pbix na pasta 06_power_bi/01_primeiros_passos/
