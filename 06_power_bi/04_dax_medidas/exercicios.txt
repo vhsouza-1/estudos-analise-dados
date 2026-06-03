@@ -1,0 +1,253 @@
+Exercício 1: Carregar os dados e criar relacionamentos
+
+Carregue os 4 CSVs:
+
+    vendas.csv
+
+    produtos.csv
+
+    vendedores.csv
+
+    calendario.csv (use a coluna data_str como data)
+
+Crie os relacionamentos (aba Modelo):
+
+    vendas.id_produto → produtos.id_produto
+
+    vendas.id_vendedor → vendedores.id_vendedor
+
+    vendas.data → calendario.data_str
+
+R: Dados importados e relações criadas. Na verdade a única que precisou ser criado foi a relação entre Vendas e Calendário. Porque o nome das colunas não coincidiram.
+
+###############################################################################################
+
+Exercício 2: Primeira medida (Total de Vendas)
+
+Objetivo: Criar uma medida que soma o valor total das vendas.
+
+Passos:
+
+    Aba Modelagem → Nova Medida
+
+    Nome: Total Vendas
+
+    Fórmula: Total Vendas = SUM(vendas[valor_total])
+
+    Formato: Moeda (R$)
+
+Teste: Arraste a medida para um cartão (Card) no relatório.
+
+R: Consegui fazer isso. Fiquei meio confuso de "para onde a medida foi" inicialmente, mas depois percebi que ela aparece como se fosse uma coluna da tabela vendas. Na prática fazer essa medida e depois usa-la dentro de um cartão é como usar a própria coluna de valor_total com Soma de valor_total. 
+
+
+###############################################################################################
+
+
+Exercício 3: Medidas de contagem
+
+Crie as seguintes medidas:
+
+a) Quantidade de Vendas (número de transações)
+
+Qtd Vendas = COUNTROWS(vendas)
+
+b) Quantidade de Produtos Vendidos (soma das quantidades)
+
+Qtd Produtos Vendidos = SUM(vendas[quantidade])
+
+c) Número de Vendedores (distinto)
+
+Qtd Vendedores = DISTINCTCOUNT(vendas[id_vendedor])
+
+Teste: Coloque cada medida em um cartão diferente.
+
+R: Fiz as 3 medidas e coloquei cada uma em um cartão diferentes. Parece que como todos os scripts utilizam a tabela vendas, elas são automaticamente armazenadas lá.
+
+
+###############################################################################################
+
+
+Exercício 4: Medida de Média (Ticket Médio)
+
+Objetivo: Calcular o ticket médio por venda.
+
+Fórmula: Ticket Médio = Total Vendas / Quantidade de Vendas
+
+Crie a medida:
+
+Ticket Medio = DIVIDE([Total Vendas]; [Qtd Vendas])
+
+Formato: Moeda (R$)
+
+Por que DIVIDE em vez de /? DIVIDE trata divisão por zero automaticamente.
+
+R: Fiz, deixei ele dentro de vendas. Estava pensando aqui, se eu começar a criar muitas medidas, pode ser que fique visualmente poluído a seção de Dados, certo? Outra coisa, interessante que eu posso criar medidas com base em outras medidas. Isso simplifica o código. Não preciso fazer = DIVIDE(SUM(vendas[valor_total]), COUNTROWS(vendas))
+
+###############################################################################################
+
+Exercício 5: Medida com filtro (CALCULATE)
+
+Objetivo: Calcular o total de vendas apenas para a região "Sudeste".
+
+Fórmula:
+
+Vendas Sudeste = CALCULATE([Total Vendas]; vendedores[regiao] = "Sudeste")
+
+Teste: Coloque em um cartão e compare com o Total Vendas.
+
+O que CALCULATE faz? Altera o contexto de filtro da medida.
+
+
+R: O CALCULATE pega uma medida que já está pronta e aplica um filtro nos dados que ela está utilizando para realizar seu processamento? É semelhante a estrutura df[df['regiao']=='Sudeste']['valor_total'].sum()
+
+###############################################################################################
+
+Exercício 6: Vendas por categoria (tabela dinâmica visual)
+
+Objetivo: Criar uma visualização que mostra vendas por categoria.
+
+Passos:
+
+    Gráfico de barras
+
+    Eixo: produtos.categoria
+
+    Valores: [Total Vendas]
+
+Pergunta: O Power BI aplica o filtro automaticamente? Qual categoria vendeu mais?
+
+R: Fiz dois, um com produtos.categoria e [Total Vendas] e outro com produtos.categoria e Soma do valor_total. São semelhantes. Sim, aplica os filtros automaticamente, a categoria "Acessórios" vendeu mais. Com 944mil no total de vendas.
+
+###############################################################################################
+
+Exercício 7: Medida de porcentagem (participação)
+
+Objetivo: Calcular o percentual de cada categoria em relação ao total.
+
+Fórmula:
+
+% Participacao = DIVIDE([Total Vendas]; CALCULATE([Total Vendas]; ALL(produtos)))
+
+O que ALL(produtos) faz? Remove os filtros da tabela produtos.
+
+Teste:
+
+    Adicione % Participacao no gráfico de barras do exercício 6 (como rótulo)
+
+    Altere o formato para Porcentagem
+
+R: O que está acontecendo é que: Eu estou dividindo a medida Total de Vendas (que se altera dependendo o slicer aplicado) pela Total de Vendas absoluto, que pode ser acessado através desse CALCULATE que "trava" o slicer? No caso o ALL(produtos) está ignorando os filtros da tabela produtos, como é o caso do filtro por categorias, mas se eu usasse um filtro proveniente de outra tabela, como calendario.nome_mes, ele não teria efeito. Logo eu posso criar um slicers com calendario.mes_nome para controlar essa visualização da pct mas que veria por mês. Certo?
+
+###############################################################################################
+
+Exercício 8: Análise temporal (ano a ano)
+
+Objetivo: Criar medidas para comparar 2023 e 2024.
+
+Primeiro, precisamos garantir que o calendário está conectado.
+
+Crie a medida para Vendas 2023:
+text
+
+Vendas 2023 = CALCULATE([Total Vendas]; calendario[ano] = 2023)
+
+Crie para Vendas 2024:
+text
+
+Vendas 2024 = CALCULATE([Total Vendas]; calendario[ano] = 2024)
+
+Crescimento:
+text
+
+Crescimento = DIVIDE([Vendas 2024] - [Vendas 2023]; [Vendas 2023])
+
+Teste: Coloque em cartões.
+
+
+R: Deu certo. Única diferença é que usei a fórmula correspondente: 
+
+Crescimento 2023-2024 = DIVIDE([Vendas 2024],[Vendas 2023])-1
+
+
+###############################################################################################
+
+Exercício 9: Time Intelligence (acumulado do ano)
+
+Objetivo: Calcular o acumulado das vendas no ano (YTD - Year to Date).
+
+Fórmula:
+
+Vendas YTD = TOTALYTD([Total Vendas]; calendario[data_str])
+
+Como funciona: Soma as vendas desde o início do ano até a data atual do filtro.
+
+Teste:
+
+    Gráfico de linhas
+
+    Eixo: calendario[mes_nome] (ordenado por mês)
+
+    Valores: [Total Vendas] e [Vendas YTD]
+
+R: Bati um pouco a cabeça com isso, entretanto, percebi que não faz muito sentido eu fazer o plot como você falou, a não ser que eu crie um slicer que selecione o ANO em questão. Porque se não a análise é sem sentido, to plotando a soma de cada mês ao longo de 6 anos... Mas no final deu certo, com o slicer de ano.
+
+###############################################################################################
+
+Exercício 10: Dashboard completo
+
+Crie um dashboard com:
+
+    Título: "Dashboard de Vendas - DAX"
+
+    Cartões (parte superior):
+
+        Total Vendas
+
+        Qtd Vendas
+
+        Ticket Médio
+
+        Crescimento 2024 vs 2023
+
+    Gráfico de barras: Vendas por Categoria (com % participação)
+
+    Gráfico de linhas: Evolução mensal (2023 e 2024)
+
+    Segmentações (slicers):
+
+        Categoria (produtos)
+
+        Vendedor (vendedores)
+
+        Ano (calendário)
+
+Perguntas para responder:
+
+    Qual o ticket médio da loja?
+
+    Qual categoria tem maior participação?
+
+    O crescimento de 2024 em relação a 2023 foi positivo?
+
+    Qual mês de 2024 teve maior venda?
+
+R: Nessa parte: Gráfico de barras: Vendas por Categoria (com % participação) Eu consegui colocar as porcentagens no rótulo de dados. Coloquei o valor em cima e a pct em baixo usando a aba detalhes e colocando mais um % Participação lá.
+
+Para essa parte: "Gráfico de linhas: Evolução mensal (2023 e 2024)" Eu fiz um gráfico de linha com mês_nome no eixo x e vendas 2023 e vendas 2024 no eixo y.
+
+Percebi que para fazer o slicer do ano, como ele é identificado como um valor inteiro e não uma string (categórica) o slicer automaticamente me dá uma faixa deslizante para eu selecionar o ano. Para evitar isso, eu usei a segmentação por botão, que força a separação de cada ano.
+
+Qual o ticket médio da loja? R$ 1,17 mil
+Qual categoria tem maior participação? Acessórios com 944,51 mil (39,72%)
+O crescimento de 2024 em relação a 2023 foi positivo? Sim, 17,32%
+Qual mês de 2024 teve maior venda? Novembro com R$ 178,61 Mil
+
+=== OBSERVAÇÕES ===
+O que foi fácil? O que foi difícil? Qual medida você achou mais útil?
+
+Achei o DAX interessante, achei relativamente semelhante as fórmulas do excel, em especial na forma de selecionar as colunas, entretanto, ao menos no meu power bi, as fórmulas são escritas com virgula e não com ponto e virgula. Achei muito interessante a técnica do Calculate para gerenciar as medidas e como elas se relacionam com os filtros. Uma coisa que realmente me tem sido uma dor de cabeça é a formatação da moeda kkkkk por algum motivo que para mim é inexplicável, quando eu vou ver todos os tipos de moeda o real brasileiro não aparece no topo da lista, fazendo com que eu tenha que percorrer todos os 1 milhão de formato de moeda para achá-lo, ou seja, nunca o achei... Ai tenho que formatar o texto como "Moeda Geral" ficando sem o R$ apenas com $...
+
+
+
+
