@@ -1,0 +1,215 @@
+
+Exercício 1: Preparar o modelo (das aulas anteriores)
+
+Carregue os CSVs e crie os relacionamentos (já deve ter da aula anterior):
+
+    vendas.csv
+
+    produtos.csv
+
+    vendedores.csv
+
+    calendario.csv (use data_str como data)
+
+Crie as medidas da Aula 04:
+
+Total Vendas = SUM(vendas[valor_total])
+Qtd Vendas = COUNTROWS(vendas)
+Ticket Medio = DIVIDE([Total Vendas]; [Qtd Vendas])
+Vendas 2023 = CALCULATE([Total Vendas]; calendario[ano] = 2023)
+Vendas 2024 = CALCULATE([Total Vendas]; calendario[ano] = 2024)
+Crescimento = DIVIDE([Vendas 2024]; [Vendas 2023]) - 1
+% Participacao = DIVIDE([Total Vendas]; CALCULATE([Total Vendas]; ALL(produtos)))
+
+R: Pronto, todas as relações criadas e medidas também. Consegui fazer todas as medidas de cabeça. O básico do DAX é bem simples de lembrar até. Tive que trocar o script de geração do dataset do calendário porque as vendas iam até 2028 e o calendário apenas até 2024.
+
+########################################################################################################
+
+Exercício 2: Criar a página "Resumo"
+
+Crie uma nova página chamada "Resumo".
+
+Monte:
+
+    Título: "📊 Dashboard de Vendas - Visão Geral" (use uma caixa de texto)
+
+    Cartões (4, lado a lado):
+
+        Total Vendas (R$)
+
+        Qtd Vendas
+
+        Ticket Médio (R$)
+
+        Crescimento (%)
+
+    Gráfico de barras: Vendas por Categoria (com % participação)
+
+    Gráfico de linhas: Evolução mensal (2023 vs 2024)
+
+    Segmentações (slicers):
+
+        Categoria (produtos)
+
+        Vendedor (vendedores)
+
+        Ano (calendário) - use segmentação por botão
+
+Organize o layout (arraste e redimensione até ficar agradável).
+
+R: Tudo certo, gostei de colocar título através de caixa de texto.
+
+########################################################################################################
+
+Exercício 3: Criar a página "Detalhes"
+
+Crie uma nova página chamada "Detalhes".
+
+Monte:
+
+    Título: "🔍 Detalhamento por Produto"
+
+    Gráfico de pizza: Participação por Produto (use % Participacao)
+
+    Tabela: Produto, Total Vendas, Qtd Vendas, Ticket Médio
+
+    Gráfico de barras: Vendas por Mês (do produto selecionado)
+
+    Segmentação de Produto (slicer)
+
+Organize o layout.
+
+R: Muito interessante a opção de visualização com tabela, achei bem legal para fazer o detalhamento.
+
+########################################################################################################
+
+Exercício 4: Bookmark - Salvar estado da página
+
+Bookmark salva o estado atual da página (quais filtros estão aplicados, quais visuais estão visíveis).
+
+Passos:
+
+    Adicione dois botões na página "Resumo":
+
+        "Todos" (limpar todos os filtros)
+
+        "Destaques" (aplicar filtros específicos)
+
+    Para o botão "Todos":
+
+        Aplique um bookmark antes de limpar os filtros
+
+        Salve o bookmark com nome "Limpar Filtros"
+
+    Para o botão "Destaques":
+
+        Aplique filtros: Ano=2024, Categoria=Acessórios
+
+        Salve o bookmark com nome "Destaques 2024"
+
+    Vincule os botões aos bookmarks:
+
+        Selecione o botão → Ação → Tipo: Bookmark → Bookmark: [nome]
+
+Teste: Clique nos botões e veja os filtros mudarem.
+
+R: Pesquisei melhor e consegui fazer, sua explicação foi muito simplificada...
+
+########################################################################################################
+
+Exercício 5: Drill-through (clicar para ver detalhes)
+
+Drill-through permite que você clique em um ponto de um gráfico e vá para outra página já filtrada por aquele valor.
+
+Passos:
+
+    Na página "Detalhes", adicione um Drill-through:
+
+        No painel Campos, arraste produtos.produto para Drill-through
+
+        Marque "Permitir drill-through"
+
+    Na página "Resumo", no gráfico de barras (Vendas por Categoria):
+
+        Ative o drill-through no visual (ícone de cruz no canto superior)
+
+        Ao clicar em uma categoria, vá para "Detalhes"
+
+        A página Detalhes já terá o filtro da categoria selecionada
+
+Teste: Clique em "Acessórios" no gráfico de barras. Você vai para a página Detalhes já filtrada por Acessórios.
+
+
+R: Isso aqui me deu uma dor de cabeça enorme kkkkkkkkk primeiro que você se enganou, não é produtos.produto é produtos.categoria, pq o grafico é total de vendas por categoria... Segundo que descobri que minhas versão do power bi não existe um botão de drill through no cabeçaho do grafico, eu tenho que clicar com o botao direiro em uma das barras e clicar em drill through...
+
+########################################################################################################
+
+Exercício 6: Editar interações (controle fino)
+
+Por padrão, todas as segmentações afetam todos os gráficos. Às vezes você quer que um gráfico não seja afetado.
+
+Passos:
+
+    Selecione a segmentação de Categoria
+
+    Vá em Formatar → Editar interações (ou selecione o visual e clique em "Editar interações" na barra)
+
+    Aparecem ícones sobre cada visual:
+
+        🌍 (filtro) → o visual é afetado
+
+        🚫 (nenhum) → o visual não é afetado
+
+    No gráfico de pizza da página Detalhes, mude para 🚫 (nenhum)
+
+Teste: Agora a segmentação de categoria não afeta o gráfico de pizza.
+
+R: Isso não funciona para a minha versão. Assim que eu troco de aba essa parte de Editar interações é cancelada e os filtros resetam. O que eu consigo fazer é o Drill-through. Mas eu testei para os graficos da mesma página e deu certo.
+
+########################################################################################################
+
+Exercício 7: Segmentações sincronizadas (entre páginas)
+
+Segmentações sincronizadas permitem que um slicer controle filtros em várias páginas.
+
+Passos:
+
+    Na página "Resumo", selecione a segmentação de Ano
+
+    Vá em Exibir → Segmentações Sincronizadas
+
+    No painel que abre, marque "Sincronizar" para a página "Detalhes"
+
+Teste:
+
+    Na página Resumo, selecione 2024
+
+    Vá para a página Detalhes
+
+    O filtro de ano ainda está aplicado!
+
+R: Isso cria uma cópia do slicer na outra paginas que pode ser sincronizado ou não. Interessante.
+
+########################################################################################################
+
+Exercício 8: Botão de voltar (navegação)
+
+Objetivo: Adicionar um botão "Voltar" na página Detalhes.
+
+Passos:
+
+    Na página Detalhes, insira um Botão (Inserir → Botões → Voltar)
+
+    Posicione no canto superior esquerdo
+
+    Vincule o botão a um Bookmark da página Resumo (crie um bookmark da página Resumo primeiro)
+
+Dica: Para criar bookmark da página Resumo: vá na página Resumo → Bookmark → Adicionar (nomeie "Página Resumo")
+
+R: Inseri o botão voltar e ele já vem configurado automaticamente aqui na minha versão do pbi.
+
+########################################################################################################
+
+=== OBSERVAÇÕES ===
+
+Definitivamente o parte mais fácil é que é tudo muito intuitivo, então muita das vezes eu descubro como fazer as coisas só explorando a interface. O problema é que, as vezes, por tentar simplificar tudo, você cria muitas layers entre o usuário e o programa que pode ficar confuso. Enfim, mas é esperado. Python é mais dificil de aprender do que Power Bi, mas depois que vc aprende o basico do python, é você e o python, com bastante liberdade. Power Bi vc tem que decorar varios menus onde as coisas ficam e o que cada coisa faz.
