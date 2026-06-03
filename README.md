@@ -51,6 +51,11 @@ Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrand
 - ['05_graficos/'](05_excel_para_dados/05_graficos): Criação e edição de diferentes gráficos (linhas, barras, scatter + regressão e etc.)
 
 ### [06_power_bi/](06_power_bi) (Em andamento!)
+- ['01_primeiros_passos/'](01_primeiros_passos): Introdução ao Power Bi, importar dados, primeiros visuais (cartões, gráfico de linhas, de barras e etc.)
+- ['02_power_query/'](02_power_query): Tratamento de dados importados com Power Query. 
+- ['03_modelagem_relacionamento/'](03_modelagem_relacionamento): Importação de diversas tabelas, relacionamentos, Tabelas Fato, Dimensão, Calendário.
+- ['04_dax_medidas/'](04_dax_medidas): Criação de medidas simples pelo com uso de DAX (SUM, COUNTROWS, DIVIDE, CALCULATE, etc...)
+- ['05_dashboards_interativos/'](05_dashboards_interativos): Bookmarks, Botões, Drill-Through
 
 ## Contato
 - Nome: Vinícius Henrique Souza
