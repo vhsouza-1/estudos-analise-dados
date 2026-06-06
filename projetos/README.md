@@ -42,7 +42,7 @@ Análise estatística completa dos microdados do ENEM 2019 utilizando estatísti
 ## Observações
 
 - Mais projetos serão adicionados conforme avanço nos estudos.
-- Os datasets originais não estão incluídos no repositório por questões de tamanho ou licenciamento. Links para acesso estão disponíveis dentro de cada projeto.
+- O dataset original do projeto 03 não está incluído no repositório devido ao tamanho. O Link para acesso está disponível dentro do projeto.
 
 ## Contato
 - Nome: Vinícius Henrique Souza
