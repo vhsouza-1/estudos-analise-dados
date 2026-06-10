@@ -56,6 +56,9 @@ Sou físico (licenciado) e Mestre , migrando para a área de Dados. Este reposit
 - ['05_dashboards_interativos/'](05_dashboards_interativos): Bookmarks, Botões, Drill-Through
 
 ### [projetos/](projetos)
+- [01_pokemon_rpg_analise/](01_pokemon_rpg_analise): Pipeline de limpeza e adaptação de dados da Pokédex (gerações 1 a 9) para um sistema de RPG. O projeto padroniza nomes de colunas, classifica Pokémon lendários/míticos e converte stats para valores balanceados.
+- [02_limpeza_clientes](02_limpeza_clientes): Pipeline completo de limpeza e padronização de dados de clientes. Trata dados inconsistentes, normaliza formatos (emails, telefones, categorias) e gera métricas como score do cliente e faixa de renda.
+- [03_analise_dados_enem_2019/](03_analise_dados_enem_2019): [⭐ Destaque] Análise estatística completa dos microdados do ENEM 2019 utilizando estatística descritiva, testes de hipóteses (t-test, ANOVA), correlação de Pearson e regressão linear. Projeto mais robusto do portfólio, com relatórios técnicos e visualizações estatísticas.
 
 ## Contato
 - Nome: Vinícius Henrique Souza
