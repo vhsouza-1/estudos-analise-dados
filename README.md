@@ -48,14 +48,16 @@ Sou físico (licenciado) e Mestre , migrando para a área de Dados. Este reposit
 - ['04_formatacao_condicional/'](05_excel_para_dados/04_formatacao_condicional): Formatação de células, linhas, colunas, com base em condições.
 - ['05_graficos/'](05_excel_para_dados/05_graficos): Criação e edição de diferentes gráficos (linhas, barras, scatter + regressão e etc.)
 
-### [06_power_bi/](06_power_bi) (Em andamento!)
+### [06_power_bi/](06_power_bi)
 - ['01_primeiros_passos/'](01_primeiros_passos): Introdução ao Power Bi, importar dados, primeiros visuais (cartões, gráfico de linhas, de barras e etc.)
 - ['02_power_query/'](02_power_query): Tratamento de dados importados com Power Query. 
 - ['03_modelagem_relacionamento/'](03_modelagem_relacionamento): Importação de diversas tabelas, relacionamentos, Tabelas Fato, Dimensão, Calendário.
 - ['04_dax_medidas/'](04_dax_medidas): Criação de medidas simples pelo com uso de DAX (SUM, COUNTROWS, DIVIDE, CALCULATE, etc...)
 - ['05_dashboards_interativos/'](05_dashboards_interativos): Bookmarks, Botões, Drill-Through
 
+### [projetos/](projetos)
+
 ## Contato
 - Nome: Vinícius Henrique Souza
 - email: vinicius.h.zlc@gmail.com
-- linkedin: [https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/](https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/)
+- linkedin: [https://www.linkedin.com/in/vinícius-henrique-souza-17a077218/](https://www.linkedin.com/in/vin%C3%ADcius-henrique-souza-17a077218/)
