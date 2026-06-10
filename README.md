@@ -2,9 +2,7 @@
 
 ## Sobre mim
 
-Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrando para a área de Análise de Dados. Este repositório documenta minha jornada de aprendizado organizado por níveis de complexidade.
-
-- Início dos estudos: Fevereiro de 2026
+Sou físico (licenciado) e Mestre , migrando para a área de Dados. Este repositório documenta minha jornada de aprendizado organizado por níveis de complexidade.
 
 ## Habilidades em desenvolvimento e Próximos Passos!
 
@@ -13,7 +11,7 @@ Sou físico (licenciado) e Mestre em Educação Científica e Ambiental, migrand
 - [X] Python (bibliotecas para Dados)
 - [X] Estatística para Dados
 - [X] Excel para Dados
-- [ ] Power BI (Em andamento!)
+- [X] Power BI
 
 ## Estrutura do Repositório
 
