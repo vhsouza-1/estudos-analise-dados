@@ -1,0 +1,9 @@
+Medidas criadas para o DashBoard:
+
+Página 1 - Visão Geral
+
+Total Participantes = COUNTROWS(enem2019_basico)
+Média da Nota Final = MEDIAN(enem2019_basico[nota_media])
+Média da Redação = MEDIAN(enem2019_basico[nota_redacao])
+Média de Acertos = MEDIAN(enem2019_basico[total_acertos])
+
