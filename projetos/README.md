@@ -27,7 +27,16 @@ Pipeline completo de limpeza e padronização de dados de clientes. Trata dados 
 
 Análise estatística completa dos microdados do ENEM 2019 utilizando estatística descritiva, testes de hipóteses (t-test, ANOVA), correlação de Pearson e regressão linear. Projeto mais robusto do portfólio, com relatórios técnicos e visualizações estatísticas.
 
-**Principais tecnologias:** `pandas` • `numpy` • `matplotlib` • `seaborn` • `scipy.stats` • `statsmodels
+**Principais tecnologias:** `pandas` • `numpy` • `matplotlib` • `seaborn` • `scipy.stats` • `statsmodels`
+
+---
+
+### 04 - Dashboard ENEM 2019 (Power BI)
+[Ver projeto](04_dashboard_enem_2019)
+
+Dashboard interativo no Power BI para explorar o perfil dos participantes do ENEM 2019 e analisar o desempenho por diferentes grupos (gênero, cor/raça, região). Complementa a análise estatística realizada em Python no Projeto 03.
+
+**Principais tecnologias:** `Power BI` • `DAX` • `Power Query`
 
 ---
 
@@ -38,6 +47,7 @@ Análise estatística completa dos microdados do ENEM 2019 utilizando estatísti
 - numpy
 - matplotlib / seaborn (para visualizações)
 - scipy (para testes estatísticos)
+- Power BI
 
 ## Observações
 
