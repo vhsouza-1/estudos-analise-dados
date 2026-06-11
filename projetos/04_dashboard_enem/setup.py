@@ -27,5 +27,3 @@ df_caminho = PROJECT_ROOT / '../03_analise_dados_enem_2019/02_data/02_processed/
 df = pd.read_csv(df_caminho)
 
 df.to_csv(PROJECT_ROOT / '01_data' / 'enem2019_basico.csv', index=False, encoding='latin1', sep=';', decimal=',')
-
-print(df.columns)

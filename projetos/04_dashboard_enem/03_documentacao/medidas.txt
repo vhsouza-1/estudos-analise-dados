@@ -1,9 +1,106 @@
 Medidas criadas para o DashBoard:
 
-Página 1 - Visão Geral
+# Aba 1 - Visão Geral
 
-Total Participantes = COUNTROWS(enem2019_basico)
-Média da Nota Final = MEDIAN(enem2019_basico[nota_media])
-Média da Redação = MEDIAN(enem2019_basico[nota_redacao])
-Média de Acertos = MEDIAN(enem2019_basico[total_acertos])
+## Total Participantes = COUNTROWS(enem2019_basico)
 
+## Média da Nota Final = MEDIAN(enem2019_basico[nota_media])
+
+## Média da Redação = MEDIAN(enem2019_basico[nota_redacao])
+
+## Média de Acertos = MEDIAN(enem2019_basico[total_acertos])
+
+
+# Aba 2 - Participação
+
+## % Participantes = DIVIDE([Total Participantes], CALCULATE([Total Participantes], ALL(enem2019_basico))) 
+
+## Média Idade = MEDIAN(enem2019_basico[idade])
+
+## % Mulheres = DIVIDE(
+	CALCULATE([Total Participantes], KEEPFILTERS(enem2019_basico[genero] = "F")),
+	[Total Participantes]
+)
+
+## Cor Predominante = 
+VAR TabelaCor =
+    ADDCOLUMNS(
+        VALUES(enem2019_basico[cor_raca]),
+        "Qtd", CALCULATE([Total Participantes])
+    )
+
+VAR TopCor =
+    TOPN(1, TabelaCor, [Qtd], DESC)
+
+VAR NomeCor =
+    MAXX(TopCor, enem2019_basico[cor_raca])
+
+VAR QtdCor =
+    MAXX(TopCor, [Qtd])
+
+VAR Percentual =
+    DIVIDE(QtdCor, [Total Participantes])
+
+RETURN
+    NomeCor & " (" & FORMAT(Percentual, "0,0%") & ")"
+
+
+# Aba 3 - Resultados
+
+## Cor com Maior Nota =
+VAR TabelaCor =
+    ADDCOLUMNS(
+        VALUES(enem2019_basico[cor_raca]),
+        "NotaMedia", CALCULATE([Média da Nota Final])
+    )
+
+VAR TopCor =
+    TOPN(1, TabelaCor, [NotaMedia], DESC)
+
+VAR NomeCor =
+    MAXX(TopCor, enem2019_basico[cor_raca])
+
+VAR Nota =
+    MAXX(TopCor, [NotaMedia])
+
+RETURN
+    NomeCor & " (" & FORMAT(Nota, "#,0.0") & ")"
+
+## Gênero com Maior Nota = 
+VAR TabelaGenero =
+    ADDCOLUMNS(
+        VALUES(enem2019_basico[genero]),
+        "NotaMedia", CALCULATE([Média da Nota Final])
+    )
+
+VAR TopGenero =
+    TOPN(1, TabelaGenero, [NotaMedia], DESC)
+
+VAR NomeGenero =
+    MAXX(TopGenero, enem2019_basico[genero])
+
+VAR Nota =
+    MAXX(TopGenero, [NotaMedia])
+
+RETURN
+    NomeGenero & " (" & FORMAT(Nota, "0") & ")"
+
+
+## Faixa Etária com Maior Nota = 
+VAR TabelaFaixa =
+    ADDCOLUMNS(
+        VALUES(enem2019_basico[faixa_etaria]),
+        "NotaMedia", CALCULATE([Média da Nota Final])
+    )
+
+VAR TopFaixa =
+    TOPN(1, TabelaFaixa, [NotaMedia], DESC)
+
+VAR NomeFaixa =
+    MAXX(TopFaixa, enem2019_basico[faixa_etaria])
+
+VAR Nota =
+    MAXX(TopFaixa, [NotaMedia])
+
+RETURN
+    NomeFaixa & " (" & FORMAT(Nota, "0") & ")"
